@@ -1,0 +1,19 @@
+================================================================================
+COPASI BIOCHEMICAL NETWORK ANALYSIS SUMMARY
+SARS-CoV-2 Spike Protein Interaction Network
+================================================================================
+Analysis Date: 2025-09-04 10:12:59
+COPASI Version: 298
+
+MODEL INFORMATION:
+  Model Name: Unknown
+  Compartments: 0
+  Species: 0
+  Reactions: 0
+
+SEQUENCE INFORMATION:
+  Sequence ID: LC726458.1
+  Protein Length: 245 amino acids
+  mRNA Length: 737 nucleotides
+
+STEADY STATE ANALYSIS:
