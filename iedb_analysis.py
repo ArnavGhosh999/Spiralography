@@ -117,27 +117,96 @@ def generate_overlapping_peptides(protein_sequence: str, peptide_lengths: List[i
     
     return peptides
 
+# Initialize ALL variables first to avoid NameError
+peptide_list = []
+protein_seq = ""
+sequences = {}
+found_path = None
+
 # Load the SARS-CoV-2 spike mRNA sequence
 print("🔄 Loading SARS-CoV-2 spike mRNA sequence...")
 print(f"Looking for file: {os.path.abspath(INPUT_FILE)}")
+print(f"Current working directory: {os.getcwd()}")
 
-# Initialize variables to avoid NameError
-peptide_list = []
-protein_seq = ""
+# Debug: Check what's actually in the current directory and subdirectories
+print("\n🔍 Directory structure:")
+print("Current directory contents:")
+try:
+    for item in os.listdir("."):
+        if os.path.isdir(item):
+            print(f"  📁 {item}/")
+            if item == "assets":
+                print("    Contents of assets/:")
+                try:
+                    for file in os.listdir(item):
+                        print(f"      📄 {file}")
+                except PermissionError:
+                    print("      (Permission denied)")
+        else:
+            print(f"  📄 {item}")
+except Exception as e:
+    print(f"Error listing directory: {e}")
 
-sequences = load_fasta_sequence(INPUT_FILE)
+# Try to find the file in multiple locations
+possible_paths = [
+    "assets/SarsCov2SpikemRNA.fasta",
+    "./assets/SarsCov2SpikemRNA.fasta", 
+    "SarsCov2SpikemRNA.fasta",
+    "./SarsCov2SpikemRNA.fasta",
+    "../assets/SarsCov2SpikemRNA.fasta",
+    "../SarsCov2SpikemRNA.fasta"
+]
 
-if not sequences:
-    print("❌ Failed to load sequences from the specified path.")
-    print("Available files in assets directory:")
-    if os.path.exists("assets"):
-        for f in os.listdir("assets"):
-            print(f"  - {f}")
+print("\n🔍 Searching for FASTA file in possible locations:")
+for path in possible_paths:
+    print(f"  Checking: {path} ... ", end="")
+    if os.path.exists(path):
+        print("✅ FOUND!")
+        found_path = path
+        sequences = load_fasta_sequence(path)
+        if sequences:
+            INPUT_FILE = path  # Update the input file path
+            print(f"  ✅ Successfully loaded sequences from: {path}")
+            break
+        else:
+            print(" (but failed to load)")
     else:
-        print("  assets directory not found!")
+        print("❌")
+
+# If no file found in standard locations, search more broadly
+if not sequences:
+    print("\n🔍 Searching for any FASTA files in the directory tree...")
+    import glob
     
-    # Create sample data for testing
+    fasta_files = []
+    # Search in current directory and subdirectories
+    for pattern in ["*.fasta", "*/*.fasta", "**/*.fasta"]:
+        try:
+            found_files = glob.glob(pattern, recursive=True)
+            fasta_files.extend(found_files)
+        except:
+            continue
+    
+    if fasta_files:
+        print("Found FASTA files:")
+        for i, file in enumerate(fasta_files, 1):
+            print(f"  {i}. {file}")
+        
+        # Try to use the first one that might be the spike file
+        spike_candidates = [f for f in fasta_files if 'spike' in f.lower() or 'sarscov2' in f.lower() or 'sars' in f.lower()]
+        if spike_candidates:
+            print(f"\n🎯 Found spike-related file: {spike_candidates[0]}")
+            sequences = load_fasta_sequence(spike_candidates[0])
+            if sequences:
+                INPUT_FILE = spike_candidates[0]
+                found_path = spike_candidates[0]
+                print(f"✅ Successfully loaded from: {found_path}")
+
+# Final fallback: use sample data
+if not sequences:
+    print("\n⚠️ No FASTA file found. Using sample data for demonstration...")
     print("🔄 Creating sample SARS-CoV-2 spike protein for testing...")
+    
     sample_spike_seq = "MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYKNNSIAPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQD"
     
     sequences = {
@@ -148,6 +217,8 @@ if not sequences:
         }
     }
     protein_seq = sample_spike_seq
+    found_path = "sample_data"
+    
     print(f"✅ Using sample spike protein sequence for demonstration")
     print(f"   Sample protein length: {len(protein_seq)} amino acids")
     
@@ -157,17 +228,18 @@ if not sequences:
         'mrna_length': len(sample_spike_seq) * 3,
         'protein_length': len(sample_spike_seq),
         'protein_sequence': sample_spike_seq,
-        'note': 'Sample data used - original file not found'
+        'note': 'Sample data used - original file not found after git pull'
     }
-    
+
 else:
     # Process the loaded sequence
     seq_id = list(sequences.keys())[0]
     mrna_seq = sequences[seq_id]['sequence']
     
-    print(f"✅ Loaded sequence: {seq_id}")
+    print(f"✅ Successfully loaded sequence: {seq_id}")
     print(f"   Length: {sequences[seq_id]['length']} nucleotides")
     print(f"   Description: {sequences[seq_id]['description']}")
+    print(f"   Source: {found_path}")
     
     # Translate to protein
     print("🔄 Translating mRNA to protein...")
@@ -182,7 +254,8 @@ else:
         'sequence_id': seq_id,
         'mrna_length': len(mrna_seq),
         'protein_length': len(protein_seq),
-        'protein_sequence': protein_seq
+        'protein_sequence': protein_seq,
+        'source_file': found_path
     }
 
 # Generate peptides for both cases (loaded sequence or sample data)
@@ -207,7 +280,6 @@ if protein_seq:
     print("✅ Sequence processing completed!")
 else:
     print("❌ No protein sequence available for peptide generation")
-
 
 
 # Cell 3: MHC Class I Epitope Prediction
@@ -406,30 +478,45 @@ def simulate_bcell_epitopes(protein_sequence: str) -> List[Dict]:
     results = []
     np.random.seed(42)
     
-    # Simulate Bepipred-like scores
+    # Simulate Bepipred-like scores with more realistic distribution
     for i, residue in enumerate(protein_sequence):
         # Basic simulation based on amino acid properties
         hydrophilic_aa = 'DENQHKRST'
         hydrophobic_aa = 'AILVFWYC'
+        aromatic_aa = 'FWY'
         
-        base_score = np.random.normal(0.0, 0.3)
+        # Start with random base score
+        base_score = np.random.normal(0.35, 0.25)  # Mean around 0.35 instead of 0.0
         
         # Adjust score based on amino acid properties
         if residue in hydrophilic_aa:
-            base_score += 0.2  # Higher score for hydrophilic residues
+            base_score += 0.3  # Higher score for hydrophilic residues
+        elif residue in aromatic_aa:
+            base_score += 0.2  # Aromatic residues often in epitopes
         elif residue in hydrophobic_aa:
             base_score -= 0.1  # Lower score for hydrophobic residues
             
-        # Add some local context (smoothing)
-        if i > 0 and i < len(protein_sequence) - 1:
-            context_bonus = np.random.normal(0.0, 0.1)
-            base_score += context_bonus
+        # Add some local context (smoothing) - epitopes tend to cluster
+        window_size = 5
+        if i >= window_size and i < len(protein_sequence) - window_size:
+            # Look at neighboring residues
+            neighbors = protein_sequence[i-window_size:i+window_size+1]
+            hydrophilic_count = sum(1 for aa in neighbors if aa in hydrophilic_aa)
+            if hydrophilic_count >= 3:  # If many hydrophilic neighbors
+                base_score += 0.15
+        
+        # Add some periodic high-scoring regions (simulating real epitopes)
+        if i % 50 < 10:  # Every 50 residues, have a 10-residue high-scoring region
+            base_score += 0.25
             
+        # Clamp the score to reasonable range
+        base_score = max(-0.5, min(1.5, base_score))
+        
         results.append({
             'position': i + 1,
             'residue': residue,
             'score': base_score,
-            'method': 'simulated'
+            'method': 'simulated_improved'
         })
     
     return results
@@ -612,8 +699,8 @@ def create_bcell_epitope_plots(bcell_data: List[Dict], epitope_regions: List[Dic
         axes[0, 1].legend()
         axes[0, 1].grid(True, alpha=0.3)
     
-    # Plot 3: Epitope region lengths
-    if epitope_regions:
+    # Plot 3: Epitope region lengths (or message if none)
+    if epitope_regions and len(epitope_regions) > 0:
         lengths = [region['length'] for region in epitope_regions]
         axes[1, 0].hist(lengths, bins=15, alpha=0.7, color='green', edgecolor='black')
         axes[1, 0].set_xlabel('Epitope Region Length')
@@ -629,6 +716,25 @@ def create_bcell_epitope_plots(bcell_data: List[Dict], epitope_regions: List[Dic
         axes[1, 1].set_ylabel('Average Score')
         axes[1, 1].set_title('Top 20 B-cell Epitope Regions by Score')
         axes[1, 1].grid(True, alpha=0.3)
+    else:
+        # Show message when no epitope regions found
+        axes[1, 0].text(0.5, 0.5, 'No B-cell epitope regions\nidentified above threshold\n(Score > 0.5)', 
+                       ha='center', va='center', fontsize=12, 
+                       bbox=dict(boxstyle='round', facecolor='lightgray'))
+        axes[1, 0].set_xlim(0, 1)
+        axes[1, 0].set_ylim(0, 1)
+        axes[1, 0].set_title('B-cell Epitope Region Length Distribution')
+        axes[1, 0].set_xticks([])
+        axes[1, 0].set_yticks([])
+        
+        axes[1, 1].text(0.5, 0.5, 'No B-cell epitope regions\nto rank and display', 
+                       ha='center', va='center', fontsize=12,
+                       bbox=dict(boxstyle='round', facecolor='lightgray'))
+        axes[1, 1].set_xlim(0, 1)
+        axes[1, 1].set_ylim(0, 1)
+        axes[1, 1].set_title('B-cell Epitope Regions by Score')
+        axes[1, 1].set_xticks([])
+        axes[1, 1].set_yticks([])
     
     plt.tight_layout()
     plt.savefig(os.path.join(output_dir, 'bcell_epitope_analysis.png'), dpi=300, bbox_inches='tight')
@@ -713,7 +819,6 @@ if results.get('bcell_epitopes'):
 create_summary_statistics()
 
 print(f"\n✅ Analysis completed! All results will be saved to: {OUTPUT_DIR}")
-
 
 
 # Cell 6: Save Results and Generate Reports
@@ -858,7 +963,7 @@ def generate_html_report(results_dict: Dict, output_dir: str):
             html_content += f"""
             <h4>Binding Categories:</h4>
             <ul>
-                <li class="strong">Strong Binders (≤2%): {len(strong_binders):,} ({len(strong_binders)/len(mhc_df)*100:.1f}%)</li>
+                <li class="strong">Strong Binders (<=2%): {len(strong_binders):,} ({len(strong_binders)/len(mhc_df)*100:.1f}%)</li>
                 <li class="moderate">Moderate Binders (2-10%): {len(moderate_binders):,} ({len(moderate_binders)/len(mhc_df)*100:.1f}%)</li>
                 <li class="weak">Weak Binders (>50%): {len(weak_binders):,} ({len(weak_binders)/len(mhc_df)*100:.1f}%)</li>
             </ul>
@@ -1017,7 +1122,7 @@ def generate_text_summary(results_dict: Dict, output_dir: str):
         summary_lines.extend([
             "B-CELL EPITOPE ANALYSIS:",
             f"  Positions Analyzed: {len(bcell_df):,}",
-            f"  Mean Score: {bcell_df['score'].mean():.3f} ± {bcell_df['score'].std():.3f}",
+            f"  Mean Score: {bcell_df['score'].mean():.3f} +/- {bcell_df['score'].std():.3f}",
         ])
         
         if results_dict.get('bcell_epitope_regions'):
