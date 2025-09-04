@@ -1,6 +1,5 @@
 ## IEDB Analysis Resource - Input: Protein/peptide sequence (FASTA/RAW) ; Output: Epitope predictions (CSV, TXT, JSON)
 
-
 # Cell 1: Imports and Setup
 import os
 import sys
@@ -19,10 +18,9 @@ from typing import List, Dict, Tuple, Optional
 import warnings
 warnings.filterwarnings('ignore')
 
-# Set up paths
-BASE_DIR = r"DNA-Sequence-Optimization-for-Therapeutics"
-INPUT_FILE = os.path.join(BASE_DIR, "assets", "SarsCov2SpikemRNA.fasta")
-OUTPUT_DIR = os.path.join(BASE_DIR, "results", "iedb")
+# Set up correct paths - we're inside DNA_Sequencing directory
+INPUT_FILE = os.path.join("assets", "SarsCov2SpikemRNA.fasta")
+OUTPUT_DIR = os.path.join("results", "iedb_analysis")
 
 # Create output directory if it doesn't exist
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -52,9 +50,12 @@ results = {
     }
 }
 
+# Check paths
 print("✅ Setup completed successfully!")
+print(f"Current working directory: {os.getcwd()}")
 print(f"Input file: {INPUT_FILE}")
 print(f"Output directory: {OUTPUT_DIR}")
+print(f"Input file exists: {os.path.exists(INPUT_FILE)}")
 print(f"Available HLA alleles: {len(COMMON_HLA_ALLELES)}")
 print(f"IEDB API endpoints configured")
 
@@ -118,12 +119,49 @@ def generate_overlapping_peptides(protein_sequence: str, peptide_lengths: List[i
 
 # Load the SARS-CoV-2 spike mRNA sequence
 print("🔄 Loading SARS-CoV-2 spike mRNA sequence...")
+print(f"Looking for file: {os.path.abspath(INPUT_FILE)}")
+
+# Initialize variables to avoid NameError
+peptide_list = []
+protein_seq = ""
+
 sequences = load_fasta_sequence(INPUT_FILE)
 
 if not sequences:
-    print("❌ Failed to load sequences. Please check the file path.")
+    print("❌ Failed to load sequences from the specified path.")
+    print("Available files in assets directory:")
+    if os.path.exists("assets"):
+        for f in os.listdir("assets"):
+            print(f"  - {f}")
+    else:
+        print("  assets directory not found!")
+    
+    # Create sample data for testing
+    print("🔄 Creating sample SARS-CoV-2 spike protein for testing...")
+    sample_spike_seq = "MFVFLVLLPLVSSQCVNLTTRTQLPPAYTNSFTRGVYYPDKVFRSSVLHSTQDLFLPFFSNVTWFHAIHVSGTNGTKRFDNPVLPFNDGVYFASTEKSNIIRGWIFGTTLDSKTQSLLIVNNATNVVIKVCEFQFCNDPFLGVYYHKNNKSWMESEFRVYSSANNCTFEYVSQPFLMDLEGKQGNFKNLREFVFKNIDGYFKIYSKHTPINLVRDLPQGFSALEPLVDLPIGINITRFQTLLALHRSYLTPGDSSSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKSFTVEKGIYQTSNFRVQPTESIVRFPNITNLCPFGEVFNATRFASVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAWNSNNLDSKVGGNYNYLYRLFRKSNLKPFERDISTEIYQAGSTPCNGVEGFNCYFPLQSYGFQPTNGVGYQPYRVVVLSFELLHAPATVCGPKKSTNLVKNKCVNFNFNGLTGTGVLTESNKKFLPFQQFGRDIADTTDAVRDPQTLEILDITPCSFGGVSVITPGTNTSNQVAVLYQDVNCTEVPVAIHADQLTPTWRVYSTGSNVFQTRAGCLIGAEHVNNSYECDIPIGAGICASYQTQTNSPRRARSVASQSIIAYTMSLGAENSVAYKNNSIAPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGGFNFSQILPDPSKPSKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTFGAGAALQIPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQD"
+    
+    sequences = {
+        'sample_spike': {
+            'sequence': sample_spike_seq,
+            'length': len(sample_spike_seq),
+            'description': 'Sample SARS-CoV-2 Spike protein (for testing)'
+        }
+    }
+    protein_seq = sample_spike_seq
+    print(f"✅ Using sample spike protein sequence for demonstration")
+    print(f"   Sample protein length: {len(protein_seq)} amino acids")
+    
+    # Store sequence information
+    results['sequence_info'] = {
+        'sequence_id': 'sample_spike',
+        'mrna_length': len(sample_spike_seq) * 3,
+        'protein_length': len(sample_spike_seq),
+        'protein_sequence': sample_spike_seq,
+        'note': 'Sample data used - original file not found'
+    }
+    
 else:
-    # Process the first sequence (assuming single sequence in file)
+    # Process the loaded sequence
     seq_id = list(sequences.keys())[0]
     mrna_seq = sequences[seq_id]['sequence']
     
@@ -144,8 +182,7 @@ else:
         'sequence_id': seq_id,
         'mrna_length': len(mrna_seq),
         'protein_length': len(protein_seq),
-        'protein_sequence': protein_seq,
-        'total_peptides': 0  # Will be updated after peptide generation
+        'protein_sequence': protein_seq
     }
 
 # Generate peptides for both cases (loaded sequence or sample data)
@@ -154,19 +191,23 @@ if protein_seq:
     peptide_list = generate_overlapping_peptides(protein_seq)
     
     print(f"✅ Generated {len(peptide_list)} peptides")
-    print(f"   Length distribution:")
-    length_counts = pd.Series([p['length'] for p in peptide_list]).value_counts().sort_index()
-    for length, count in length_counts.items():
-        print(f"   {length}-mers: {count} peptides")
-    
-    # Update sequence information with peptide count
-    if 'sequence_info' in results:
-        results['sequence_info']['total_peptides'] = len(peptide_list)
-        results['sequence_info']['peptide_lengths'] = list(length_counts.index)
+    if len(peptide_list) > 0:
+        print(f"   Length distribution:")
+        length_counts = pd.Series([p['length'] for p in peptide_list]).value_counts().sort_index()
+        for length, count in length_counts.items():
+            print(f"   {length}-mers: {count} peptides")
+        
+        # Update sequence information with peptide count
+        if 'sequence_info' in results:
+            results['sequence_info']['total_peptides'] = len(peptide_list)
+            results['sequence_info']['peptide_lengths'] = list(length_counts.index)
+    else:
+        print("⚠️ No valid peptides generated")
     
     print("✅ Sequence processing completed!")
 else:
     print("❌ No protein sequence available for peptide generation")
+
 
 
 # Cell 3: MHC Class I Epitope Prediction
@@ -267,6 +308,7 @@ if 'sequence_info' in results and len(peptide_list) > 0:
     
     # Extract peptides for API
     peptides_for_prediction = [p['peptide'] for p in peptide_list[:500]]  # Limit for API efficiency
+    print(f"   Using {len(peptides_for_prediction)} peptides for prediction")
     
     # Try IEDB API first
     try:
@@ -428,6 +470,7 @@ if 'sequence_info' in results and 'protein_sequence' in results['sequence_info']
     print("🚀 Starting B-cell epitope prediction...")
     
     protein_seq = results['sequence_info']['protein_sequence']
+    print(f"   Analyzing protein sequence of {len(protein_seq)} amino acids")
     
     # Try IEDB API first
     try:
@@ -624,8 +667,9 @@ def create_summary_statistics():
             print(f"   Weak Binders (>50%): {len(weak_binders):,} ({len(weak_binders)/len(mhc_df)*100:.1f}%)")
             
             if len(strong_binders) > 0:
-                print(f"   Best Binder: {strong_binders.iloc[strong_binders['percentile'].idxmin()]['peptide']} "
-                      f"({strong_binders['percentile'].min():.3f}%)")
+                best_binder = strong_binders.loc[strong_binders['percentile'].idxmin()]
+                print(f"   Best Binder: {best_binder['peptide']} "
+                      f"({best_binder['percentile']:.3f}%)")
     
     # B-cell epitope statistics
     if 'bcell_epitopes' in results and results['bcell_epitopes']:
@@ -668,7 +712,8 @@ if results.get('bcell_epitopes'):
 # Generate summary statistics
 create_summary_statistics()
 
-print(f"\n✅ Analysis completed! All results saved to: {OUTPUT_DIR}")
+print(f"\n✅ Analysis completed! All results will be saved to: {OUTPUT_DIR}")
+
 
 
 # Cell 6: Save Results and Generate Reports
@@ -773,6 +818,7 @@ def generate_html_report(results_dict: Dict, output_dir: str):
             <h2>SARS-CoV-2 Spike Protein Epitope Predictions</h2>
             <p><strong>Analysis Date:</strong> {results_dict['analysis_metadata']['timestamp']}</p>
             <p><strong>Input File:</strong> {results_dict['analysis_metadata']['input_file']}</p>
+            <p><strong>Output Directory:</strong> {results_dict['analysis_metadata']['output_dir']}</p>
         </div>
     """
     
@@ -894,14 +940,14 @@ def generate_html_report(results_dict: Dict, output_dir: str):
         <div class="section">
             <h3>📁 Generated Files</h3>
             <ul>
-                <li>iedb_analysis_results.json - Complete analysis results</li>
-                <li>mhc_class_i_predictions.csv - MHC Class I binding predictions</li>
-                <li>strong_binders.csv - Strong binding peptides only</li>
-                <li>bcell_epitope_scores.csv - B-cell epitope scores</li>
-                <li>bcell_epitope_regions.csv - Identified epitope regions</li>
-                <li>spike_protein.fasta - Translated protein sequence</li>
-                <li>mhc_class_i_analysis.png - MHC binding visualizations</li>
-                <li>bcell_epitope_analysis.png - B-cell epitope visualizations</li>
+                <li><strong>iedb_analysis_results.json</strong> - Complete analysis results</li>
+                <li><strong>mhc_class_i_predictions.csv</strong> - MHC Class I binding predictions</li>
+                <li><strong>strong_binders.csv</strong> - Strong binding peptides only</li>
+                <li><strong>bcell_epitope_scores.csv</strong> - B-cell epitope scores</li>
+                <li><strong>bcell_epitope_regions.csv</strong> - Identified epitope regions</li>
+                <li><strong>spike_protein.fasta</strong> - Translated protein sequence</li>
+                <li><strong>mhc_class_i_analysis.png</strong> - MHC binding visualizations</li>
+                <li><strong>bcell_epitope_analysis.png</strong> - B-cell epitope visualizations</li>
             </ul>
         </div>
     </body>
@@ -924,6 +970,7 @@ def generate_text_summary(results_dict: Dict, output_dir: str):
         "="*80,
         f"Analysis Date: {results_dict['analysis_metadata']['timestamp']}",
         f"Input File: {results_dict['analysis_metadata']['input_file']}",
+        f"Output Directory: {results_dict['analysis_metadata']['output_dir']}",
         ""
     ]
     
@@ -1008,5 +1055,5 @@ summary_text = generate_text_summary(results, OUTPUT_DIR)
 
 print("\n" + summary_text)
 print(f"\n🎉 IEDB analysis completed successfully!")
-print(f"📁 All results saved in: {OUTPUT_DIR}")
+print(f"📁 All results saved in: {os.path.abspath(OUTPUT_DIR)}")
 print(f"📊 Open 'iedb_analysis_report.html' for detailed interactive report")
