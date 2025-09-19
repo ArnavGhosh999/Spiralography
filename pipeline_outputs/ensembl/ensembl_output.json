@@ -1,0 +1,162 @@
+{
+  "annotations": [
+    {
+      "id": "LC726458.1",
+      "length": 737,
+      "gc_content": 37.44911804613297,
+      "gene_models": [],
+      "variants": [],
+      "regulatory_elements": []
+    },
+    {
+      "id": "LC769018.1",
+      "length": 3813,
+      "gc_content": 56.15001311303436,
+      "gene_models": [
+        {
+          "start": 0,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 214,
+          "end": 349,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 441,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 513,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 761,
+          "end": 1010,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 1006,
+          "end": 1153,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 1018,
+          "end": 1153,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 1492,
+          "end": 1609,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 1601,
+          "end": 1847,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 1934,
+          "end": 2420,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 2079,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 2181,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 2208,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 2595,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 2645,
+          "end": 2801,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 2688,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 2694,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 3075,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 3138,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 3675,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 3687,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        },
+        {
+          "start": 3699,
+          "end": 3813,
+          "strand": "+",
+          "type": "ORF"
+        }
+      ],
+      "variants": [],
+      "regulatory_elements": []
+    }
+  ],
+  "sequences": [
+    "ID: LC726458.1\nName: LC726458.1\nDescription: LC726458.1 Severe acute respiratory syndrome coronavirus 2 SARS-CoV-2/Japan/Osaka/OPU001 S gene for spike protein, partial cds\nNumber of features: 0\nSeq('TATTCTTTAGGGCAAACTGGAAAGATTGCTGATTATAATTATAAATTACCAGAT...AAT')",
+    "ID: LC769018.1\nName: LC769018.1\nDescription: LC769018.1 Synthetic construct gene for spike protein, complete cds, clone: pVEE628.2\nNumber of features: 0\nSeq('ATGTTCGTGTTTCTGGTGCTGCTGCCTCTGGTGTCCAGCCAGTGTGTGAACCTG...TGA')"
+  ],
+  "metadata": {
+    "tool": "Ensembl",
+    "analysis_type": "genomic_annotation",
+    "num_sequences": 2
+  }
+}

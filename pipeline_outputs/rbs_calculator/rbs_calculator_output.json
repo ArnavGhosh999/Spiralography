@@ -1,0 +1,2467 @@
+{
+  "translation_rates": [
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
+      "natural_sites_found": 0,
+      "best_natural_rate": 0,
+      "optimized_variants": 56,
+      "best_optimized_rate": -231.65346375899765,
+      "improvement_factor": 1,
+      "rate_distribution": [
+        -231.65346375899765,
+        -245.1243189748439,
+        -282.21024891786595,
+        -308.10872366370177,
+        -312.3009574327239,
+        -317.6310448377857,
+        -326.4958368652018,
+        -328.4367778515232,
+        -329.3333132813583,
+        -336.60376376764015,
+        -337.09612941513177,
+        -337.4086671750827,
+        -344.80264076614384,
+        -366.3488290966229,
+        -381.8632457696917,
+        -388.0560089793825,
+        -402.05298700073996,
+        -403.08847465648404,
+        -418.9412449638743,
+        -423.32432447704525
+      ]
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
+      "natural_sites_found": 0,
+      "best_natural_rate": 0,
+      "optimized_variants": 57,
+      "best_optimized_rate": -260.56113946898796,
+      "improvement_factor": 1,
+      "rate_distribution": [
+        -260.56113946898796,
+        -269.9329532326142,
+        -310.90160786976634,
+        -352.66085025907347,
+        -353.4268450268984,
+        -354.6541477276638,
+        -361.3405799773536,
+        -372.5436924515782,
+        -376.3853673368623,
+        -397.2370978082594,
+        -398.19528995329006,
+        -411.6852687380188,
+        -430.65958593463574,
+        -438.4008717761994,
+        -439.29348151111105,
+        -445.2626866028066,
+        -451.78253204117635,
+        -453.0154337954354,
+        -455.3470879538964,
+        -462.30892003441767
+      ]
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
+      "natural_sites_found": 0,
+      "best_natural_rate": 0,
+      "optimized_variants": 58,
+      "best_optimized_rate": -171.6136768136887,
+      "improvement_factor": 1,
+      "rate_distribution": [
+        -171.6136768136887,
+        -274.9331267908264,
+        -278.1512181177975,
+        -278.50429370850594,
+        -303.5622448392487,
+        -310.35453891425084,
+        -342.51557677923097,
+        -368.8639377838764,
+        -374.1607367677188,
+        -380.0003539962103,
+        -392.38830646896923,
+        -394.06139213658764,
+        -398.96010435759877,
+        -415.2798527628771,
+        -419.7833946750813,
+        -428.2694768433531,
+        -428.92142140160365,
+        -448.5352100340708,
+        -455.9933304614363,
+        -474.09019204135143
+      ]
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
+      "natural_sites_found": 2,
+      "best_natural_rate": 109.99938311145563,
+      "optimized_variants": 58,
+      "best_optimized_rate": -255.59038080494042,
+      "improvement_factor": -2.323561947124434,
+      "rate_distribution": [
+        -255.59038080494042,
+        -271.1822780063534,
+        -281.8502070634607,
+        -282.3829373230492,
+        -286.2082339188128,
+        -300.43326718696505,
+        -310.95325052223035,
+        -352.9871395521737,
+        -378.2576334863427,
+        -380.8282242018984,
+        -383.4251308677567,
+        -391.58686569007415,
+        -392.27815103297195,
+        -392.728554495629,
+        -419.736531122894,
+        -427.73032948259004,
+        -431.238772631813,
+        -438.6954191288621,
+        -444.94248993571426,
+        -447.0170713656172
+      ]
+    }
+  ],
+  "optimized_rbs": [
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
+      "original_sequence": "ATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+      "top_optimized_variants": [
+        {
+          "rbs_sequence": "AAGGAGACCTTCCATG",
+          "full_sequence": "AAGGAGACCTTCCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "ACCTTCC",
+          "spacer_length": 7,
+          "predicted_rate": -231.65346375899765,
+          "structure_energy": -12.700000000000001,
+          "optimization_score": -1.54
+        },
+        {
+          "rbs_sequence": "AAGGAGTAAAAATG",
+          "full_sequence": "AAGGAGTAAAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "TAAAA",
+          "spacer_length": 5,
+          "predicted_rate": -245.1243189748439,
+          "structure_energy": -11.3,
+          "optimization_score": -1.2600000000000002
+        },
+        {
+          "rbs_sequence": "AAGGAGGGAACAAAATG",
+          "full_sequence": "AAGGAGGGAACAAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAGG",
+          "spacer_sequence": "GAACAAA",
+          "spacer_length": 7,
+          "predicted_rate": -282.21024891786595,
+          "structure_energy": -10.700000000000001,
+          "optimization_score": -1.1400000000000001
+        },
+        {
+          "rbs_sequence": "AGGAGGAACCATCTTGATG",
+          "full_sequence": "AGGAGGAACCATCTTGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGG",
+          "spacer_sequence": "AACCATCTTG",
+          "spacer_length": 10,
+          "predicted_rate": -308.10872366370177,
+          "structure_energy": -17.3,
+          "optimization_score": -2.46
+        },
+        {
+          "rbs_sequence": "AGGAAGAGTAATTTAGATG",
+          "full_sequence": "AGGAAGAGTAATTTAGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "AGTAATTTAG",
+          "spacer_length": 10,
+          "predicted_rate": -312.3009574327239,
+          "structure_energy": -19.9,
+          "optimization_score": -2.979999999999999
+        },
+        {
+          "rbs_sequence": "AGGAAGAATTAATG",
+          "full_sequence": "AGGAAGAATTAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "AATTA",
+          "spacer_length": 5,
+          "predicted_rate": -317.6310448377857,
+          "structure_energy": -13.1,
+          "optimization_score": -1.62
+        },
+        {
+          "rbs_sequence": "AGGAAGTAGGAAATG",
+          "full_sequence": "AGGAAGTAGGAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "TAGGAA",
+          "spacer_length": 6,
+          "predicted_rate": -326.4958368652018,
+          "structure_energy": -13.5,
+          "optimization_score": -1.7000000000000002
+        },
+        {
+          "rbs_sequence": "AAGGAGGCAAACATG",
+          "full_sequence": "AAGGAGGCAAACATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAGG",
+          "spacer_sequence": "CAAAC",
+          "spacer_length": 5,
+          "predicted_rate": -328.4367778515232,
+          "structure_energy": -13.900000000000002,
+          "optimization_score": -1.7800000000000002
+        },
+        {
+          "rbs_sequence": "AGGGAGGACAGAAATTATG",
+          "full_sequence": "AGGGAGGACAGAAATTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "GACAGAAATT",
+          "spacer_length": 10,
+          "predicted_rate": -329.3333132813583,
+          "structure_energy": -17.099999999999998,
+          "optimization_score": -2.4199999999999995
+        },
+        {
+          "rbs_sequence": "AAGGAGAATCCTATG",
+          "full_sequence": "AAGGAGAATCCTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "AATCCT",
+          "spacer_length": 6,
+          "predicted_rate": -336.60376376764015,
+          "structure_energy": -15.1,
+          "optimization_score": -2.02
+        },
+        {
+          "rbs_sequence": "AGGAGGTCTGAAATG",
+          "full_sequence": "AGGAGGTCTGAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGG",
+          "spacer_sequence": "TCTGAA",
+          "spacer_length": 6,
+          "predicted_rate": -337.09612941513177,
+          "structure_energy": -13.700000000000001,
+          "optimization_score": -1.7400000000000004
+        },
+        {
+          "rbs_sequence": "GAGGAGGGGATATG",
+          "full_sequence": "GAGGAGGGGATATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "GAGGAG",
+          "spacer_sequence": "GGGAT",
+          "spacer_length": 5,
+          "predicted_rate": -337.4086671750827,
+          "structure_energy": -14.2,
+          "optimization_score": -1.8399999999999999
+        },
+        {
+          "rbs_sequence": "AAGGAGGGTTCGAACCTATG",
+          "full_sequence": "AAGGAGGGTTCGAACCTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAGG",
+          "spacer_sequence": "GTTCGAACCT",
+          "spacer_length": 10,
+          "predicted_rate": -344.80264076614384,
+          "structure_energy": -18.7,
+          "optimization_score": -2.7399999999999998
+        },
+        {
+          "rbs_sequence": "AGGGAGTATTGATG",
+          "full_sequence": "AGGGAGTATTGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "TATTG",
+          "spacer_length": 5,
+          "predicted_rate": -366.3488290966229,
+          "structure_energy": -15.9,
+          "optimization_score": -2.18
+        },
+        {
+          "rbs_sequence": "AAGGAGTTTCAACACGATG",
+          "full_sequence": "AAGGAGTTTCAACACGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "TTTCAACACG",
+          "spacer_length": 10,
+          "predicted_rate": -381.8632457696917,
+          "structure_energy": -18.3,
+          "optimization_score": -2.66
+        }
+      ],
+      "optimization_strategy": "sd_spacer_optimization",
+      "target_improvement": "maximum_translation_rate"
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
+      "original_sequence": "ATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+      "top_optimized_variants": [
+        {
+          "rbs_sequence": "AGGAAGTTCACATG",
+          "full_sequence": "AGGAAGTTCACATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "TTCAC",
+          "spacer_length": 5,
+          "predicted_rate": -260.56113946898796,
+          "structure_energy": -12.900000000000002,
+          "optimization_score": -1.5800000000000005
+        },
+        {
+          "rbs_sequence": "AAGGAGTAAACAAATG",
+          "full_sequence": "AAGGAGTAAACAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "TAAACAA",
+          "spacer_length": 7,
+          "predicted_rate": -269.9329532326142,
+          "structure_energy": -13.100000000000001,
+          "optimization_score": -1.6200000000000003
+        },
+        {
+          "rbs_sequence": "AGGAAGGGGCCCAGGTATG",
+          "full_sequence": "AGGAAGGGGCCCAGGTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "GGGCCCAGGT",
+          "spacer_length": 10,
+          "predicted_rate": -310.90160786976634,
+          "structure_energy": -16.7,
+          "optimization_score": -2.34
+        },
+        {
+          "rbs_sequence": "AGGAAGATCTTCAATG",
+          "full_sequence": "AGGAAGATCTTCAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "ATCTTCA",
+          "spacer_length": 7,
+          "predicted_rate": -352.66085025907347,
+          "structure_energy": -14.9,
+          "optimization_score": -1.98
+        },
+        {
+          "rbs_sequence": "AGGAAGTTTAGGATG",
+          "full_sequence": "AGGAAGTTTAGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "TTTAGG",
+          "spacer_length": 6,
+          "predicted_rate": -353.4268450268984,
+          "structure_energy": -13.5,
+          "optimization_score": -1.7000000000000002
+        },
+        {
+          "rbs_sequence": "AAGGAGGTCCTATG",
+          "full_sequence": "AAGGAGGTCCTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "GTCCT",
+          "spacer_length": 5,
+          "predicted_rate": -354.6541477276638,
+          "structure_energy": -13.3,
+          "optimization_score": -1.6600000000000001
+        },
+        {
+          "rbs_sequence": "AGGAGGAGTCAAATG",
+          "full_sequence": "AGGAGGAGTCAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGG",
+          "spacer_sequence": "AGTCAA",
+          "spacer_length": 6,
+          "predicted_rate": -361.3405799773536,
+          "structure_energy": -13.3,
+          "optimization_score": -1.6600000000000001
+        },
+        {
+          "rbs_sequence": "AGGGAGTACCACAAATG",
+          "full_sequence": "AGGGAGTACCACAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "TACCACAA",
+          "spacer_length": 8,
+          "predicted_rate": -372.5436924515782,
+          "structure_energy": -14.900000000000002,
+          "optimization_score": -1.9800000000000004
+        },
+        {
+          "rbs_sequence": "AGGGAGTTGTTAATG",
+          "full_sequence": "AGGGAGTTGTTAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "TTGTTA",
+          "spacer_length": 6,
+          "predicted_rate": -376.3853673368623,
+          "structure_energy": -14.100000000000001,
+          "optimization_score": -1.8200000000000003
+        },
+        {
+          "rbs_sequence": "GAGGAGGACTTCATG",
+          "full_sequence": "GAGGAGGACTTCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "GAGGAG",
+          "spacer_sequence": "GACTTC",
+          "spacer_length": 6,
+          "predicted_rate": -397.2370978082594,
+          "structure_energy": -13.8,
+          "optimization_score": -1.7600000000000002
+        },
+        {
+          "rbs_sequence": "AGGAGGGGTCATATG",
+          "full_sequence": "AGGAGGGGTCATATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGG",
+          "spacer_sequence": "GGTCAT",
+          "spacer_length": 6,
+          "predicted_rate": -398.19528995329006,
+          "structure_energy": -15.3,
+          "optimization_score": -2.06
+        },
+        {
+          "rbs_sequence": "AGGAGGTCTAACAATG",
+          "full_sequence": "AGGAGGTCTAACAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGGT",
+          "spacer_sequence": "CTAACA",
+          "spacer_length": 6,
+          "predicted_rate": -411.6852687380188,
+          "structure_energy": -15.100000000000001,
+          "optimization_score": -2.0200000000000005
+        },
+        {
+          "rbs_sequence": "AAGGAGGTTACCTATG",
+          "full_sequence": "AAGGAGGTTACCTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAGG",
+          "spacer_sequence": "TTACCT",
+          "spacer_length": 6,
+          "predicted_rate": -430.65958593463574,
+          "structure_energy": -15.3,
+          "optimization_score": -2.06
+        },
+        {
+          "rbs_sequence": "AGGGAGACAAGCATGCATG",
+          "full_sequence": "AGGGAGACAAGCATGCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "ACAAGCATGC",
+          "spacer_length": 10,
+          "predicted_rate": -438.4008717761994,
+          "structure_energy": -23.9,
+          "optimization_score": -3.7799999999999994
+        },
+        {
+          "rbs_sequence": "AGGGAGCCATTATG",
+          "full_sequence": "AGGGAGCCATTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "CCATT",
+          "spacer_length": 5,
+          "predicted_rate": -439.29348151111105,
+          "structure_energy": -16.3,
+          "optimization_score": -2.2600000000000002
+        }
+      ],
+      "optimization_strategy": "sd_spacer_optimization",
+      "target_improvement": "maximum_translation_rate"
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
+      "original_sequence": "ATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+      "top_optimized_variants": [
+        {
+          "rbs_sequence": "AGGAGAAAAAAATG",
+          "full_sequence": "AGGAGAAAAAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGA",
+          "spacer_sequence": "AAAAA",
+          "spacer_length": 5,
+          "predicted_rate": -171.6136768136887,
+          "structure_energy": -8.9,
+          "optimization_score": -0.78
+        },
+        {
+          "rbs_sequence": "AAGGAGTAGAAATG",
+          "full_sequence": "AAGGAGTAGAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "TAGAA",
+          "spacer_length": 5,
+          "predicted_rate": -274.9331267908264,
+          "structure_energy": -13.5,
+          "optimization_score": -1.7000000000000002
+        },
+        {
+          "rbs_sequence": "AGGAGGTAAAAAAATG",
+          "full_sequence": "AGGAGGTAAAAAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGGT",
+          "spacer_sequence": "AAAAAA",
+          "spacer_length": 6,
+          "predicted_rate": -278.1512181177975,
+          "structure_energy": -11.3,
+          "optimization_score": -1.2600000000000002
+        },
+        {
+          "rbs_sequence": "AAGGAGGAAATAATG",
+          "full_sequence": "AAGGAGGAAATAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAGG",
+          "spacer_sequence": "AAATA",
+          "spacer_length": 5,
+          "predicted_rate": -278.50429370850594,
+          "structure_energy": -13.1,
+          "optimization_score": -1.6200000000000003
+        },
+        {
+          "rbs_sequence": "AAGGAGTTTACAACCATG",
+          "full_sequence": "AAGGAGTTTACAACCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "TTTACAACC",
+          "spacer_length": 9,
+          "predicted_rate": -303.5622448392487,
+          "structure_energy": -14.900000000000002,
+          "optimization_score": -1.9800000000000004
+        },
+        {
+          "rbs_sequence": "AGGAAGTGAGAAATG",
+          "full_sequence": "AGGAAGTGAGAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "TGAGAA",
+          "spacer_length": 6,
+          "predicted_rate": -310.35453891425084,
+          "structure_energy": -13.9,
+          "optimization_score": -1.7800000000000005
+        },
+        {
+          "rbs_sequence": "AGGGAGAAGCCTGAAGATG",
+          "full_sequence": "AGGGAGAAGCCTGAAGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "AAGCCTGAAG",
+          "spacer_length": 10,
+          "predicted_rate": -342.51557677923097,
+          "structure_energy": -19.099999999999998,
+          "optimization_score": -2.8199999999999994
+        },
+        {
+          "rbs_sequence": "AGGAAGAGAGTGTTGAATG",
+          "full_sequence": "AGGAAGAGAGTGTTGAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "AGAGTGTTGA",
+          "spacer_length": 10,
+          "predicted_rate": -368.8639377838764,
+          "structure_energy": -18.9,
+          "optimization_score": -2.78
+        },
+        {
+          "rbs_sequence": "AGGAAGAGTCCCTATG",
+          "full_sequence": "AGGAAGAGTCCCTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "AGTCCCT",
+          "spacer_length": 7,
+          "predicted_rate": -374.1607367677188,
+          "structure_energy": -15.5,
+          "optimization_score": -2.1
+        },
+        {
+          "rbs_sequence": "AAGGAGTATTAAAAATG",
+          "full_sequence": "AAGGAGTATTAAAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "TATTAAAA",
+          "spacer_length": 8,
+          "predicted_rate": -380.0003539962103,
+          "structure_energy": -15.5,
+          "optimization_score": -2.1
+        },
+        {
+          "rbs_sequence": "AGGAGGCTGACATG",
+          "full_sequence": "AGGAGGCTGACATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGG",
+          "spacer_sequence": "CTGAC",
+          "spacer_length": 5,
+          "predicted_rate": -392.38830646896923,
+          "structure_energy": -16.5,
+          "optimization_score": -2.3
+        },
+        {
+          "rbs_sequence": "GAGGAGGCTGAAGAATATG",
+          "full_sequence": "GAGGAGGCTGAAGAATATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "GAGGAG",
+          "spacer_sequence": "GCTGAAGAAT",
+          "spacer_length": 10,
+          "predicted_rate": -394.06139213658764,
+          "structure_energy": -22.200000000000003,
+          "optimization_score": -3.44
+        },
+        {
+          "rbs_sequence": "AAGGAGGCTTGAAGTGTATG",
+          "full_sequence": "AAGGAGGCTTGAAGTGTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAGG",
+          "spacer_sequence": "CTTGAAGTGT",
+          "spacer_length": 10,
+          "predicted_rate": -398.96010435759877,
+          "structure_energy": -22.1,
+          "optimization_score": -3.42
+        },
+        {
+          "rbs_sequence": "AAGGAGACTGATGCATATG",
+          "full_sequence": "AAGGAGACTGATGCATATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "ACTGATGCAT",
+          "spacer_length": 10,
+          "predicted_rate": -415.2798527628771,
+          "structure_energy": -25.3,
+          "optimization_score": -4.0600000000000005
+        },
+        {
+          "rbs_sequence": "AAGGAGGCGTTCATG",
+          "full_sequence": "AAGGAGGCGTTCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "GCGTTC",
+          "spacer_length": 6,
+          "predicted_rate": -419.7833946750813,
+          "structure_energy": -17.900000000000002,
+          "optimization_score": -2.5800000000000005
+        }
+      ],
+      "optimization_strategy": "sd_spacer_optimization",
+      "target_improvement": "maximum_translation_rate"
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
+      "original_sequence": "ATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+      "top_optimized_variants": [
+        {
+          "rbs_sequence": "AAGGAGGACAAAGATG",
+          "full_sequence": "AAGGAGGACAAAGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "GACAAAG",
+          "spacer_length": 7,
+          "predicted_rate": -255.59038080494042,
+          "structure_energy": -12.9,
+          "optimization_score": -1.58
+        },
+        {
+          "rbs_sequence": "AAGGAGCACAAATG",
+          "full_sequence": "AAGGAGCACAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "CACAA",
+          "spacer_length": 5,
+          "predicted_rate": -271.1822780063534,
+          "structure_energy": -13.900000000000002,
+          "optimization_score": -1.7800000000000005
+        },
+        {
+          "rbs_sequence": "AGGGAGGGGTTTCATG",
+          "full_sequence": "AGGGAGGGGTTTCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "GGGTTTC",
+          "spacer_length": 7,
+          "predicted_rate": -281.8502070634607,
+          "structure_energy": -11.100000000000001,
+          "optimization_score": -1.2200000000000002
+        },
+        {
+          "rbs_sequence": "AGGAAGAAATAATG",
+          "full_sequence": "AGGAAGAAATAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "AAATA",
+          "spacer_length": 5,
+          "predicted_rate": -282.3829373230492,
+          "structure_energy": -13.1,
+          "optimization_score": -1.62
+        },
+        {
+          "rbs_sequence": "AGGAGGACTCAATG",
+          "full_sequence": "AGGAGGACTCAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGG",
+          "spacer_sequence": "ACTCA",
+          "spacer_length": 5,
+          "predicted_rate": -286.2082339188128,
+          "structure_energy": -12.700000000000001,
+          "optimization_score": -1.54
+        },
+        {
+          "rbs_sequence": "AAGGAGTTTCTCATG",
+          "full_sequence": "AAGGAGTTTCTCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAG",
+          "spacer_sequence": "TTTCTC",
+          "spacer_length": 6,
+          "predicted_rate": -300.43326718696505,
+          "structure_energy": -13.100000000000001,
+          "optimization_score": -1.62
+        },
+        {
+          "rbs_sequence": "AGGAAGTAAACTAATG",
+          "full_sequence": "AGGAAGTAAACTAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "TAAACTA",
+          "spacer_length": 7,
+          "predicted_rate": -310.95325052223035,
+          "structure_energy": -15.3,
+          "optimization_score": -2.06
+        },
+        {
+          "rbs_sequence": "AGGAAGTCTGTCATG",
+          "full_sequence": "AGGAAGTCTGTCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAAG",
+          "spacer_sequence": "TCTGTC",
+          "spacer_length": 6,
+          "predicted_rate": -352.9871395521737,
+          "structure_energy": -15.900000000000002,
+          "optimization_score": -2.1800000000000006
+        },
+        {
+          "rbs_sequence": "AGGAGGTAAACCATG",
+          "full_sequence": "AGGAGGTAAACCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGGT",
+          "spacer_sequence": "AAACC",
+          "spacer_length": 5,
+          "predicted_rate": -378.2576334863427,
+          "structure_energy": -13.100000000000001,
+          "optimization_score": -1.62
+        },
+        {
+          "rbs_sequence": "AGGAGGGTTGTGAACATG",
+          "full_sequence": "AGGAGGGTTGTGAACATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGG",
+          "spacer_sequence": "GTTGTGAAC",
+          "spacer_length": 9,
+          "predicted_rate": -380.8282242018984,
+          "structure_energy": -16.3,
+          "optimization_score": -2.2600000000000002
+        },
+        {
+          "rbs_sequence": "AGGAGGTAGAAAAATG",
+          "full_sequence": "AGGAGGTAGAAAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGGT",
+          "spacer_sequence": "AGAAAA",
+          "spacer_length": 6,
+          "predicted_rate": -383.4251308677567,
+          "structure_energy": -13.5,
+          "optimization_score": -1.7000000000000002
+        },
+        {
+          "rbs_sequence": "AGGGAGATTAACATG",
+          "full_sequence": "AGGGAGATTAACATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "ATTAAC",
+          "spacer_length": 6,
+          "predicted_rate": -391.58686569007415,
+          "structure_energy": -14.9,
+          "optimization_score": -1.98
+        },
+        {
+          "rbs_sequence": "AGGGAGTTAACCAGTCATG",
+          "full_sequence": "AGGGAGTTAACCAGTCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGGAG",
+          "spacer_sequence": "TTAACCAGTC",
+          "spacer_length": 10,
+          "predicted_rate": -392.27815103297195,
+          "structure_energy": -17.5,
+          "optimization_score": -2.5
+        },
+        {
+          "rbs_sequence": "AAGGAGGCTCAAAAATG",
+          "full_sequence": "AAGGAGGCTCAAAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AAGGAGG",
+          "spacer_sequence": "CTCAAAA",
+          "spacer_length": 7,
+          "predicted_rate": -392.728554495629,
+          "structure_energy": -14.100000000000001,
+          "optimization_score": -1.8200000000000003
+        },
+        {
+          "rbs_sequence": "AGGAGACAGTAATG",
+          "full_sequence": "AGGAGACAGTAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+          "sd_sequence": "AGGAGA",
+          "spacer_sequence": "CAGTA",
+          "spacer_length": 5,
+          "predicted_rate": -419.736531122894,
+          "structure_energy": -15.3,
+          "optimization_score": -2.06
+        }
+      ],
+      "optimization_strategy": "sd_spacer_optimization",
+      "target_improvement": "maximum_translation_rate"
+    }
+  ],
+  "rbs_sequences": [
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
+      "natural_rbs": [],
+      "optimized_rbs": [
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_1",
+          "sequence": "AAGGAGACCTTCCATG",
+          "rate": -231.65346375899765,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_2",
+          "sequence": "AAGGAGTAAAAATG",
+          "rate": -245.1243189748439,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_3",
+          "sequence": "AAGGAGGGAACAAAATG",
+          "rate": -282.21024891786595,
+          "sd_sequence": "AAGGAGG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_4",
+          "sequence": "AGGAGGAACCATCTTGATG",
+          "rate": -308.10872366370177,
+          "sd_sequence": "AGGAGG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_5",
+          "sequence": "AGGAAGAGTAATTTAGATG",
+          "rate": -312.3009574327239,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_6",
+          "sequence": "AGGAAGAATTAATG",
+          "rate": -317.6310448377857,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_7",
+          "sequence": "AGGAAGTAGGAAATG",
+          "rate": -326.4958368652018,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_8",
+          "sequence": "AAGGAGGCAAACATG",
+          "rate": -328.4367778515232,
+          "sd_sequence": "AAGGAGG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_9",
+          "sequence": "AGGGAGGACAGAAATTATG",
+          "rate": -329.3333132813583,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_10",
+          "sequence": "AAGGAGAATCCTATG",
+          "rate": -336.60376376764015,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_11",
+          "sequence": "AGGAGGTCTGAAATG",
+          "rate": -337.09612941513177,
+          "sd_sequence": "AGGAGG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_12",
+          "sequence": "GAGGAGGGGATATG",
+          "rate": -337.4086671750827,
+          "sd_sequence": "GAGGAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_13",
+          "sequence": "AAGGAGGGTTCGAACCTATG",
+          "rate": -344.80264076614384,
+          "sd_sequence": "AAGGAGG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_14",
+          "sequence": "AGGGAGTATTGATG",
+          "rate": -366.3488290966229,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_optimized_15",
+          "sequence": "AAGGAGTTTCAACACGATG",
+          "rate": -381.8632457696917,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 10
+        }
+      ],
+      "best_natural": null,
+      "best_optimized": {
+        "rbs_sequence": "AAGGAGACCTTCCATG",
+        "full_sequence": "AAGGAGACCTTCCATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTCTTATATTGTTTGGGGTCGTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+        "sd_sequence": "AAGGAG",
+        "spacer_sequence": "ACCTTCC",
+        "spacer_length": 7,
+        "predicted_rate": -231.65346375899765,
+        "structure_energy": -12.700000000000001,
+        "optimization_score": -1.54
+      }
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
+      "natural_rbs": [],
+      "optimized_rbs": [
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_1",
+          "sequence": "AGGAAGTTCACATG",
+          "rate": -260.56113946898796,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_2",
+          "sequence": "AAGGAGTAAACAAATG",
+          "rate": -269.9329532326142,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_3",
+          "sequence": "AGGAAGGGGCCCAGGTATG",
+          "rate": -310.90160786976634,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_4",
+          "sequence": "AGGAAGATCTTCAATG",
+          "rate": -352.66085025907347,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_5",
+          "sequence": "AGGAAGTTTAGGATG",
+          "rate": -353.4268450268984,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_6",
+          "sequence": "AAGGAGGTCCTATG",
+          "rate": -354.6541477276638,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_7",
+          "sequence": "AGGAGGAGTCAAATG",
+          "rate": -361.3405799773536,
+          "sd_sequence": "AGGAGG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_8",
+          "sequence": "AGGGAGTACCACAAATG",
+          "rate": -372.5436924515782,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 8
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_9",
+          "sequence": "AGGGAGTTGTTAATG",
+          "rate": -376.3853673368623,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_10",
+          "sequence": "GAGGAGGACTTCATG",
+          "rate": -397.2370978082594,
+          "sd_sequence": "GAGGAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_11",
+          "sequence": "AGGAGGGGTCATATG",
+          "rate": -398.19528995329006,
+          "sd_sequence": "AGGAGG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_12",
+          "sequence": "AGGAGGTCTAACAATG",
+          "rate": -411.6852687380188,
+          "sd_sequence": "AGGAGGT",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_13",
+          "sequence": "AAGGAGGTTACCTATG",
+          "rate": -430.65958593463574,
+          "sd_sequence": "AAGGAGG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_14",
+          "sequence": "AGGGAGACAAGCATGCATG",
+          "rate": -438.4008717761994,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_optimized_15",
+          "sequence": "AGGGAGCCATTATG",
+          "rate": -439.29348151111105,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 5
+        }
+      ],
+      "best_natural": null,
+      "best_optimized": {
+        "rbs_sequence": "AGGAAGTTCACATG",
+        "full_sequence": "AGGAAGTTCACATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGCGTAATCTGCTGGATCATTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+        "sd_sequence": "AGGAAG",
+        "spacer_sequence": "TTCAC",
+        "spacer_length": 5,
+        "predicted_rate": -260.56113946898796,
+        "structure_energy": -12.900000000000002,
+        "optimization_score": -1.5800000000000005
+      }
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
+      "natural_rbs": [],
+      "optimized_rbs": [
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_1",
+          "sequence": "AGGAGAAAAAAATG",
+          "rate": -171.6136768136887,
+          "sd_sequence": "AGGAGA",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_2",
+          "sequence": "AAGGAGTAGAAATG",
+          "rate": -274.9331267908264,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_3",
+          "sequence": "AGGAGGTAAAAAAATG",
+          "rate": -278.1512181177975,
+          "sd_sequence": "AGGAGGT",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_4",
+          "sequence": "AAGGAGGAAATAATG",
+          "rate": -278.50429370850594,
+          "sd_sequence": "AAGGAGG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_5",
+          "sequence": "AAGGAGTTTACAACCATG",
+          "rate": -303.5622448392487,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 9
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_6",
+          "sequence": "AGGAAGTGAGAAATG",
+          "rate": -310.35453891425084,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_7",
+          "sequence": "AGGGAGAAGCCTGAAGATG",
+          "rate": -342.51557677923097,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_8",
+          "sequence": "AGGAAGAGAGTGTTGAATG",
+          "rate": -368.8639377838764,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_9",
+          "sequence": "AGGAAGAGTCCCTATG",
+          "rate": -374.1607367677188,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_10",
+          "sequence": "AAGGAGTATTAAAAATG",
+          "rate": -380.0003539962103,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 8
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_11",
+          "sequence": "AGGAGGCTGACATG",
+          "rate": -392.38830646896923,
+          "sd_sequence": "AGGAGG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_12",
+          "sequence": "GAGGAGGCTGAAGAATATG",
+          "rate": -394.06139213658764,
+          "sd_sequence": "GAGGAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_13",
+          "sequence": "AAGGAGGCTTGAAGTGTATG",
+          "rate": -398.96010435759877,
+          "sd_sequence": "AAGGAGG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_14",
+          "sequence": "AAGGAGACTGATGCATATG",
+          "rate": -415.2798527628771,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_optimized_15",
+          "sequence": "AAGGAGGCGTTCATG",
+          "rate": -419.7833946750813,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 6
+        }
+      ],
+      "best_natural": null,
+      "best_optimized": {
+        "rbs_sequence": "AGGAGAAAAAAATG",
+        "full_sequence": "AGGAGAAAAAAATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTGAGCGTTGTGCTCTGGGTCTGGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+        "sd_sequence": "AGGAGA",
+        "spacer_sequence": "AAAAA",
+        "spacer_length": 5,
+        "predicted_rate": -171.6136768136887,
+        "structure_energy": -8.9,
+        "optimization_score": -0.78
+      }
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
+      "natural_rbs": [
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_natural_1",
+          "sequence": "GAGG",
+          "rate": 106.10819251754438,
+          "distance": 3
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_natural_2",
+          "sequence": "GAGG",
+          "rate": 109.99938311145563,
+          "distance": 12
+        }
+      ],
+      "optimized_rbs": [
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_1",
+          "sequence": "AAGGAGGACAAAGATG",
+          "rate": -255.59038080494042,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_2",
+          "sequence": "AAGGAGCACAAATG",
+          "rate": -271.1822780063534,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_3",
+          "sequence": "AGGGAGGGGTTTCATG",
+          "rate": -281.8502070634607,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_4",
+          "sequence": "AGGAAGAAATAATG",
+          "rate": -282.3829373230492,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_5",
+          "sequence": "AGGAGGACTCAATG",
+          "rate": -286.2082339188128,
+          "sd_sequence": "AGGAGG",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_6",
+          "sequence": "AAGGAGTTTCTCATG",
+          "rate": -300.43326718696505,
+          "sd_sequence": "AAGGAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_7",
+          "sequence": "AGGAAGTAAACTAATG",
+          "rate": -310.95325052223035,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_8",
+          "sequence": "AGGAAGTCTGTCATG",
+          "rate": -352.9871395521737,
+          "sd_sequence": "AGGAAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_9",
+          "sequence": "AGGAGGTAAACCATG",
+          "rate": -378.2576334863427,
+          "sd_sequence": "AGGAGGT",
+          "spacer_length": 5
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_10",
+          "sequence": "AGGAGGGTTGTGAACATG",
+          "rate": -380.8282242018984,
+          "sd_sequence": "AGGAGG",
+          "spacer_length": 9
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_11",
+          "sequence": "AGGAGGTAGAAAAATG",
+          "rate": -383.4251308677567,
+          "sd_sequence": "AGGAGGT",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_12",
+          "sequence": "AGGGAGATTAACATG",
+          "rate": -391.58686569007415,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 6
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_13",
+          "sequence": "AGGGAGTTAACCAGTCATG",
+          "rate": -392.27815103297195,
+          "sd_sequence": "AGGGAG",
+          "spacer_length": 10
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_14",
+          "sequence": "AAGGAGGCTCAAAAATG",
+          "rate": -392.728554495629,
+          "sd_sequence": "AAGGAGG",
+          "spacer_length": 7
+        },
+        {
+          "id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_optimized_15",
+          "sequence": "AGGAGACAGTAATG",
+          "rate": -419.736531122894,
+          "sd_sequence": "AGGAGA",
+          "spacer_length": 5
+        }
+      ],
+      "best_natural": {
+        "sd_sequence": "GAGG",
+        "start_codon_pos": 126,
+        "sd_position": 110,
+        "distance_to_start": 12,
+        "match_strength": 0.6666666666666666,
+        "optimal_distance": false
+      },
+      "best_optimized": {
+        "rbs_sequence": "AAGGAGGACAAAGATG",
+        "full_sequence": "AAGGAGGACAAAGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGTTTCTCGTGAGCTGCGTGCTGAGGTTTATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCGATGCGATCG",
+        "sd_sequence": "AAGGAG",
+        "spacer_sequence": "GACAAAG",
+        "spacer_length": 7,
+        "predicted_rate": -255.59038080494042,
+        "structure_energy": -12.9,
+        "optimization_score": -1.58
+      }
+    }
+  ],
+  "initiation_predictions": [
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
+      "ribosome_loading_efficiency": -0.23165346375899765,
+      "start_codon_accessibility": 0.8960929094441747,
+      "mrna_stability_score": 0.5046900494947664,
+      "translation_probability": -2.3165346375899762,
+      "initiation_complex_formation": 0.690448431862748
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
+      "ribosome_loading_efficiency": -0.26056113946898796,
+      "start_codon_accessibility": 0.7897538650583295,
+      "mrna_stability_score": 0.5472588574569192,
+      "translation_probability": -2.6056113946898796,
+      "initiation_complex_formation": 0.4786011779456965
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
+      "ribosome_loading_efficiency": -0.1716136768136887,
+      "start_codon_accessibility": 0.6409997664334519,
+      "mrna_stability_score": 0.5487003024572714,
+      "translation_probability": -1.716136768136887,
+      "initiation_complex_formation": 0.5188796572533176
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
+      "ribosome_loading_efficiency": -0.2555903808049404,
+      "start_codon_accessibility": 0.6185826792277227,
+      "mrna_stability_score": 0.7404994095554486,
+      "translation_probability": -2.555903808049404,
+      "initiation_complex_formation": 0.6643186724508681
+    }
+  ],
+  "ribosome_binding": [
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.5,
+      "accessibility_score": 0.5,
+      "gc_content": 0.5,
+      "thermodynamic_score": 0.25,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_1",
+      "rbs_sequence": "AAGGAGACCTTCCATG",
+      "predicted_rate": -231.65346375899765
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.2857142857142857,
+      "accessibility_score": 0.7142857142857143,
+      "gc_content": 0.2857142857142857,
+      "thermodynamic_score": 0.35714285714285715,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_2",
+      "rbs_sequence": "AAGGAGTAAAAATG",
+      "predicted_rate": -245.1243189748439
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.4117647058823529,
+      "accessibility_score": 0.5882352941176471,
+      "gc_content": 0.4117647058823529,
+      "thermodynamic_score": 0.29411764705882354,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_3",
+      "rbs_sequence": "AAGGAGGGAACAAAATG",
+      "predicted_rate": -282.21024891786595
+    },
+    {
+      "binding_affinity": 1.0,
+      "structure_propensity": 0.47368421052631576,
+      "accessibility_score": 0.5263157894736843,
+      "gc_content": 0.47368421052631576,
+      "thermodynamic_score": 0.5263157894736843,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_4",
+      "rbs_sequence": "AGGAGGAACCATCTTGATG",
+      "predicted_rate": -308.10872366370177
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.3157894736842105,
+      "accessibility_score": 0.6842105263157895,
+      "gc_content": 0.3157894736842105,
+      "thermodynamic_score": 0.5701754385964912,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_5",
+      "rbs_sequence": "AGGAAGAGTAATTTAGATG",
+      "predicted_rate": -312.3009574327239
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.2857142857142857,
+      "accessibility_score": 0.7142857142857143,
+      "gc_content": 0.2857142857142857,
+      "thermodynamic_score": 0.5952380952380952,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_6",
+      "rbs_sequence": "AGGAAGAATTAATG",
+      "predicted_rate": -317.6310448377857
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.4,
+      "accessibility_score": 0.6,
+      "gc_content": 0.4,
+      "thermodynamic_score": 0.5,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_7",
+      "rbs_sequence": "AGGAAGTAGGAAATG",
+      "predicted_rate": -326.4958368652018
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.4666666666666667,
+      "accessibility_score": 0.5333333333333333,
+      "gc_content": 0.4666666666666667,
+      "thermodynamic_score": 0.26666666666666666,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_8",
+      "rbs_sequence": "AAGGAGGCAAACATG",
+      "predicted_rate": -328.4367778515232
+    },
+    {
+      "binding_affinity": 0.6666666666666666,
+      "structure_propensity": 0.42105263157894735,
+      "accessibility_score": 0.5789473684210527,
+      "gc_content": 0.42105263157894735,
+      "thermodynamic_score": 0.38596491228070173,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_9",
+      "rbs_sequence": "AGGGAGGACAGAAATTATG",
+      "predicted_rate": -329.3333132813583
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.4,
+      "accessibility_score": 0.6,
+      "gc_content": 0.4,
+      "thermodynamic_score": 0.3,
+      "variant_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_opt_10",
+      "rbs_sequence": "AAGGAGAATCCTATG",
+      "predicted_rate": -336.60376376764015
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.42857142857142855,
+      "accessibility_score": 0.5714285714285714,
+      "gc_content": 0.42857142857142855,
+      "thermodynamic_score": 0.47619047619047616,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_1",
+      "rbs_sequence": "AGGAAGTTCACATG",
+      "predicted_rate": -260.56113946898796
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.3125,
+      "accessibility_score": 0.6875,
+      "gc_content": 0.3125,
+      "thermodynamic_score": 0.34375,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_2",
+      "rbs_sequence": "AAGGAGTAAACAAATG",
+      "predicted_rate": -269.9329532326142
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.631578947368421,
+      "accessibility_score": 0.368421052631579,
+      "gc_content": 0.631578947368421,
+      "thermodynamic_score": 0.3070175438596492,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_3",
+      "rbs_sequence": "AGGAAGGGGCCCAGGTATG",
+      "predicted_rate": -310.90160786976634
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.375,
+      "accessibility_score": 0.625,
+      "gc_content": 0.375,
+      "thermodynamic_score": 0.5208333333333334,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_4",
+      "rbs_sequence": "AGGAAGATCTTCAATG",
+      "predicted_rate": -352.66085025907347
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.4,
+      "accessibility_score": 0.6,
+      "gc_content": 0.4,
+      "thermodynamic_score": 0.5,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_5",
+      "rbs_sequence": "AGGAAGTTTAGGATG",
+      "predicted_rate": -353.4268450268984
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.5,
+      "accessibility_score": 0.5,
+      "gc_content": 0.5,
+      "thermodynamic_score": 0.25,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_6",
+      "rbs_sequence": "AAGGAGGTCCTATG",
+      "predicted_rate": -354.6541477276638
+    },
+    {
+      "binding_affinity": 1.0,
+      "structure_propensity": 0.4666666666666667,
+      "accessibility_score": 0.5333333333333333,
+      "gc_content": 0.4666666666666667,
+      "thermodynamic_score": 0.5333333333333333,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_7",
+      "rbs_sequence": "AGGAGGAGTCAAATG",
+      "predicted_rate": -361.3405799773536
+    },
+    {
+      "binding_affinity": 0.6666666666666666,
+      "structure_propensity": 0.47058823529411764,
+      "accessibility_score": 0.5294117647058824,
+      "gc_content": 0.47058823529411764,
+      "thermodynamic_score": 0.3529411764705882,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_8",
+      "rbs_sequence": "AGGGAGTACCACAAATG",
+      "predicted_rate": -372.5436924515782
+    },
+    {
+      "binding_affinity": 0.6666666666666666,
+      "structure_propensity": 0.4,
+      "accessibility_score": 0.6,
+      "gc_content": 0.4,
+      "thermodynamic_score": 0.39999999999999997,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_9",
+      "rbs_sequence": "AGGGAGTTGTTAATG",
+      "predicted_rate": -376.3853673368623
+    },
+    {
+      "binding_affinity": 0.3333333333333333,
+      "structure_propensity": 0.5333333333333333,
+      "accessibility_score": 0.4666666666666667,
+      "gc_content": 0.5333333333333333,
+      "thermodynamic_score": 0.15555555555555556,
+      "variant_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized_opt_10",
+      "rbs_sequence": "GAGGAGGACTTCATG",
+      "predicted_rate": -397.2370978082594
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.2857142857142857,
+      "accessibility_score": 0.7142857142857143,
+      "gc_content": 0.2857142857142857,
+      "thermodynamic_score": 0.5952380952380952,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_1",
+      "rbs_sequence": "AGGAGAAAAAAATG",
+      "predicted_rate": -171.6136768136887
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.35714285714285715,
+      "accessibility_score": 0.6428571428571428,
+      "gc_content": 0.35714285714285715,
+      "thermodynamic_score": 0.3214285714285714,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_2",
+      "rbs_sequence": "AAGGAGTAGAAATG",
+      "predicted_rate": -274.9331267908264
+    },
+    {
+      "binding_affinity": 1.0,
+      "structure_propensity": 0.3125,
+      "accessibility_score": 0.6875,
+      "gc_content": 0.3125,
+      "thermodynamic_score": 0.6875,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_3",
+      "rbs_sequence": "AGGAGGTAAAAAAATG",
+      "predicted_rate": -278.1512181177975
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.3333333333333333,
+      "accessibility_score": 0.6666666666666667,
+      "gc_content": 0.3333333333333333,
+      "thermodynamic_score": 0.33333333333333337,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_4",
+      "rbs_sequence": "AAGGAGGAAATAATG",
+      "predicted_rate": -278.50429370850594
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.3888888888888889,
+      "accessibility_score": 0.6111111111111112,
+      "gc_content": 0.3888888888888889,
+      "thermodynamic_score": 0.3055555555555556,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_5",
+      "rbs_sequence": "AAGGAGTTTACAACCATG",
+      "predicted_rate": -303.5622448392487
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.4,
+      "accessibility_score": 0.6,
+      "gc_content": 0.4,
+      "thermodynamic_score": 0.5,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_6",
+      "rbs_sequence": "AGGAAGTGAGAAATG",
+      "predicted_rate": -310.35453891425084
+    },
+    {
+      "binding_affinity": 0.6666666666666666,
+      "structure_propensity": 0.5263157894736842,
+      "accessibility_score": 0.4736842105263158,
+      "gc_content": 0.5263157894736842,
+      "thermodynamic_score": 0.3157894736842105,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_7",
+      "rbs_sequence": "AGGGAGAAGCCTGAAGATG",
+      "predicted_rate": -342.51557677923097
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.42105263157894735,
+      "accessibility_score": 0.5789473684210527,
+      "gc_content": 0.42105263157894735,
+      "thermodynamic_score": 0.48245614035087725,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_8",
+      "rbs_sequence": "AGGAAGAGAGTGTTGAATG",
+      "predicted_rate": -368.8639377838764
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.5,
+      "accessibility_score": 0.5,
+      "gc_content": 0.5,
+      "thermodynamic_score": 0.4166666666666667,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_9",
+      "rbs_sequence": "AGGAAGAGTCCCTATG",
+      "predicted_rate": -374.1607367677188
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.23529411764705882,
+      "accessibility_score": 0.7647058823529411,
+      "gc_content": 0.23529411764705882,
+      "thermodynamic_score": 0.38235294117647056,
+      "variant_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized_opt_10",
+      "rbs_sequence": "AAGGAGTATTAAAAATG",
+      "predicted_rate": -380.0003539962103
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.4375,
+      "accessibility_score": 0.5625,
+      "gc_content": 0.4375,
+      "thermodynamic_score": 0.28125,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_1",
+      "rbs_sequence": "AAGGAGGACAAAGATG",
+      "predicted_rate": -255.59038080494042
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.42857142857142855,
+      "accessibility_score": 0.5714285714285714,
+      "gc_content": 0.42857142857142855,
+      "thermodynamic_score": 0.2857142857142857,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_2",
+      "rbs_sequence": "AAGGAGCACAAATG",
+      "predicted_rate": -271.1822780063534
+    },
+    {
+      "binding_affinity": 0.6666666666666666,
+      "structure_propensity": 0.5625,
+      "accessibility_score": 0.4375,
+      "gc_content": 0.5625,
+      "thermodynamic_score": 0.29166666666666663,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_3",
+      "rbs_sequence": "AGGGAGGGGTTTCATG",
+      "predicted_rate": -281.8502070634607
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.2857142857142857,
+      "accessibility_score": 0.7142857142857143,
+      "gc_content": 0.2857142857142857,
+      "thermodynamic_score": 0.5952380952380952,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_4",
+      "rbs_sequence": "AGGAAGAAATAATG",
+      "predicted_rate": -282.3829373230492
+    },
+    {
+      "binding_affinity": 1.0,
+      "structure_propensity": 0.5,
+      "accessibility_score": 0.5,
+      "gc_content": 0.5,
+      "thermodynamic_score": 0.5,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_5",
+      "rbs_sequence": "AGGAGGACTCAATG",
+      "predicted_rate": -286.2082339188128
+    },
+    {
+      "binding_affinity": 0.5,
+      "structure_propensity": 0.4,
+      "accessibility_score": 0.6,
+      "gc_content": 0.4,
+      "thermodynamic_score": 0.3,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_6",
+      "rbs_sequence": "AAGGAGTTTCTCATG",
+      "predicted_rate": -300.43326718696505
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.3125,
+      "accessibility_score": 0.6875,
+      "gc_content": 0.3125,
+      "thermodynamic_score": 0.5729166666666667,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_7",
+      "rbs_sequence": "AGGAAGTAAACTAATG",
+      "predicted_rate": -310.95325052223035
+    },
+    {
+      "binding_affinity": 0.8333333333333334,
+      "structure_propensity": 0.4666666666666667,
+      "accessibility_score": 0.5333333333333333,
+      "gc_content": 0.4666666666666667,
+      "thermodynamic_score": 0.4444444444444445,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_8",
+      "rbs_sequence": "AGGAAGTCTGTCATG",
+      "predicted_rate": -352.9871395521737
+    },
+    {
+      "binding_affinity": 1.0,
+      "structure_propensity": 0.4666666666666667,
+      "accessibility_score": 0.5333333333333333,
+      "gc_content": 0.4666666666666667,
+      "thermodynamic_score": 0.5333333333333333,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_9",
+      "rbs_sequence": "AGGAGGTAAACCATG",
+      "predicted_rate": -378.2576334863427
+    },
+    {
+      "binding_affinity": 1.0,
+      "structure_propensity": 0.5,
+      "accessibility_score": 0.5,
+      "gc_content": 0.5,
+      "thermodynamic_score": 0.5,
+      "variant_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized_opt_10",
+      "rbs_sequence": "AGGAGGGTTGTGAACATG",
+      "predicted_rate": -380.8282242018984
+    }
+  ],
+  "translation_efficiency": [
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
+      "relative_translation_strength": -2.3165346375899762,
+      "rbs_strength_category": "Weak",
+      "optimization_success": 0,
+      "dynamic_range": 1146.7812098530057
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
+      "relative_translation_strength": -2.6056113946898796,
+      "rbs_strength_category": "Weak",
+      "optimization_success": 0,
+      "dynamic_range": 1175.335077958042
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
+      "relative_translation_strength": -1.716136768136887,
+      "rbs_strength_category": "Weak",
+      "optimization_success": 0,
+      "dynamic_range": 1032.302715787127
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
+      "relative_translation_strength": -2.555903808049404,
+      "rbs_strength_category": "Weak",
+      "optimization_success": 0,
+      "dynamic_range": 838.5115301531309
+    }
+  ],
+  "optimization_metrics": {
+    "sequences_analyzed": 4,
+    "total_rbs_variants": 60,
+    "average_translation_rate": -365.318396183329,
+    "max_translation_rate": -171.6136768136887,
+    "average_improvement_factor": 0.16910951321889145,
+    "high_efficiency_variants": 0,
+    "library_size": 60,
+    "optimization_success_rate": 0.0
+  },
+  "rbs_library": [
+    {
+      "library_id": "RBS_LIB_001",
+      "rbs_sequence": "AGGAGAAAAAAATG",
+      "sd_sequence": "AGGAGA",
+      "spacer_sequence": "AAAAA",
+      "predicted_rate": -171.6136768136887,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_002",
+      "rbs_sequence": "AAGGAGACCTTCCATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "ACCTTCC",
+      "predicted_rate": -231.65346375899765,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_003",
+      "rbs_sequence": "AAGGAGTAAAAATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "TAAAA",
+      "predicted_rate": -245.1243189748439,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_004",
+      "rbs_sequence": "AAGGAGGACAAAGATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "GACAAAG",
+      "predicted_rate": -255.59038080494042,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_005",
+      "rbs_sequence": "AGGAAGTTCACATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "TTCAC",
+      "predicted_rate": -260.56113946898796,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_006",
+      "rbs_sequence": "AAGGAGTAAACAAATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "TAAACAA",
+      "predicted_rate": -269.9329532326142,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_007",
+      "rbs_sequence": "AAGGAGCACAAATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "CACAA",
+      "predicted_rate": -271.1822780063534,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_008",
+      "rbs_sequence": "AAGGAGTAGAAATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "TAGAA",
+      "predicted_rate": -274.9331267908264,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_009",
+      "rbs_sequence": "AGGAGGTAAAAAAATG",
+      "sd_sequence": "AGGAGGT",
+      "spacer_sequence": "AAAAAA",
+      "predicted_rate": -278.1512181177975,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_010",
+      "rbs_sequence": "AAGGAGGAAATAATG",
+      "sd_sequence": "AAGGAGG",
+      "spacer_sequence": "AAATA",
+      "predicted_rate": -278.50429370850594,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_011",
+      "rbs_sequence": "AGGGAGGGGTTTCATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "GGGTTTC",
+      "predicted_rate": -281.8502070634607,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_012",
+      "rbs_sequence": "AAGGAGGGAACAAAATG",
+      "sd_sequence": "AAGGAGG",
+      "spacer_sequence": "GAACAAA",
+      "predicted_rate": -282.21024891786595,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_013",
+      "rbs_sequence": "AGGAAGAAATAATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "AAATA",
+      "predicted_rate": -282.3829373230492,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_014",
+      "rbs_sequence": "AGGAGGACTCAATG",
+      "sd_sequence": "AGGAGG",
+      "spacer_sequence": "ACTCA",
+      "predicted_rate": -286.2082339188128,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_015",
+      "rbs_sequence": "AAGGAGTTTCTCATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "TTTCTC",
+      "predicted_rate": -300.43326718696505,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_016",
+      "rbs_sequence": "AAGGAGTTTACAACCATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "TTTACAACC",
+      "predicted_rate": -303.5622448392487,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_017",
+      "rbs_sequence": "AGGAGGAACCATCTTGATG",
+      "sd_sequence": "AGGAGG",
+      "spacer_sequence": "AACCATCTTG",
+      "predicted_rate": -308.10872366370177,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_018",
+      "rbs_sequence": "AGGAAGTGAGAAATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "TGAGAA",
+      "predicted_rate": -310.35453891425084,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_019",
+      "rbs_sequence": "AGGAAGGGGCCCAGGTATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "GGGCCCAGGT",
+      "predicted_rate": -310.90160786976634,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_020",
+      "rbs_sequence": "AGGAAGTAAACTAATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "TAAACTA",
+      "predicted_rate": -310.95325052223035,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_021",
+      "rbs_sequence": "AGGAAGAGTAATTTAGATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "AGTAATTTAG",
+      "predicted_rate": -312.3009574327239,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_022",
+      "rbs_sequence": "AGGAAGAATTAATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "AATTA",
+      "predicted_rate": -317.6310448377857,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_023",
+      "rbs_sequence": "AGGAAGTAGGAAATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "TAGGAA",
+      "predicted_rate": -326.4958368652018,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_024",
+      "rbs_sequence": "AAGGAGGCAAACATG",
+      "sd_sequence": "AAGGAGG",
+      "spacer_sequence": "CAAAC",
+      "predicted_rate": -328.4367778515232,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_025",
+      "rbs_sequence": "AGGGAGGACAGAAATTATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "GACAGAAATT",
+      "predicted_rate": -329.3333132813583,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_026",
+      "rbs_sequence": "AAGGAGAATCCTATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "AATCCT",
+      "predicted_rate": -336.60376376764015,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_027",
+      "rbs_sequence": "AGGAGGTCTGAAATG",
+      "sd_sequence": "AGGAGG",
+      "spacer_sequence": "TCTGAA",
+      "predicted_rate": -337.09612941513177,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_028",
+      "rbs_sequence": "GAGGAGGGGATATG",
+      "sd_sequence": "GAGGAG",
+      "spacer_sequence": "GGGAT",
+      "predicted_rate": -337.4086671750827,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_029",
+      "rbs_sequence": "AGGGAGAAGCCTGAAGATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "AAGCCTGAAG",
+      "predicted_rate": -342.51557677923097,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_030",
+      "rbs_sequence": "AAGGAGGGTTCGAACCTATG",
+      "sd_sequence": "AAGGAGG",
+      "spacer_sequence": "GTTCGAACCT",
+      "predicted_rate": -344.80264076614384,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_031",
+      "rbs_sequence": "AGGAAGATCTTCAATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "ATCTTCA",
+      "predicted_rate": -352.66085025907347,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_032",
+      "rbs_sequence": "AGGAAGTCTGTCATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "TCTGTC",
+      "predicted_rate": -352.9871395521737,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_033",
+      "rbs_sequence": "AGGAAGTTTAGGATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "TTTAGG",
+      "predicted_rate": -353.4268450268984,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_034",
+      "rbs_sequence": "AAGGAGGTCCTATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "GTCCT",
+      "predicted_rate": -354.6541477276638,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_035",
+      "rbs_sequence": "AGGAGGAGTCAAATG",
+      "sd_sequence": "AGGAGG",
+      "spacer_sequence": "AGTCAA",
+      "predicted_rate": -361.3405799773536,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_036",
+      "rbs_sequence": "AGGGAGTATTGATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "TATTG",
+      "predicted_rate": -366.3488290966229,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_037",
+      "rbs_sequence": "AGGAAGAGAGTGTTGAATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "AGAGTGTTGA",
+      "predicted_rate": -368.8639377838764,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_038",
+      "rbs_sequence": "AGGGAGTACCACAAATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "TACCACAA",
+      "predicted_rate": -372.5436924515782,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_039",
+      "rbs_sequence": "AGGAAGAGTCCCTATG",
+      "sd_sequence": "AGGAAG",
+      "spacer_sequence": "AGTCCCT",
+      "predicted_rate": -374.1607367677188,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_040",
+      "rbs_sequence": "AGGGAGTTGTTAATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "TTGTTA",
+      "predicted_rate": -376.3853673368623,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_041",
+      "rbs_sequence": "AGGAGGTAAACCATG",
+      "sd_sequence": "AGGAGGT",
+      "spacer_sequence": "AAACC",
+      "predicted_rate": -378.2576334863427,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_042",
+      "rbs_sequence": "AAGGAGTATTAAAAATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "TATTAAAA",
+      "predicted_rate": -380.0003539962103,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_043",
+      "rbs_sequence": "AGGAGGGTTGTGAACATG",
+      "sd_sequence": "AGGAGG",
+      "spacer_sequence": "GTTGTGAAC",
+      "predicted_rate": -380.8282242018984,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_044",
+      "rbs_sequence": "AAGGAGTTTCAACACGATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "TTTCAACACG",
+      "predicted_rate": -381.8632457696917,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_045",
+      "rbs_sequence": "AGGAGGTAGAAAAATG",
+      "sd_sequence": "AGGAGGT",
+      "spacer_sequence": "AGAAAA",
+      "predicted_rate": -383.4251308677567,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_046",
+      "rbs_sequence": "AGGGAGATTAACATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "ATTAAC",
+      "predicted_rate": -391.58686569007415,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_047",
+      "rbs_sequence": "AGGGAGTTAACCAGTCATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "TTAACCAGTC",
+      "predicted_rate": -392.27815103297195,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_048",
+      "rbs_sequence": "AGGAGGCTGACATG",
+      "sd_sequence": "AGGAGG",
+      "spacer_sequence": "CTGAC",
+      "predicted_rate": -392.38830646896923,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_049",
+      "rbs_sequence": "AAGGAGGCTCAAAAATG",
+      "sd_sequence": "AAGGAGG",
+      "spacer_sequence": "CTCAAAA",
+      "predicted_rate": -392.728554495629,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_050",
+      "rbs_sequence": "GAGGAGGCTGAAGAATATG",
+      "sd_sequence": "GAGGAG",
+      "spacer_sequence": "GCTGAAGAAT",
+      "predicted_rate": -394.06139213658764,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_051",
+      "rbs_sequence": "GAGGAGGACTTCATG",
+      "sd_sequence": "GAGGAG",
+      "spacer_sequence": "GACTTC",
+      "predicted_rate": -397.2370978082594,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_052",
+      "rbs_sequence": "AGGAGGGGTCATATG",
+      "sd_sequence": "AGGAGG",
+      "spacer_sequence": "GGTCAT",
+      "predicted_rate": -398.19528995329006,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_053",
+      "rbs_sequence": "AAGGAGGCTTGAAGTGTATG",
+      "sd_sequence": "AAGGAGG",
+      "spacer_sequence": "CTTGAAGTGT",
+      "predicted_rate": -398.96010435759877,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_054",
+      "rbs_sequence": "AGGAGGTCTAACAATG",
+      "sd_sequence": "AGGAGGT",
+      "spacer_sequence": "CTAACA",
+      "predicted_rate": -411.6852687380188,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    },
+    {
+      "library_id": "RBS_LIB_055",
+      "rbs_sequence": "AAGGAGACTGATGCATATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "ACTGATGCAT",
+      "predicted_rate": -415.2798527628771,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_056",
+      "rbs_sequence": "AGGAGACAGTAATG",
+      "sd_sequence": "AGGAGA",
+      "spacer_sequence": "CAGTA",
+      "predicted_rate": -419.736531122894,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_057",
+      "rbs_sequence": "AAGGAGGCGTTCATG",
+      "sd_sequence": "AAGGAG",
+      "spacer_sequence": "GCGTTC",
+      "predicted_rate": -419.7833946750813,
+      "strength_category": "Weak",
+      "recommended_use": "High expression"
+    },
+    {
+      "library_id": "RBS_LIB_058",
+      "rbs_sequence": "AAGGAGGTTACCTATG",
+      "sd_sequence": "AAGGAGG",
+      "spacer_sequence": "TTACCT",
+      "predicted_rate": -430.65958593463574,
+      "strength_category": "Weak",
+      "recommended_use": "Low expression"
+    },
+    {
+      "library_id": "RBS_LIB_059",
+      "rbs_sequence": "AGGGAGACAAGCATGCATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "ACAAGCATGC",
+      "predicted_rate": -438.4008717761994,
+      "strength_category": "Weak",
+      "recommended_use": "Moderate expression"
+    },
+    {
+      "library_id": "RBS_LIB_060",
+      "rbs_sequence": "AGGGAGCCATTATG",
+      "sd_sequence": "AGGGAG",
+      "spacer_sequence": "CCATT",
+      "predicted_rate": -439.29348151111105,
+      "strength_category": "Weak",
+      "recommended_use": "Tunable expression"
+    }
+  ],
+  "shine_dalgarno_analysis": [
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
+      "canonical_sd_sites": 0,
+      "variant_sd_sites": 0,
+      "optimal_spacing_sites": 0,
+      "average_sd_strength": 0,
+      "sd_diversity": 0
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
+      "canonical_sd_sites": 0,
+      "variant_sd_sites": 0,
+      "optimal_spacing_sites": 0,
+      "average_sd_strength": 0,
+      "sd_diversity": 0
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
+      "canonical_sd_sites": 0,
+      "variant_sd_sites": 0,
+      "optimal_spacing_sites": 0,
+      "average_sd_strength": 0,
+      "sd_diversity": 0
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
+      "canonical_sd_sites": 0,
+      "variant_sd_sites": 2,
+      "optimal_spacing_sites": 0,
+      "average_sd_strength": 0.6666666666666666,
+      "sd_diversity": 1
+    }
+  ],
+  "spacer_optimization": [
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
+      "optimal_spacer_lengths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tested_spacers": 6,
+      "best_spacer_length": 7,
+      "spacer_length_distribution": [
+        7,
+        5,
+        7,
+        10,
+        10,
+        5,
+        6,
+        5,
+        10,
+        6,
+        6,
+        5,
+        10,
+        5,
+        10,
+        10,
+        8,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
+      "optimal_spacer_lengths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tested_spacers": 6,
+      "best_spacer_length": 5,
+      "spacer_length_distribution": [
+        5,
+        7,
+        10,
+        7,
+        6,
+        5,
+        6,
+        8,
+        6,
+        6,
+        6,
+        6,
+        6,
+        10,
+        5,
+        7,
+        10,
+        5,
+        9,
+        8
+      ]
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
+      "optimal_spacer_lengths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tested_spacers": 6,
+      "best_spacer_length": 5,
+      "spacer_length_distribution": [
+        5,
+        5,
+        6,
+        5,
+        9,
+        6,
+        10,
+        10,
+        7,
+        8,
+        5,
+        10,
+        10,
+        10,
+        6,
+        7,
+        5,
+        5,
+        7,
+        9
+      ]
+    },
+    {
+      "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
+      "optimal_spacer_lengths": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "tested_spacers": 6,
+      "best_spacer_length": 7,
+      "spacer_length_distribution": [
+        7,
+        5,
+        7,
+        5,
+        5,
+        6,
+        7,
+        6,
+        5,
+        9,
+        6,
+        6,
+        10,
+        7,
+        5,
+        8,
+        10,
+        6,
+        5,
+        10
+      ]
+    }
+  ],
+  "metadata": {
+    "tool": "RBS_Calculator",
+    "operation": "translation_initiation_optimization",
+    "sequences_processed": 4,
+    "rbs_variants_generated": 60,
+    "library_variants": 60,
+    "analysis_complete": true,
+    "prediction_model": "Simplified_RBS_Calculator_v2"
+  }
+}

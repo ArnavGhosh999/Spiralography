@@ -1,0 +1,30 @@
+[
+  {
+    "id": "LC726458.1",
+    "length": 737,
+    "gc_content": 37.44911804613297,
+    "nucleotide_counts": {
+      "A": 208,
+      "T": 253,
+      "G": 140,
+      "C": 136,
+      "U": 0,
+      "N": 0
+    },
+    "gene_models_found": 0
+  },
+  {
+    "id": "LC769018.1",
+    "length": 3813,
+    "gc_content": 56.15001311303436,
+    "nucleotide_counts": {
+      "A": 917,
+      "T": 755,
+      "G": 989,
+      "C": 1152,
+      "U": 0,
+      "N": 0
+    },
+    "gene_models_found": 22
+  }
+]

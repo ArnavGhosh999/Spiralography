@@ -1,0 +1,242 @@
+{
+  "domain_annotations": [
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "protein_type": "Spike_protein",
+      "domain_name": "S1_domain",
+      "interpro_id": "IPR002468",
+      "start_position": 14,
+      "end_position": 685,
+      "description": "Receptor binding domain",
+      "confidence": 0.9545122752648371,
+      "source_database": "InterPro"
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "protein_type": "Spike_protein",
+      "domain_name": "S2_domain",
+      "interpro_id": "IPR002469",
+      "start_position": 686,
+      "end_position": 1273,
+      "description": "Fusion domain",
+      "confidence": 0.9335716769059825,
+      "source_database": "InterPro"
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "protein_type": "Spike_protein",
+      "domain_name": "RBD",
+      "interpro_id": "IPR018502",
+      "start_position": 319,
+      "end_position": 541,
+      "description": "Receptor binding domain",
+      "confidence": 0.9688925754099048,
+      "source_database": "InterPro"
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "protein_type": "Spike_protein",
+      "domain_name": "HR1",
+      "interpro_id": "IPR000727",
+      "start_position": 912,
+      "end_position": 984,
+      "description": "Heptad repeat 1",
+      "confidence": 0.9755387315171064,
+      "source_database": "InterPro"
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "protein_type": "Spike_protein",
+      "domain_name": "HR2",
+      "interpro_id": "IPR000727",
+      "start_position": 1163,
+      "end_position": 1213,
+      "description": "Heptad repeat 2",
+      "confidence": 0.9698871063083538,
+      "source_database": "InterPro"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "protein_type": "Polyprotein",
+      "domain_name": "Protease",
+      "interpro_id": "IPR009003",
+      "start_position": 3264,
+      "end_position": 3569,
+      "description": "Main protease",
+      "confidence": 0.9257794116997284,
+      "source_database": "InterPro"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "protein_type": "Polyprotein",
+      "domain_name": "RdRp",
+      "interpro_id": "IPR001205",
+      "start_position": 4393,
+      "end_position": 5324,
+      "description": "RNA-dependent RNA polymerase",
+      "confidence": 0.8567011055024499,
+      "source_database": "InterPro"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "protein_type": "Polyprotein",
+      "domain_name": "Helicase",
+      "interpro_id": "IPR014001",
+      "start_position": 5325,
+      "end_position": 5925,
+      "description": "Superfamily 1 helicase",
+      "confidence": 0.9872406098785258,
+      "source_database": "InterPro"
+    }
+  ],
+  "functional_analysis": [
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "protein_family": "PF01601",
+      "functional_class": "Spike protein",
+      "molecular_function": "Viral structural protein",
+      "biological_process": "Viral life cycle",
+      "cellular_component": "Viral particle"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "protein_family": "PF00680",
+      "functional_class": "Polyprotein",
+      "molecular_function": "Viral structural protein",
+      "biological_process": "Viral life cycle",
+      "cellular_component": "Viral particle"
+    }
+  ],
+  "go_terms": [
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "go_id": "GO:0055036",
+      "go_term": "GO_term_GO:0055036",
+      "evidence_code": "IEA",
+      "source": "InterProScan"
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "go_id": "GO:0046813",
+      "go_term": "GO_term_GO:0046813",
+      "evidence_code": "IEA",
+      "source": "InterProScan"
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "go_id": "GO:0019062",
+      "go_term": "GO_term_GO:0019062",
+      "evidence_code": "IEA",
+      "source": "InterProScan"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "go_id": "GO:0003968",
+      "go_term": "GO_term_GO:0003968",
+      "evidence_code": "IEA",
+      "source": "InterProScan"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "go_id": "GO:0004386",
+      "go_term": "GO_term_GO:0004386",
+      "evidence_code": "IEA",
+      "source": "InterProScan"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "go_id": "GO:0004197",
+      "go_term": "GO_term_GO:0004197",
+      "evidence_code": "IEA",
+      "source": "InterProScan"
+    }
+  ],
+  "pathway_analysis": [
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "pathway_name": "Viral entry",
+      "pathway_id": "PATH_7595",
+      "role": "Key component"
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "pathway_name": "Membrane fusion",
+      "pathway_id": "PATH_1909",
+      "role": "Key component"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "pathway_name": "Viral replication",
+      "pathway_id": "PATH_2525",
+      "role": "Key component"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "pathway_name": "RNA processing",
+      "pathway_id": "PATH_62",
+      "role": "Key component"
+    }
+  ],
+  "protein_families": [
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "family_id": "PF01601",
+      "family_name": "Spike protein family",
+      "clan": "Viral proteins",
+      "superfamily": "Coronavirus proteins"
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "family_id": "PF00680",
+      "family_name": "Polyprotein family",
+      "clan": "Viral proteins",
+      "superfamily": "Coronavirus proteins"
+    }
+  ],
+  "structural_features": [
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "feature_type": "Signal peptide",
+      "start_position": 1,
+      "end_position": 13,
+      "confidence": 0.8766198360178606
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "feature_type": "Transmembrane region",
+      "start_position": 1214,
+      "end_position": 1234,
+      "confidence": 0.8440694839028298
+    },
+    {
+      "protein_id": "LC726458.1_enhanced",
+      "feature_type": "Cytoplasmic domain",
+      "start_position": 1235,
+      "end_position": 1273,
+      "confidence": 0.804617873691932
+    },
+    {
+      "protein_id": "LC769018.1_enhanced",
+      "feature_type": "Active site",
+      "start_position": 3300,
+      "end_position": 3310,
+      "confidence": 0.9156813595146452
+    }
+  ],
+  "metadata": {
+    "tool": "InterProScan",
+    "operation": "domain_function_annotation",
+    "proteins_analyzed": 2,
+    "domains_found": 8,
+    "go_terms_assigned": 6,
+    "pathways_identified": 4,
+    "analysis_complete": true,
+    "databases_searched": [
+      "InterPro",
+      "Pfam",
+      "SMART",
+      "SUPERFAMILY",
+      "Gene3D"
+    ]
+  }
+}

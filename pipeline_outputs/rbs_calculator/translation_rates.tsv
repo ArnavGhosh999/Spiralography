@@ -1,0 +1,5 @@
+Construct_ID	Natural_Rate	Optimized_Rate	Improvement_Factor	Optimization_Success	RBS_Strength
+Spike_mRNA_structure_optimized_hairpin_stabilized_optimized	0.0000	-231.6535	1.00	56	Weak
+Spike_mRNA_structure_optimized_riboswitch_like_optimized	0.0000	-260.5611	1.00	57	Weak
+Spike_mRNA_structure_optimized_pseudoknot_optimized	0.0000	-171.6137	1.00	58	Weak
+Spike_mRNA_structure_optimized_kissing_loop_optimized	109.9994	-255.5904	-2.32	58	Weak

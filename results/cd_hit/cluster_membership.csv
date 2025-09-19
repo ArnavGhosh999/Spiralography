@@ -1,0 +1,3 @@
+sequence_id,cluster_id,is_representative,cluster_size,similarity_to_representative
+LC769018.1,0,True,1,1.0
+LC726458.1,1,True,1,1.0

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core" level="3" version="1">
+  <model id="RNA_Folding_Network" name="RNA Folding Biochemical Network">
+    <listOfCompartments>
+      <compartment id="cytoplasm" spatialDimensions="3" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="RNA_unfolded" compartment="cytoplasm" initialConcentration="1.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="RNA_intermediate1" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="RNA_intermediate2" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="RNA_folded" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Ribosome" compartment="cytoplasm" initialConcentration="0.1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="RNA_Ribosome_complex" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Protein" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="mRNA_degraded" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <listOfReactions>
+      <reaction id="folding_reaction" reversible="true">
+        <listOfReactants>
+          <speciesReference species="RNA_unfolded" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="RNA_folded" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="intermediate_formation1" reversible="true">
+        <listOfReactants>
+          <speciesReference species="RNA_unfolded" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="RNA_intermediate1" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="intermediate_formation2" reversible="true">
+        <listOfReactants>
+          <speciesReference species="RNA_intermediate1" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="RNA_intermediate2" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="final_folding" reversible="true">
+        <listOfReactants>
+          <speciesReference species="RNA_intermediate2" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="RNA_folded" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="ribosome_binding" reversible="true">
+        <listOfReactants>
+          <speciesReference species="RNA_folded" stoichiometry="1"/>
+          <speciesReference species="Ribosome" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="RNA_Ribosome_complex" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="translation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="RNA_Ribosome_complex" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="Protein" stoichiometry="1"/>
+          <speciesReference species="RNA_folded" stoichiometry="1"/>
+          <speciesReference species="Ribosome" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="mrna_degradation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="RNA_folded" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="mRNA_degraded" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+      <reaction id="unfolded_degradation" reversible="false">
+        <listOfReactants>
+          <speciesReference species="RNA_unfolded" stoichiometry="1"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference species="mRNA_degraded" stoichiometry="1"/>
+        </listOfProducts>
+      </reaction>
+    </listOfReactions>
+  </model>
+</sbml>

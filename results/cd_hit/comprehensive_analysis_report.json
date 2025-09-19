@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "title": "CD-HIT Sequence Clustering with OpenBioLLM Analysis",
+    "dataset": "SARS-CoV-2 Spike mRNA",
+    "analysis_date": "2025-09-14T15:49:00.949994",
+    "input_file": "assets\\SarsCov2SpikemRNA.fasta",
+    "output_directory": "DNA_Sequencing\\results\\cd_hit"
+  },
+  "dataset_statistics": {
+    "total_sequences": 2,
+    "total_nucleotides": 4550,
+    "average_length": 2275.0,
+    "length_std": 1538.0,
+    "average_gc_content": 46.79956557958367,
+    "gc_content_std": 9.350447533450694,
+    "average_complexity": 0.6371178594388576,
+    "length_range": [
+      737,
+      3813
+    ],
+    "gc_range": [
+      37.44911804613297,
+      56.15001311303436
+    ]
+  },
+  "clustering_results": {
+    "similarity_threshold": 0.9,
+    "total_clusters_formed": 2,
+    "singleton_clusters": 2,
+    "multi_member_clusters": 0,
+    "largest_cluster_size": 1,
+    "average_cluster_size": 1.0,
+    "sequence_reduction_percentage": 0.0,
+    "representative_sequences": 2,
+    "average_within_cluster_similarity": 1.0
+  },
+  "llm_analysis": {
+    "sequences_analyzed": 2,
+    "average_predicted_similarity": 0.85,
+    "unique_functional_annotations": 1,
+    "unique_clustering_recommendations": 2,
+    "most_common_annotation": [
+      "coding_region_start",
+      2
+    ]
+  },
+  "threshold_comparison": {
+    "0.95": {
+      "clusters_formed": 2,
+      "reduction_percentage": 0.0,
+      "largest_cluster": 1
+    },
+    "0.9": {
+      "clusters_formed": 2,
+      "reduction_percentage": 0.0,
+      "largest_cluster": 1
+    },
+    "0.85": {
+      "clusters_formed": 2,
+      "reduction_percentage": 0.0,
+      "largest_cluster": 1
+    },
+    "0.8": {
+      "clusters_formed": 2,
+      "reduction_percentage": 0.0,
+      "largest_cluster": 1
+    }
+  }
+}

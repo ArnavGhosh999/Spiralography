@@ -1,0 +1,3 @@
+sequence_id,predicted_similarity,functional_annotation,clustering_recommendation,predicted_features
+LC726458.1,0.82,coding_region_start,low_gc_cluster,length_based;gc_content;codon_usage
+LC769018.1,0.88,coding_region_start,high_gc_cluster,length_based;gc_content;codon_usage

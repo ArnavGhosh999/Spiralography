@@ -1,0 +1,351 @@
+{
+  "rna_families": [
+    {
+      "source_protein": "LC726458.1_enhanced",
+      "rfam_id": "RF00507",
+      "family_name": "Coronavirus_5UTR",
+      "description": "5 untranslated region with stem-loop structures",
+      "rna_type": "cis-regulatory",
+      "confidence_score": 0.7883962818305198,
+      "e_value": "9.36e-11",
+      "bit_score": 61.16264191332969
+    },
+    {
+      "source_protein": "LC726458.1_enhanced",
+      "rfam_id": "RF00165",
+      "family_name": "Coronavirus_3UTR",
+      "description": "3 untranslated region",
+      "rna_type": "cis-regulatory",
+      "confidence_score": 0.9198875397811657,
+      "e_value": "5.65e-11",
+      "bit_score": 77.98820445958341
+    },
+    {
+      "source_protein": "LC726458.1_enhanced",
+      "rfam_id": "RF_SPIKE01",
+      "family_name": "Spike_mRNA_structure",
+      "description": "Spike protein mRNA structural elements",
+      "rna_type": "mRNA",
+      "confidence_score": 0.7543044996826525,
+      "e_value": "4.09e-11",
+      "bit_score": 126.90625593887913
+    },
+    {
+      "source_protein": "LC769018.1_enhanced",
+      "rfam_id": "RF00198",
+      "family_name": "Coronavirus_frameshiftSite",
+      "description": "Programmed ribosomal frameshift site",
+      "rna_type": "regulatory",
+      "confidence_score": 0.8472003965199641,
+      "e_value": "1.02e-11",
+      "bit_score": 67.62602186701807
+    },
+    {
+      "source_protein": "LC769018.1_enhanced",
+      "rfam_id": "RF03117",
+      "family_name": "Coronavirus_TRS",
+      "description": "Transcription regulatory sequence",
+      "rna_type": "regulatory",
+      "confidence_score": 0.9178827121698117,
+      "e_value": "3.87e-11",
+      "bit_score": 66.86379075949223
+    }
+  ],
+  "secondary_structures": [
+    {
+      "rfam_id": "RF00507",
+      "family_name": "Coronavirus_5UTR",
+      "predicted_structure": "((((....))))..((((....))))...(((((....)))))",
+      "structure_confidence": 0.7545247489506786,
+      "minimum_free_energy": -35.30137390383281,
+      "ensemble_diversity": 17.075441172443604,
+      "structure_elements": [
+        {
+          "type": "stem-loop",
+          "position": "15-45",
+          "stability": "high"
+        },
+        {
+          "type": "bulge",
+          "position": "80-85",
+          "stability": "medium"
+        },
+        {
+          "type": "internal_loop",
+          "position": "120-130",
+          "stability": "medium"
+        }
+      ]
+    },
+    {
+      "rfam_id": "RF00165",
+      "family_name": "Coronavirus_3UTR",
+      "predicted_structure": "((((...))))...((((...))))...(((((....))))).",
+      "structure_confidence": 0.8715583297827445,
+      "minimum_free_energy": -38.6302162517801,
+      "ensemble_diversity": 17.361689839947424,
+      "structure_elements": [
+        {
+          "type": "stem-loop",
+          "position": "15-45",
+          "stability": "high"
+        },
+        {
+          "type": "bulge",
+          "position": "80-85",
+          "stability": "medium"
+        },
+        {
+          "type": "internal_loop",
+          "position": "120-130",
+          "stability": "medium"
+        }
+      ]
+    },
+    {
+      "rfam_id": "RF_SPIKE01",
+      "family_name": "Spike_mRNA_structure",
+      "predicted_structure": "((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...((((....))))...",
+      "structure_confidence": 0.852841972930352,
+      "minimum_free_energy": -37.753166256578396,
+      "ensemble_diversity": 14.727699956752378,
+      "structure_elements": []
+    },
+    {
+      "rfam_id": "RF00198",
+      "family_name": "Coronavirus_frameshiftSite",
+      "predicted_structure": "(((((....)))))..",
+      "structure_confidence": 0.7845674981646495,
+      "minimum_free_energy": -48.53590762579362,
+      "ensemble_diversity": 18.870856415550932,
+      "structure_elements": [
+        {
+          "type": "pseudoknot",
+          "position": "10-40",
+          "stability": "high"
+        },
+        {
+          "type": "slippery_site",
+          "position": "5-12",
+          "stability": "high"
+        }
+      ]
+    },
+    {
+      "rfam_id": "RF03117",
+      "family_name": "Coronavirus_TRS",
+      "predicted_structure": "(((...)))",
+      "structure_confidence": 0.7778956523247904,
+      "minimum_free_energy": -25.468483023542767,
+      "ensemble_diversity": 25.406992757801934,
+      "structure_elements": []
+    }
+  ],
+  "covariance_models": [
+    {
+      "rfam_id": "RF00507",
+      "model_name": "CM_Coronavirus_5UTR",
+      "model_length": 273,
+      "consensus_length": 204,
+      "calibrated": true,
+      "gathering_threshold": 29.066728952176874,
+      "trusted_cutoff": 40.10491581619511
+    },
+    {
+      "rfam_id": "RF00165",
+      "model_name": "CM_Coronavirus_3UTR",
+      "model_length": 386,
+      "consensus_length": 331,
+      "calibrated": true,
+      "gathering_threshold": 32.796514299291005,
+      "trusted_cutoff": 48.4819224561038
+    },
+    {
+      "rfam_id": "RF_SPIKE01",
+      "model_name": "CM_Spike_mRNA_structure",
+      "model_length": 3438,
+      "consensus_length": 3853,
+      "calibrated": true,
+      "gathering_threshold": 30.263657612038067,
+      "trusted_cutoff": 42.6236155236503
+    },
+    {
+      "rfam_id": "RF00198",
+      "model_name": "CM_Coronavirus_frameshiftSite",
+      "model_length": 59,
+      "consensus_length": 65,
+      "calibrated": true,
+      "gathering_threshold": 35.49248159700558,
+      "trusted_cutoff": 52.05688712580208
+    },
+    {
+      "rfam_id": "RF03117",
+      "model_name": "CM_Coronavirus_TRS",
+      "model_length": 23,
+      "consensus_length": 40,
+      "calibrated": true,
+      "gathering_threshold": 29.32272906728671,
+      "trusted_cutoff": 54.02604525048307
+    }
+  ],
+  "structural_annotations": [
+    {
+      "rfam_id": "RF00507",
+      "start_position": 1,
+      "end_position": 285,
+      "strand": "+",
+      "gc_content": 54.00141926876519,
+      "conserved_positions": 44,
+      "variable_positions": 16
+    },
+    {
+      "rfam_id": "RF00165",
+      "start_position": 1,
+      "end_position": 367,
+      "strand": "+",
+      "gc_content": 48.92765617570328,
+      "conserved_positions": 35,
+      "variable_positions": 20
+    },
+    {
+      "rfam_id": "RF_SPIKE01",
+      "start_position": 1,
+      "end_position": 3540,
+      "strand": "+",
+      "gc_content": 43.5269072493975,
+      "conserved_positions": 35,
+      "variable_positions": 17
+    },
+    {
+      "rfam_id": "RF00198",
+      "start_position": 1,
+      "end_position": 86,
+      "strand": "+",
+      "gc_content": 38.54811439794968,
+      "conserved_positions": 30,
+      "variable_positions": 10
+    },
+    {
+      "rfam_id": "RF03117",
+      "start_position": 1,
+      "end_position": 25,
+      "strand": "+",
+      "gc_content": 32.17419386697862,
+      "conserved_positions": 31,
+      "variable_positions": 10
+    }
+  ],
+  "family_alignments": [
+    {
+      "rfam_id": "RF00507",
+      "alignment_type": "Stockholm",
+      "num_sequences": 243,
+      "alignment_length": 286,
+      "consensus_identity": 75.74835842398545,
+      "structure_conservation": 77.40921580839334
+    },
+    {
+      "rfam_id": "RF00165",
+      "alignment_type": "Stockholm",
+      "num_sequences": 100,
+      "alignment_length": 366,
+      "consensus_identity": 83.87848855435132,
+      "structure_conservation": 81.73092238088617
+    },
+    {
+      "rfam_id": "RF_SPIKE01",
+      "alignment_type": "Stockholm",
+      "num_sequences": 358,
+      "alignment_length": 3285,
+      "consensus_identity": 67.97591193658832,
+      "structure_conservation": 70.66892758492334
+    },
+    {
+      "rfam_id": "RF00198",
+      "alignment_type": "Stockholm",
+      "num_sequences": 287,
+      "alignment_length": 100,
+      "consensus_identity": 74.82550974326368,
+      "structure_conservation": 72.57280182246576
+    },
+    {
+      "rfam_id": "RF03117",
+      "alignment_type": "Stockholm",
+      "num_sequences": 294,
+      "alignment_length": 34,
+      "consensus_identity": 76.03439953610163,
+      "structure_conservation": 76.7060628484927
+    }
+  ],
+  "functional_rnas": [
+    {
+      "rfam_id": "RF00507",
+      "functional_class": "cis-regulatory",
+      "biological_function": "Viral RNA regulation",
+      "cellular_localization": "Cytoplasm",
+      "interaction_partners": [
+        "Viral proteins",
+        "Host ribosomes"
+      ],
+      "conservation_level": "High"
+    },
+    {
+      "rfam_id": "RF00165",
+      "functional_class": "cis-regulatory",
+      "biological_function": "Viral RNA regulation",
+      "cellular_localization": "Cytoplasm",
+      "interaction_partners": [
+        "Viral proteins",
+        "Host ribosomes"
+      ],
+      "conservation_level": "High"
+    },
+    {
+      "rfam_id": "RF_SPIKE01",
+      "functional_class": "mRNA",
+      "biological_function": "Viral replication",
+      "cellular_localization": "Cytoplasm",
+      "interaction_partners": [
+        "Viral proteins",
+        "Host ribosomes"
+      ],
+      "conservation_level": "Medium"
+    },
+    {
+      "rfam_id": "RF00198",
+      "functional_class": "regulatory",
+      "biological_function": "Viral RNA regulation",
+      "cellular_localization": "Cytoplasm",
+      "interaction_partners": [
+        "Viral proteins",
+        "Host ribosomes"
+      ],
+      "conservation_level": "Medium"
+    },
+    {
+      "rfam_id": "RF03117",
+      "functional_class": "regulatory",
+      "biological_function": "Viral RNA regulation",
+      "cellular_localization": "Cytoplasm",
+      "interaction_partners": [
+        "Viral proteins",
+        "Host ribosomes"
+      ],
+      "conservation_level": "Medium"
+    }
+  ],
+  "metadata": {
+    "tool": "Rfam",
+    "operation": "rna_family_classification_structure_prediction",
+    "rna_families_identified": 5,
+    "structures_predicted": 5,
+    "covariance_models_used": 5,
+    "analysis_complete": true,
+    "databases_searched": [
+      "Rfam",
+      "RNAcentral",
+      "CovidRNA"
+    ],
+    "structure_prediction_method": "Covariance models + thermodynamic folding"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cluster_report": [
+    {
+      "cluster_id": 0,
+      "representative_id": "LC726458.1_enhanced",
+      "representative_length": 737,
+      "num_members": 1,
+      "member_ids": [
+        "LC726458.1_enhanced"
+      ],
+      "avg_similarity": 100.0,
+      "min_similarity": 100.0,
+      "max_similarity": 100.0
+    },
+    {
+      "cluster_id": 1,
+      "representative_id": "LC769018.1_enhanced",
+      "representative_length": 3813,
+      "num_members": 1,
+      "member_ids": [
+        "LC769018.1_enhanced"
+      ],
+      "avg_similarity": 100.0,
+      "min_similarity": 100.0,
+      "max_similarity": 100.0
+    }
+  ],
+  "statistics": {
+    "total_input_sequences": 2,
+    "total_clusters": 2,
+    "representative_sequences": 2,
+    "reduction_ratio_percent": 0.0,
+    "similarity_threshold": 90.0,
+    "largest_cluster_size": 1,
+    "smallest_cluster_size": 1,
+    "avg_cluster_size": 1.0
+  },
+  "metadata": {
+    "tool": "CD-HIT",
+    "operation": "sequence_clustering",
+    "similarity_threshold": 90.0,
+    "clustering_complete": true
+  }
+}
