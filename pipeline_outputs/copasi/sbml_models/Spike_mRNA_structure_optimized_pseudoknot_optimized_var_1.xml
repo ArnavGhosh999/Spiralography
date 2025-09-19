@@ -5,11 +5,11 @@
       <compartment id="cytoplasm" spatialDimensions="3" size="1" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
-      <species id="RNA_unfolded" compartment="cytoplasm" initialConcentration="1.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="RNA_intermediate1" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="RNA_intermediate2" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="RNA_folded" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
-      <species id="Ribosome" compartment="cytoplasm" initialConcentration="0.1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="RNA_unfolded" compartment="cytoplasm" initialConcentration="10.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="RNA_intermediate1" compartment="cytoplasm" initialConcentration="0.1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="RNA_intermediate2" compartment="cytoplasm" initialConcentration="0.1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="RNA_folded" compartment="cytoplasm" initialConcentration="0.1" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
+      <species id="Ribosome" compartment="cytoplasm" initialConcentration="5.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="RNA_Ribosome_complex" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="Protein" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>
       <species id="mRNA_degraded" compartment="cytoplasm" initialConcentration="0.0" hasOnlySubstanceUnits="false" boundaryCondition="false" constant="false"/>

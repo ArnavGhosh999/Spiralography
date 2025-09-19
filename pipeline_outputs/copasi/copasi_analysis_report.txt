@@ -3,36 +3,36 @@ COPASI Biochemical Network Simulation Report
 
 Simulation Summary:
   Networks simulated: 10
-  Average folding efficiency: nan
-  Average translation efficiency: nan
-  Average protein concentration: inf µM
-  Maximum folding efficiency: nan
+  Average folding efficiency: 0.999
+  Average translation efficiency: 0.713
+  Average protein concentration: 8.950502 µM
+  Maximum folding efficiency: 0.999
   Simulation success rate: 100.0%
 
 Network Analysis Results:
 -------------------------
 Network 1: Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_var_1
-  Folding efficiency: nan
-  Translation efficiency: nan
-  Protein production: inf µM
+  Folding efficiency: 0.999
+  Translation efficiency: 1.009
+  Protein production: 8.733290 µM
 
 Network 2: Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_var_2
-  Folding efficiency: nan
-  Translation efficiency: nan
-  Protein production: inf µM
+  Folding efficiency: 0.998
+  Translation efficiency: 0.601
+  Protein production: 9.032619 µM
 
 Network 3: Spike_mRNA_structure_optimized_hairpin_stabilized_optimized_var_3
-  Folding efficiency: nan
-  Translation efficiency: nan
-  Protein production: inf µM
+  Folding efficiency: 0.998
+  Translation efficiency: 0.516
+  Protein production: 9.095158 µM
 
 Network 4: Spike_mRNA_structure_optimized_riboswitch_like_optimized_var_1
-  Folding efficiency: nan
-  Translation efficiency: nan
-  Protein production: inf µM
+  Folding efficiency: 0.999
+  Translation efficiency: 1.116
+  Protein production: 8.654724 µM
 
 Network 5: Spike_mRNA_structure_optimized_riboswitch_like_optimized_var_2
-  Folding efficiency: nan
-  Translation efficiency: nan
-  Protein production: inf µM
+  Folding efficiency: 0.998
+  Translation efficiency: 0.529
+  Protein production: 9.085335 µM
 
