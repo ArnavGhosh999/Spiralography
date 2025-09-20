@@ -1,0 +1,103 @@
+{
+  "export_timestamp": "2025-09-20T08:10:15.755143",
+  "files_created": [
+    "pipeline_outputs/exported_data/fasta_exports/initial_sequences.fasta",
+    "pipeline_outputs/exported_data/fasta_exports/ensembl_sequences.fasta",
+    "pipeline_outputs/exported_data/fasta_exports/dnachisel_optimized.fasta",
+    "pipeline_outputs/exported_data/fasta_exports/mrnaid_optimized.fasta",
+    "pipeline_outputs/exported_data/fasta_exports/benchling_final.fasta",
+    "pipeline_outputs/exported_data/csv_exports/performance_metrics.csv",
+    "pipeline_outputs/exported_data/csv_exports/quality_assessment.csv",
+    "pipeline_outputs/exported_data/csv_exports/pipeline_efficiency.csv",
+    "pipeline_outputs/exported_data/json_exports/complete_pipeline_results.json",
+    "pipeline_outputs/exported_data/json_exports/pipeline_metadata.json",
+    "pipeline_outputs/exported_data/visualizations\\diamond_alignment_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\diamond_alignment_quality_heatmap.png",
+    "pipeline_outputs/exported_data/visualizations\\interproscan_domain_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\interproscan_domain_architecture.png",
+    "pipeline_outputs/exported_data/visualizations\\rfam_rfam_comprehensive_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\rfam_rna_secondary_structures.png",
+    "pipeline_outputs/exported_data/visualizations\\viennarna_viennarna_comprehensive_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\viennarna_viennarna_detailed_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\viennarna_viennarna_thermodynamic_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\dnachisel_dnachisel_comprehensive_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\dnachisel_dnachisel_detailed_comparison.png",
+    "pipeline_outputs/exported_data/visualizations\\iedb_iedb_comprehensive_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\iedb_iedb_detailed_epitope_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\crispor_crispor_comprehensive_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\crispor_crispor_detailed_analysis.png",
+    "pipeline_outputs/exported_data/visualizations\\integrated_results_pipeline_integration_analysis.png",
+    "pipeline_outputs/exported_data/reports\\executive_summary.md"
+  ],
+  "export_statistics": {
+    "fasta_exports": {
+      "initial_sequences": {
+        "filename": "pipeline_outputs/exported_data/fasta_exports/initial_sequences.fasta",
+        "sequence_count": 2,
+        "file_size_kb": 0.548828125
+      },
+      "ensembl_sequences": {
+        "filename": "pipeline_outputs/exported_data/fasta_exports/ensembl_sequences.fasta",
+        "sequence_count": 2,
+        "file_size_kb": 0.548828125
+      },
+      "dnachisel_optimized": {
+        "filename": "pipeline_outputs/exported_data/fasta_exports/dnachisel_optimized.fasta",
+        "sequence_count": 4,
+        "file_size_kb": 0.171875
+      },
+      "mrnaid_optimized": {
+        "filename": "pipeline_outputs/exported_data/fasta_exports/mrnaid_optimized.fasta",
+        "sequence_count": 1,
+        "file_size_kb": 0.0673828125
+      },
+      "benchling_final": {
+        "filename": "pipeline_outputs/exported_data/fasta_exports/benchling_final.fasta",
+        "sequence_count": 10,
+        "file_size_kb": 1.0380859375
+      }
+    },
+    "csv_exports": {
+      "performance_metrics": {
+        "filename": "pipeline_outputs/exported_data/csv_exports/performance_metrics.csv",
+        "row_count": 40,
+        "file_size_kb": 1.447265625
+      },
+      "quality_assessment": {
+        "filename": "pipeline_outputs/exported_data/csv_exports/quality_assessment.csv",
+        "row_count": 3,
+        "file_size_kb": 0.1884765625
+      },
+      "pipeline_efficiency": {
+        "filename": "pipeline_outputs/exported_data/csv_exports/pipeline_efficiency.csv",
+        "row_count": 4,
+        "file_size_kb": 0.20703125
+      }
+    },
+    "json_exports": {
+      "complete_results": {
+        "filename": "pipeline_outputs/exported_data/json_exports/complete_pipeline_results.json",
+        "file_size_kb": 11306.1298828125
+      },
+      "metadata": {
+        "filename": "pipeline_outputs/exported_data/json_exports/pipeline_metadata.json",
+        "file_size_kb": 0.216796875
+      }
+    },
+    "visualizations_copied": 16,
+    "reports_copied": 1,
+    "total_files_created": 27
+  },
+  "package_info": {
+    "comprehensive": {
+      "filename": "pipeline_outputs/exported_data/portable_packages/comprehensive_pipeline_results.zip",
+      "file_size_mb": 9.735086441040039,
+      "files_included": 27
+    },
+    "sequences_only": {
+      "filename": "pipeline_outputs/exported_data/portable_packages/sequences_only.zip",
+      "file_size_mb": 0.0013904571533203125,
+      "fasta_files_included": 5
+    }
+  }
+}

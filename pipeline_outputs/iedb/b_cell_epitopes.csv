@@ -1,1 +1,1 @@
-Construct_ID,Peptide,Start_Position,Length,Antigenicity_Score,Surface_Accessibility,Hydrophilicity\n
+Construct_ID,Peptide,Start_Position,Length,Antigenicity_Score,Surface_Accessibility,Hydrophilicity\nSpike_mRNA_structure_optimized_riboswitch_like_optimized,RRDTHY,9,6,0.6262,0.9700,0.8333\n

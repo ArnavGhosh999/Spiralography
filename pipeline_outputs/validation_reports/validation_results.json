@@ -1,0 +1,209 @@
+{
+  "validation_timestamp": "2025-09-20T08:15:02.756302",
+  "pipeline_status": "EXCELLENT",
+  "validation_tests": {
+    "stages_completion": {
+      "test_name": "Pipeline Stages Completion",
+      "expected": 17,
+      "actual": 17,
+      "passed": true,
+      "score": 1.0
+    },
+    "integration_available": {
+      "test_name": "Integration Results Available",
+      "expected": true,
+      "actual": true,
+      "passed": true,
+      "score": 1.0
+    },
+    "export_available": {
+      "test_name": "Export Results Available",
+      "expected": true,
+      "actual": true,
+      "passed": true,
+      "score": 1.0
+    },
+    "quality_metrics": {
+      "test_name": "Quality Metrics Acceptable",
+      "expected": ">= 0.8",
+      "actual": 0.9111111111111111,
+      "passed": "True",
+      "score": 1.0
+    }
+  },
+  "consistency_checks": {
+    "data_flow": {
+      "check_name": "Data Flow Consistency",
+      "passed": true,
+      "issues": [],
+      "score": 1.0
+    },
+    "metadata": {
+      "check_name": "Metadata Consistency",
+      "passed": true,
+      "issues": [],
+      "score": 1.0
+    },
+    "performance_metrics": {
+      "check_name": "Performance Metrics Consistency",
+      "passed": true,
+      "issues": [],
+      "score": 1.0
+    }
+  },
+  "quality_metrics": {
+    "stage_validation": {
+      "total_stages": 17,
+      "stages_passed": 17,
+      "stages_with_issues": 0,
+      "stage_pass_rate": 1.0,
+      "individual_results": {
+        "ensembl": {
+          "stage_name": "ensembl",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "biopython": {
+          "stage_name": "biopython",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "cdhit": {
+          "stage_name": "cdhit",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "diamond": {
+          "stage_name": "diamond",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "interproscan": {
+          "stage_name": "interproscan",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "rfam": {
+          "stage_name": "rfam",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "mrnaid": {
+          "stage_name": "mrnaid",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "cool": {
+          "stage_name": "cool",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "oxdna": {
+          "stage_name": "oxdna",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "viennarna": {
+          "stage_name": "viennarna",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "dnachisel": {
+          "stage_name": "dnachisel",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "iedb": {
+          "stage_name": "iedb",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "crispor": {
+          "stage_name": "crispor",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "rbs_calculator": {
+          "stage_name": "rbs_calculator",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "kinefold": {
+          "stage_name": "kinefold",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "copasi": {
+          "stage_name": "copasi",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        },
+        "benchling": {
+          "stage_name": "benchling",
+          "data_present": true,
+          "expected_structure": true,
+          "data_quality": "GOOD",
+          "issues": []
+        }
+      }
+    },
+    "overall_quality": {
+      "quality_score": 1.0,
+      "test_scores": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "consistency_scores": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "grade": "EXCELLENT"
+    }
+  },
+  "recommendations": [],
+  "final_assessment": {
+    "pipeline_status": "EXCELLENT",
+    "overall_score": 1.0,
+    "total_tests": 4,
+    "tests_passed": 4,
+    "total_checks": 3,
+    "checks_passed": 3,
+    "critical_issues": 0,
+    "total_recommendations": 0
+  }
+}

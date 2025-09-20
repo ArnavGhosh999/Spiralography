@@ -2,38 +2,38 @@
   "optimized_sequences": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "original_dna_sequence": "CTCAGTACGTGTTGACTATTTGCATCCTAACCATCTTCTTACATTGTTTGGGGGAGGTGAGGTGGATGTTTGTATTAGGTTCGCCTCGTACTTTAACACAGAAAATGTATGTAGCTGCGCTACGAATTCATAGTTTACGACTTTAAA",
-      "optimized_dna_sequence": "CTGAGCACCTGCTGACTGTTCGCCAGCTGACCCAGCAGCTACATCGTGTGGGGCCGGTGAGGCGGCTGCCTGTACTGAGTGCGGCTGGTGCTGTGACACCGGAAGTGCATGTGACTGCGGTACGAGTTCATCGTGTACGACTTCAAG",
-      "protein_sequence": "LSTC*LFAS*PSSYIVWGR*GGCLY*VRLVL*HRKCM*LRYEFIVYDFK",
-      "optimization_score": 0.7013022372916436,
-      "sequence_identity": 0.8891535724584879,
+      "original_dna_sequence": "CGCGGGTGCGGAGGCCTGGGCTCTCTATGCCCATGGCGCAGAGCCCTGACGCGTTCGCAAATTAGAGCCTGCGTATGTGACGGTGGGGTATCGGTATCATGAAGACGGCAGTCTCTTTGCCCCCGACGCGCTCCCGCAACAGCGCCGGTGCTTGGCGGAGGAATTCGGGACTGCGGTGTTTAATCGTCCAC",
+      "optimized_dna_sequence": "CGGGGCTGCGGCGGCCTGGGCAGCCTGTGCCCCTGGCGGCGGGCCCTGACCCGGAGCCAGATCCGGGCCTGCGTGTGCGACGGCGGCGTGAGCGTGAGCTGACGGCGGCAGAGCCTGTGCCCCCGGCGGGCCCCCGCCACCGCCCCCGTGCTGGGCGGCGGCATCCGGGACTGCGGCGTGTGAAGCAGC",
+      "protein_sequence": "RGCGGLGSLCPWRRALTRSQIRACVCDGGVSVS*RRQSLCPRRAPATAPVLGGGIRDCGV*SS",
+      "optimization_score": 0.8136036183483377,
+      "sequence_identity": 0.8861027778148958,
       "functional_preserved": true
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "original_dna_sequence": "CTTAGACCAGGTACATTCGATAGGTTCACTTGTCCATCCGAAATCCTCAATTGCGGAAGTTCAGCCCATGTGTTCTTATCTACCCTCCGCAACCTCCTTGATCACTGGAGGTGG",
-      "optimized_dna_sequence": "CTGCGGCCCGGCACCTTCGACCGGTTCACCTGCCCCAGCGAGATCCTGAACTGCGGCAGCAGCGCCCACGTGTTCCTGAGCACCCTGCGGAACCTGCTGGACCACTGGCGGTGG",
-      "protein_sequence": "LRPGTFDRFTCPSEILNCGSSAHVFLSTLRNLLDHWRW",
-      "optimization_score": 0.7077198837057689,
-      "sequence_identity": 0.9276729553569492,
+      "original_dna_sequence": "CGTTCACAGAGGCAGCTAATACTACGACGTGATACACACTATCTTTCTGTCAAAAGTTTCACGTACAATGCAATGGGCGTCAGGTGAGACGTTGGGCGTTACGTTCACTCTAACGAAGATCCAAACAGTTCGATTAATTCCCTAGAATATTTATGCCTTGACTACCCTGTCGCTCCCAACAGATTAACTTGGCG",
+      "optimized_dna_sequence": "CGGAGCCAGCGGCAGCTGATCCTGCGGCGGGACACCCACTACCTGAGCGTGAAGAGCTTCACCTACAACGCCATGGGCGTGCGGTGAGACGTGGGCCGGTACGTGCACAGCAACGAGGACCCCAACAGCAGCATCAACAGCCTGGAGTACCTGTGCCTGGACTACCCCGTGGCCCCCAACCGGCTGACCTGG",
+      "protein_sequence": "RSQRQLILRRDTHYLSVKSFTYNAMGVR*DVGRYVHSNEDPNSSINSLEYLCLDYPVAPNRLTW",
+      "optimization_score": 0.8495127426522102,
+      "sequence_identity": 0.8711130320620407,
       "functional_preserved": true
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "original_dna_sequence": "AGAAATAGCGGGTCAGGACCGAACTTTTCCAGCCACGCTAAAAAGGTGGCGATACCGCGGTTTCGACAAGGAAGTTGTTCAGGGTGTGAACGGTGCGCGCTTGGCCTTGACAAATTACAACTCGATCCCCTGCGATTAACT",
-      "optimized_dna_sequence": "CGGAACAGCGGCAGCGGCCCCAACTTCAGCAGCCACGCCAAGAAGGTGGCCATCCCCCGGTTCCGGCAGGGCAGCTGCAGCGGCTGCGAGCGGTGCGCCCTGGGCCTGGACAAGCTGCAGCTGGACCCCCTGCGGCTGACC",
-      "protein_sequence": "RNSGSGPNFSSHAKKVAIPRFRQGSCSGCERCALGLDKLQLDPLRLT",
-      "optimization_score": 0.7238517531296311,
-      "sequence_identity": 0.8670011219614147,
+      "original_dna_sequence": "TTCAATTTTGATCCTAGAGACGTATTATTGCGCTGGCGCGGTTGCGTAGCCCATAGTGGCATTCAATGAAATCGCCTCTCTCCCTTGGGTGCGTAAGACCGGAAGTAGCTTACATATGTAATTCTGTCGGACTAACACTTAGAATGAACACAAATTACAGGTTTAAATCTCCGAAGGCTAAT",
+      "optimized_dna_sequence": "TTCAACTTCGACCCCCGGGACGTGCTGCTGCGGTGGCGGGGCTGCGTGGCCCACAGCGGCATCCAGTGAAACCGGCTGAGCCCCCTGGGCGCCTGAGACCGGAAGTGACTGACCTACGTGATCCTGAGCGACTGACACCTGGAGTGAACCCAGATCACCGGCCTGAACCTGCGGCGGCTG",
+      "protein_sequence": "FNFDPRDVLLRWRGCVAHSGIQ*NRLSPLGA*DRK*LTYVILSD*HLE*TQITGLNLRRL",
+      "optimization_score": 0.8026962407614677,
+      "sequence_identity": 0.8572383222083623,
       "functional_preserved": true
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "original_dna_sequence": "GGGGCTGCGTCGTACGCCAACCCCGCCGATAGTCGGAAGTCGATGCAACACACACGAATTATTTTGATAATCTCACGCGAGCTGCGGGCGGAAGTGTACCCGAGCTAGAAGTCTCGTCTGGGTAACTACTGTTCTCACTGCAGATCCAGTCCTCTACCATCAAGAAACCACGC",
-      "optimized_dna_sequence": "GGCGCCGCCAGCTACGCCAACCCCGCCGACAGCCGGAAGAGCATGCAGCACACCCGGATCATCCTGATCATCAGCCGGGAGCTGCGGGCCGAGGTGTACCCCAGCTGAAAGAGCCGGCTGGGCAACTACTGCAGCCACTGCCGGAGCAGCCCCCTGCCCAGCCGGAACCAC",
-      "protein_sequence": "GAASYANPADSRKSMQHTRIILIISRELRAEVYPS*KSRLGNYCSHCRSSPLPSRNH",
-      "optimization_score": 0.7471432536235366,
-      "sequence_identity": 0.9000839455246347,
+      "original_dna_sequence": "ATTGAGAACTTAATACAAGGACCATTGCGAGTTGGGAAAGTCTTCACAAAATCAAAGTGTAGAGCTCCTATGATGTCCTTCATCGGCCCGATAAGTTTGCTACGAACTGGGCATTATGGTTTTTAGTTCTGGAATCGATAATTGAATCTATGCGTATTATTTCTTCGACTGAATTTATAAATAGTTAAGG",
+      "optimized_dna_sequence": "ATCGAGAACCTGATCCAGGGCCCCCTGCGGGTGGGCAAGGTGTTCACCAAGAGCAAGTGCCGGGCCCCCATGATGAGCTTCATCGGCCCCATCAGCCTGCTGCGGACCGGCCACTACGGCTTCTGATTCTGGAACCGGTGACTGAACCTGTGCGTGCTGTTCCTGCGGCTGAACCTGTGAATCGTGAAG",
+      "protein_sequence": "IENLIQGPLRVGKVFTKSKCRAPMMSFIGPISLLRTGHYGF*FWNR*LNLCVLFLRLNL*IVK",
+      "optimization_score": 0.7533300434980362,
+      "sequence_identity": 0.8787449744957921,
       "functional_preserved": true
     }
   ],
@@ -135,14 +135,14 @@
         {
           "modification_type": "codon_optimization",
           "description": "Optimized codons for human expression",
-          "positions_changed": 46,
-          "old_sequence": "CTCAGTACGTGTTGACTATTTGCATCCTAACCATCTTCTTACATTGTTTG...",
-          "new_sequence": "CTGAGCACCTGCTGACTGTTCGCCAGCTGACCCAGCAGCTACATCGTGTG..."
+          "positions_changed": 57,
+          "old_sequence": "CGCGGGTGCGGAGGCCTGGGCTCTCTATGCCCATGGCGCAGAGCCCTGAC...",
+          "new_sequence": "CGGGGCTGCGGCGGCCTGGGCAGCCTGTGCCCCTGGCGGCGGGCCCTGAC..."
         },
         {
           "modification_type": "gc_content_adjustment",
-          "description": "Adjusted GC content from 0.605 to target 0.500",
-          "old_gc_content": 0.6054421768707483,
+          "description": "Adjusted GC content from 0.799 to target 0.500",
+          "old_gc_content": 0.798941798941799,
           "target_gc_content": 0.5
         }
       ]
@@ -153,14 +153,14 @@
         {
           "modification_type": "codon_optimization",
           "description": "Optimized codons for human expression",
-          "positions_changed": 33,
-          "old_sequence": "CTTAGACCAGGTACATTCGATAGGTTCACTTGTCCATCCGAAATCCTCAA...",
-          "new_sequence": "CTGCGGCCCGGCACCTTCGACCGGTTCACCTGCCCCAGCGAGATCCTGAA..."
+          "positions_changed": 57,
+          "old_sequence": "CGTTCACAGAGGCAGCTAATACTACGACGTGATACACACTATCTTTCTGT...",
+          "new_sequence": "CGGAGCCAGCGGCAGCTGATCCTGCGGCGGGACACCCACTACCTGAGCGT..."
         },
         {
           "modification_type": "gc_content_adjustment",
-          "description": "Adjusted GC content from 0.693 to target 0.500",
-          "old_gc_content": 0.6929824561403509,
+          "description": "Adjusted GC content from 0.656 to target 0.500",
+          "old_gc_content": 0.65625,
           "target_gc_content": 0.5
         }
       ]
@@ -171,25 +171,15 @@
         {
           "modification_type": "codon_optimization",
           "description": "Optimized codons for human expression",
-          "positions_changed": 42,
-          "old_sequence": "AGAAATAGCGGGTCAGGACCGAACTTTTCCAGCCACGCTAAAAAGGTGGC...",
-          "new_sequence": "CGGAACAGCGGCAGCGGCCCCAACTTCAGCAGCCACGCCAAGAAGGTGGC..."
+          "positions_changed": 54,
+          "old_sequence": "TTCAATTTTGATCCTAGAGACGTATTATTGCGCTGGCGCGGTTGCGTAGC...",
+          "new_sequence": "TTCAACTTCGACCCCCGGGACGTGCTGCTGCGGTGGCGGGGCTGCGTGGC..."
         },
         {
           "modification_type": "gc_content_adjustment",
-          "description": "Adjusted GC content from 0.723 to target 0.500",
-          "old_gc_content": 0.723404255319149,
+          "description": "Adjusted GC content from 0.667 to target 0.500",
+          "old_gc_content": 0.6666666666666666,
           "target_gc_content": 0.5
-        },
-        {
-          "modification_type": "restriction_site_removal",
-          "description": "Removed PstI site (CTGCAG)",
-          "enzyme": "PstI",
-          "site_sequence": "CTGCAG",
-          "positions_removed": [
-            74,
-            114
-          ]
         }
       ]
     },
@@ -199,24 +189,15 @@
         {
           "modification_type": "codon_optimization",
           "description": "Optimized codons for human expression",
-          "positions_changed": 49,
-          "old_sequence": "GGGGCTGCGTCGTACGCCAACCCCGCCGATAGTCGGAAGTCGATGCAACA...",
-          "new_sequence": "GGCGCCGCCAGCTACGCCAACCCCGCCGACAGCCGGAAGAGCATGCAGCA..."
+          "positions_changed": 57,
+          "old_sequence": "ATTGAGAACTTAATACAAGGACCATTGCGAGTTGGGAAAGTCTTCACAAA...",
+          "new_sequence": "ATCGAGAACCTGATCCAGGGCCCCCTGCGGGTGGGCAAGGTGTTCACCAA..."
         },
         {
           "modification_type": "gc_content_adjustment",
-          "description": "Adjusted GC content from 0.690 to target 0.500",
-          "old_gc_content": 0.6900584795321637,
+          "description": "Adjusted GC content from 0.614 to target 0.500",
+          "old_gc_content": 0.6137566137566137,
           "target_gc_content": 0.5
-        },
-        {
-          "modification_type": "restriction_site_removal",
-          "description": "Removed PstI site (CTGCAG)",
-          "enzyme": "PstI",
-          "site_sequence": "CTGCAG",
-          "positions_removed": [
-            128
-          ]
         }
       ]
     }
@@ -224,19 +205,19 @@
   "optimization_reports": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "original_sequence_length": 147,
-      "optimized_sequence_length": 147,
+      "original_sequence_length": 191,
+      "optimized_sequence_length": 189,
       "modifications_applied": 2,
-      "constraints_violated_initially": 3,
+      "constraints_violated_initially": 4,
       "optimization_success": true,
       "performance_improvement": {
         "gc_content": {
-          "before": 0.4013605442176871,
-          "after": 0.5144613848083008,
+          "before": 0.6282722513089005,
+          "after": 0.484104997674642,
           "improvement": true
         },
         "cai_score": {
-          "before": 0.7047817665255116,
+          "before": 0.7258427235879816,
           "after": 1.0,
           "improvement": "True"
         },
@@ -246,27 +227,27 @@
           "improvement": true
         },
         "repeats": {
-          "before": 115,
-          "after": 154,
+          "before": 190,
+          "after": 366,
           "improvement": false
         }
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "original_sequence_length": 114,
-      "optimized_sequence_length": 114,
+      "original_sequence_length": 194,
+      "optimized_sequence_length": 192,
       "modifications_applied": 2,
       "constraints_violated_initially": 2,
       "optimization_success": true,
       "performance_improvement": {
         "gc_content": {
-          "before": 0.49122807017543857,
-          "after": 0.5155022671177494,
-          "improvement": false
+          "before": 0.4484536082474227,
+          "after": 0.49729797003641796,
+          "improvement": true
         },
         "cai_score": {
-          "before": 0.7901669764278069,
+          "before": 0.7098096630423556,
           "after": 1.0,
           "improvement": "True"
         },
@@ -276,27 +257,27 @@
           "improvement": false
         },
         "repeats": {
-          "before": 61,
-          "after": 119,
+          "before": 182,
+          "after": 246,
           "improvement": false
         }
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "original_sequence_length": 141,
-      "optimized_sequence_length": 141,
-      "modifications_applied": 3,
+      "original_sequence_length": 182,
+      "optimized_sequence_length": 180,
+      "modifications_applied": 2,
       "constraints_violated_initially": 2,
       "optimization_success": true,
       "performance_improvement": {
         "gc_content": {
-          "before": 0.5177304964539007,
-          "after": 0.5184722243836187,
-          "improvement": false
+          "before": 0.4340659340659341,
+          "after": 0.48759809937907045,
+          "improvement": true
         },
         "cai_score": {
-          "before": 0.6995411888142341,
+          "before": 0.6787592881945254,
           "after": 1.0,
           "improvement": "True"
         },
@@ -306,38 +287,38 @@
           "improvement": false
         },
         "repeats": {
-          "before": 92,
-          "after": 198,
+          "before": 149,
+          "after": 254,
           "improvement": false
         }
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "original_sequence_length": 173,
-      "optimized_sequence_length": 171,
-      "modifications_applied": 3,
+      "original_sequence_length": 190,
+      "optimized_sequence_length": 189,
+      "modifications_applied": 2,
       "constraints_violated_initially": 3,
       "optimization_success": false,
       "performance_improvement": {
         "gc_content": {
-          "before": 0.5433526011560693,
-          "after": 0.49325563683896795,
+          "before": 0.3684210526315789,
+          "after": 0.5154987849838325,
           "improvement": true
         },
         "cai_score": {
-          "before": 0.7675065095100057,
+          "before": 0.6519101611197038,
           "after": 1.0,
           "improvement": "True"
         },
         "restriction_sites": {
-          "before": 1,
+          "before": 0,
           "after": 0,
-          "improvement": true
+          "improvement": false
         },
         "repeats": {
-          "before": 159,
-          "after": 244,
+          "before": 172,
+          "after": 269,
           "improvement": false
         }
       }
@@ -348,6 +329,15 @@
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
       "violations": [
         {
+          "constraint": "gc_content",
+          "violation_type": "out_of_range",
+          "current_value": 0.6282722513089005,
+          "target_range": [
+            0.4,
+            0.6
+          ]
+        },
+        {
           "constraint": "restriction_sites",
           "violation_type": "sites_found",
           "sites": [
@@ -355,7 +345,7 @@
               "enzyme": "EcoRI",
               "site": "GAATTC",
               "positions": [
-                123
+                160
               ],
               "count": 1
             }
@@ -366,60 +356,75 @@
           "violation_type": "repeats_found",
           "repeats": [
             {
-              "sequence": "GTA",
+              "sequence": "CGC",
               "length": 3,
-              "count": 5,
+              "count": 8,
               "positions": [
-                4,
-                71,
-                87,
-                106,
-                110
+                0,
+                36,
+                49,
+                55,
+                126,
+                128,
+                134,
+                142
               ]
             },
             {
-              "sequence": "TAC",
+              "sequence": "GCG",
               "length": 3,
-              "count": 5,
+              "count": 9,
               "positions": [
-                5,
-                39,
-                88,
-                120,
-                135
+                1,
+                7,
+                35,
+                50,
+                70,
+                127,
+                141,
+                154,
+                172
               ]
             },
             {
-              "sequence": "ACG",
+              "sequence": "CGG",
               "length": 3,
-              "count": 3,
+              "count": 9,
               "positions": [
-                6,
-                121,
-                136
-              ]
-            },
-            {
-              "sequence": "GTG",
-              "length": 3,
-              "count": 3,
-              "positions": [
+                2,
                 8,
-                56,
-                61
+                80,
+                91,
+                105,
+                145,
+                155,
+                165,
+                173
               ]
             },
             {
-              "sequence": "TGT",
+              "sequence": "GGG",
+              "length": 3,
+              "count": 5,
+              "positions": [
+                3,
+                17,
+                84,
+                85,
+                166
+              ]
+            },
+            {
+              "sequence": "GGT",
               "length": 3,
               "count": 6,
               "positions": [
-                9,
-                44,
-                66,
-                70,
-                105,
-                109
+                4,
+                81,
+                86,
+                92,
+                146,
+                174
               ]
             }
           ]
@@ -427,7 +432,7 @@
         {
           "constraint": "cai_optimization",
           "violation_type": "below_target",
-          "current_value": 0.7047817665255116,
+          "current_value": 0.7258427235879816,
           "target_value": 0.8
         }
       ]
@@ -440,54 +445,67 @@
           "violation_type": "repeats_found",
           "repeats": [
             {
-              "sequence": "CTT",
+              "sequence": "CGT",
               "length": 3,
-              "count": 4,
+              "count": 7,
               "positions": [
                 0,
-                28,
-                74,
-                96
+                27,
+                61,
+                77,
+                89,
+                96,
+                101
               ]
             },
             {
-              "sequence": "ACC",
+              "sequence": "GTT",
               "length": 3,
-              "count": 3,
+              "count": 6,
               "positions": [
-                5,
-                81,
-                91
+                1,
+                55,
+                90,
+                97,
+                102,
+                127
               ]
             },
             {
-              "sequence": "CCA",
+              "sequence": "TTC",
               "length": 3,
-              "count": 3,
+              "count": 6,
               "positions": [
-                6,
-                33,
-                65
+                2,
+                44,
+                57,
+                103,
+                128,
+                137
               ]
             },
             {
-              "sequence": "AGG",
+              "sequence": "TCA",
               "length": 3,
-              "count": 3,
+              "count": 5,
               "positions": [
-                8,
-                21,
-                108
+                3,
+                49,
+                58,
+                79,
+                104
               ]
             },
             {
-              "sequence": "GGT",
+              "sequence": "CAC",
               "length": 3,
-              "count": 3,
+              "count": 5,
               "positions": [
-                9,
-                22,
-                109
+                4,
+                34,
+                36,
+                59,
+                105
               ]
             }
           ]
@@ -495,7 +513,7 @@
         {
           "constraint": "cai_optimization",
           "violation_type": "below_target",
-          "current_value": 0.7901669764278069,
+          "current_value": 0.7098096630423556,
           "target_value": 0.8
         }
       ]
@@ -508,61 +526,61 @@
           "violation_type": "repeats_found",
           "repeats": [
             {
-              "sequence": "GAA",
-              "length": 3,
-              "count": 4,
-              "positions": [
-                1,
-                20,
-                70,
-                87
-              ]
-            },
-            {
-              "sequence": "AAA",
-              "length": 3,
-              "count": 5,
-              "positions": [
-                2,
-                39,
-                40,
-                41,
-                111
-              ]
-            },
-            {
-              "sequence": "GCG",
-              "length": 3,
-              "count": 6,
-              "positions": [
-                7,
-                48,
-                56,
-                94,
-                96,
-                131
-              ]
-            },
-            {
-              "sequence": "CGG",
+              "sequence": "TTC",
               "length": 3,
               "count": 3,
               "positions": [
-                8,
-                57,
-                90
+                0,
+                61,
+                121
               ]
             },
             {
-              "sequence": "GGT",
+              "sequence": "CAA",
               "length": 3,
-              "count": 5,
+              "count": 3,
               "positions": [
-                10,
-                44,
-                58,
-                82,
-                91
+                2,
+                63,
+                150
+              ]
+            },
+            {
+              "sequence": "AAT",
+              "length": 3,
+              "count": 8,
+              "positions": [
+                3,
+                64,
+                69,
+                119,
+                142,
+                152,
+                165,
+                179
+              ]
+            },
+            {
+              "sequence": "ATT",
+              "length": 3,
+              "count": 6,
+              "positions": [
+                4,
+                23,
+                26,
+                60,
+                120,
+                153
+              ]
+            },
+            {
+              "sequence": "TTT",
+              "length": 3,
+              "count": 3,
+              "positions": [
+                5,
+                6,
+                161
               ]
             }
           ]
@@ -570,7 +588,7 @@
         {
           "constraint": "cai_optimization",
           "violation_type": "below_target",
-          "current_value": 0.6995411888142341,
+          "current_value": 0.6787592881945254,
           "target_value": 0.8
         }
       ]
@@ -579,17 +597,12 @@
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
       "violations": [
         {
-          "constraint": "restriction_sites",
-          "violation_type": "sites_found",
-          "sites": [
-            {
-              "enzyme": "PstI",
-              "site": "CTGCAG",
-              "positions": [
-                137
-              ],
-              "count": 1
-            }
+          "constraint": "gc_content",
+          "violation_type": "out_of_range",
+          "current_value": 0.3684210526315789,
+          "target_range": [
+            0.4,
+            0.6
           ]
         },
         {
@@ -597,58 +610,63 @@
           "violation_type": "repeats_found",
           "repeats": [
             {
-              "sequence": "GGG",
+              "sequence": "ATT",
               "length": 3,
-              "count": 4,
+              "count": 7,
               "positions": [
                 0,
-                1,
-                85,
-                119
+                23,
+                112,
+                140,
+                155,
+                158,
+                172
               ]
             },
             {
-              "sequence": "GGG",
+              "sequence": "TTG",
               "length": 3,
-              "count": 4,
+              "count": 5,
               "positions": [
-                0,
                 1,
-                85,
-                119
+                24,
+                31,
+                96,
+                141
               ]
             },
             {
-              "sequence": "GCT",
+              "sequence": "TGA",
+              "length": 3,
+              "count": 4,
+              "positions": [
+                2,
+                70,
+                142,
+                169
+              ]
+            },
+            {
+              "sequence": "GAG",
               "length": 3,
               "count": 3,
               "positions": [
                 3,
-                80,
-                103
+                28,
+                61
               ]
             },
             {
-              "sequence": "CTG",
+              "sequence": "GAA",
               "length": 3,
-              "count": 5,
-              "positions": [
-                4,
-                81,
-                117,
-                128,
-                137
-              ]
-            },
-            {
-              "sequence": "TGC",
-              "length": 3,
-              "count": 4,
+              "count": 6,
               "positions": [
                 5,
-                43,
-                82,
-                138
+                35,
+                103,
+                131,
+                143,
+                170
               ]
             }
           ]
@@ -656,7 +674,7 @@
         {
           "constraint": "cai_optimization",
           "violation_type": "below_target",
-          "current_value": 0.7675065095100057,
+          "current_value": 0.6519101611197038,
           "target_value": 0.8
         }
       ]
@@ -666,9 +684,9 @@
     "total_sequences_processed": 4,
     "successful_optimizations": 3,
     "success_rate": 0.75,
-    "average_optimization_score": 0.7200042819376451,
-    "average_modifications_per_sequence": 2.5,
-    "constraints_resolution_rate": 0.8484308638791243
+    "average_optimization_score": 0.8047856613150131,
+    "average_modifications_per_sequence": 2.0,
+    "constraints_resolution_rate": 0.8096875794217546
   },
   "metadata": {
     "tool": "DNA_Chisel",

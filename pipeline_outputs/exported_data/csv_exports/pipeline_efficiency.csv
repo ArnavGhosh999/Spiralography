@@ -1,0 +1,5 @@
+category,metric,value,type
+data_reduction_efficiency,value,0.5,float
+optimization_effectiveness,value,0.8372,float
+immunological_coverage,value,4.5,float
+crispr_design_success,value,0.8333333333333334,float
