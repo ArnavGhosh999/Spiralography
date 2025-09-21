@@ -1,0 +1,50 @@
+{
+  "pipeline_overview": {
+    "total_tools_used": 17,
+    "ai_models_used": [
+      "DistilGPT2",
+      "GPT-Neo-125M",
+      "DialoGPT-Small"
+    ],
+    "execution_timestamp": "2025-09-21T12:35:58.241078",
+    "input_file": "assets/SarsCov2SpikemRNA.fasta",
+    "best_sequence_id": "OPT_Spike_mRNA_structure_optimized_riboswitch_like_optimized_var_1_1",
+    "best_sequence_score": 0.8121953161515305,
+    "tools_loaded": 15,
+    "best_sequence_source": "benchling"
+  },
+  "tool_execution_summary": {
+    "ensembl": "Genomic annotation and gene model prediction",
+    "biopython": "Sequence parsing and manipulation",
+    "cdhit": "Sequence clustering and redundancy removal",
+    "diamond": "Fast protein sequence alignment",
+    "interproscan": "Protein domain and function annotation",
+    "rfam": "RNA family classification and structure prediction",
+    "mrnaid": "mRNA sequence optimization for expression",
+    "uniprot": "Protein database search and annotation",
+    "alphafold": "Protein 3D structure prediction",
+    "viennarna": "RNA secondary structure prediction",
+    "dnachisel": "DNA sequence optimization with constraints",
+    "iedb": "Epitope prediction and immunogenicity analysis",
+    "rbs_calculator": "Ribosome binding site optimization",
+    "kinefold": "RNA kinetic folding pathway analysis",
+    "copasi": "Biochemical network simulation",
+    "benchling": "Sequence design and annotation platform",
+    "oxdna": "Molecular dynamics simulation of nucleic acids"
+  },
+  "performance_metrics": {
+    "expression_efficiency": 0.9984765807576524,
+    "protein_concentration": 8.978489252908286,
+    "optimization_success_rate": 0.75,
+    "overall_pipeline_success": true,
+    "sequence_improvement_score": 0.8121953161515305,
+    "tools_successfully_loaded": 15
+  },
+  "recommendations": [
+    "GC content is optimal for most expression systems",
+    "Good sequence quality - minor optimizations may improve performance",
+    "Consider experimental validation of top 3-5 sequences",
+    "Monitor expression levels and protein folding in target organism",
+    "Best sequence originated from benchling tool - consider this approach for similar projects"
+  ]
+}

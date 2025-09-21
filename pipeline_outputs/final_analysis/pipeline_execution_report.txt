@@ -1,0 +1,17 @@
+BIOINFORMATICS PIPELINE EXECUTION REPORT
+==================================================
+
+Execution Date: 2025-09-21 12:35:58
+Best Sequence: OPT_Spike_mRNA_structure_optimized_riboswitch_like_optimized_var_1_1
+Overall Score: 0.8122
+Source Tool: benchling
+Tools Loaded: 15/17
+
+PIPELINE OVERVIEW:
+--------------------
+Total Tools Available: 17
+Tools Successfully Loaded: 15
+AI Models Used: DistilGPT2, GPT-Neo-125M, DialoGPT-Small
+
+TOOL EXECUTION SEQUENCE:
+-------------------------

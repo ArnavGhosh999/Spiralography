@@ -1,5 +1,5 @@
 {
-  "export_timestamp": "2025-09-20T08:10:15.755143",
+  "export_timestamp": "2025-09-20T10:10:07.437968",
   "files_created": [
     "pipeline_outputs/exported_data/fasta_exports/initial_sequences.fasta",
     "pipeline_outputs/exported_data/fasta_exports/ensembl_sequences.fasta",
@@ -77,7 +77,7 @@
     "json_exports": {
       "complete_results": {
         "filename": "pipeline_outputs/exported_data/json_exports/complete_pipeline_results.json",
-        "file_size_kb": 11306.1298828125
+        "file_size_kb": 10749.8193359375
       },
       "metadata": {
         "filename": "pipeline_outputs/exported_data/json_exports/pipeline_metadata.json",
@@ -91,12 +91,12 @@
   "package_info": {
     "comprehensive": {
       "filename": "pipeline_outputs/exported_data/portable_packages/comprehensive_pipeline_results.zip",
-      "file_size_mb": 9.735086441040039,
+      "file_size_mb": 9.724854469299316,
       "files_included": 27
     },
     "sequences_only": {
       "filename": "pipeline_outputs/exported_data/portable_packages/sequences_only.zip",
-      "file_size_mb": 0.0013904571533203125,
+      "file_size_mb": 0.001392364501953125,
       "fasta_files_included": 5
     }
   }

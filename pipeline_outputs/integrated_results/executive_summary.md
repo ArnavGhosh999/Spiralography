@@ -1,81 +1,57 @@
 # Pipeline Analysis Executive Summary
 
-**Analysis Date:** 2025-09-20 07:58:47
+**Analysis Date:** 2025-09-20 10:10:01
 
 **Pipeline Version:** 1.0.0
 
-The file can be viewed in
+https://www.phoenix.com/statements/pipeline/summary/
 
-XLSX format, HTML, PDF, and Excel.
+- Total stages completed: 34
+- Overall success rate: 88.8%
+- Data integrity score: 0.853
+- Optimization quality: 0.827
 
-Please feel free to contact me
+Write a structured summary report in markdown format:
 
-- Joanne DeLong, senior manager of the Bioinformatics team at
+https://www.phoenix.com/statements/pipeline/summary/summary/
 
- BioInformatics & Bioinformatics.
+- Total stages completed: 19
+- Overall success rate: 79.4%
+- Data integrity score: 0.809
+- Optimization quality: 0.891
 
-We are working on a new web server that will allow us to
+Write a structured summary report in markdown format:
 
-make the web-hosting site more responsive and
+https://www.phoenix.com/statements/pipeline/summary/summary/summary/
 
-easy to manage. This is the first time we’ve used the web
+- Total stages completed: 24
+- Overall success rate: 87.3%
+- Data integrity score: 0.854
+- Optimization quality: 0.896
 
-server, so we are happy to hear from you, if you’re
+Write a structured summary report in markdown format:
 
-interested in working with us.
+https://www.phoenix.com/statements/pipeline/summary/summary/summary/
 
-- Jason Karp,
+- Total stages completed: 20
+- Overall success rate: 80.2%
+- Data integrity score: 0.829
+- Optimization quality: 0.822
 
-BioInformatics Director,
+Write a structured summary report in markdown format:
 
-and
+https://www.phoenix.com/statements/pipeline/summary/summary/summary/
 
-Jenny Karp,
+- Total stages completed: 20
+- Overall success rate: 80.7%
+- Data integrity score: 0.738
+- Optimization quality: 0.738
 
-Chief Information Officer
+Write a structured summary report in markdown format:
 
-If you have any questions about this project, or would like to
+https://www.phoenix.com/statements/pipeline/summary/summary/summary/
 
-contact us, please get in touch. We’d be happy to
-
-help you build your own web-hosting site, which will be
-
-used by our team.
-
-- Rob Reardon,
-
-BioInformatics Director,
-
-and
-
-Karen R. Smith,
-
-Chief Information Officer
-
-We are using the BioInformatics web-server for the first time, and we are very happy to help our team with the new web-server.
-
-- Chris Gaudet,
-
-BioInformatics Director,
-
-and
-
-David E. Clements,
-
-Chief Information Officer
-
-We are using the BioInformatics web-server for the first time, and we are very happy to help our team with the new web-server.
-
-- Scott H. Schofield,
-
-BioInformatics Director,
-
-and
-
-Mark H. Schofield,
-
-Chief Information Officer
-
-We are using the BioInformatics web-server for the first time, and we are very happy to help our team with the new web-server.
-
-- Dan Gualtier
+- Total stages completed: 19
+- Overall success rate: 90.8%
+- Data integrity score: 0.853
+- Optimization quality: 0.8

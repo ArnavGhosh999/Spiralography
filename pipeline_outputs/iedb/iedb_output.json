@@ -2,719 +2,663 @@
   "epitope_predictions": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "protein_sequence": "RGCGGLGSLCPWRRALTRSQIRACVCDGGVSVSRRQSLCPRRAPATAPVLGGGIRDCGVSS",
-      "protein_length": 61,
-      "total_mhc_i_epitopes": 49,
-      "total_mhc_ii_epitopes": 83,
+      "protein_sequence": "KARDVGYHSELRLILSRTYIDATGSYNHMEN",
+      "protein_length": 31,
+      "total_mhc_i_epitopes": 32,
+      "total_mhc_ii_epitopes": 59,
       "total_b_cell_epitopes": 0,
       "immunogenicity_potential": "High",
-      "population_coverage_estimate": 0.9436387924056179
+      "population_coverage_estimate": 0.7673268496526626
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "protein_sequence": "RSQRQLILRRDTHYLSVKSFTYNAMGVRDVGRYVHSNEDPNSSINSLEYLCLDYPVAPNRLTW",
-      "protein_length": 63,
-      "total_mhc_i_epitopes": 81,
-      "total_mhc_ii_epitopes": 120,
-      "total_b_cell_epitopes": 1,
+      "protein_sequence": "WELLVSQDRQGGSLQVQVCNLWDQGHITANSHVHYT",
+      "protein_length": 36,
+      "total_mhc_i_epitopes": 33,
+      "total_mhc_ii_epitopes": 37,
+      "total_b_cell_epitopes": 0,
       "immunogenicity_potential": "High",
-      "population_coverage_estimate": 0.9401739816260617
+      "population_coverage_estimate": 0.8570403092159774
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "protein_sequence": "FNFDPRDVLLRWRGCVAHSGIQNRLSPLGADRKLTYVILSDHLETQITGLNLRRL",
-      "protein_length": 55,
-      "total_mhc_i_epitopes": 80,
-      "total_mhc_ii_epitopes": 95,
+      "protein_sequence": "VLPKCYGIFITMLKKTVSLLAASWK",
+      "protein_length": 25,
+      "total_mhc_i_epitopes": 43,
+      "total_mhc_ii_epitopes": 48,
       "total_b_cell_epitopes": 0,
       "immunogenicity_potential": "High",
-      "population_coverage_estimate": 0.8071832453191351
+      "population_coverage_estimate": 0.8298273560792946
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "protein_sequence": "IENLIQGPLRVGKVFTKSKCRAPMMSFIGPISLLRTGHYGFFWNRLNLCVLFLRLNLIVK",
-      "protein_length": 60,
-      "total_mhc_i_epitopes": 105,
-      "total_mhc_ii_epitopes": 151,
+      "protein_sequence": "TNVRRPRKFGTLAGLHSGREYGRSG",
+      "protein_length": 25,
+      "total_mhc_i_epitopes": 13,
+      "total_mhc_ii_epitopes": 25,
       "total_b_cell_epitopes": 0,
       "immunogenicity_potential": "High",
-      "population_coverage_estimate": 0.8217089339398189
+      "population_coverage_estimate": 0.8769245866395441
     }
   ],
   "mhc_class_i_binding": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "protein_length": 61,
-      "total_peptides_tested": 53,
-      "strong_binders": 6,
-      "moderate_binders": 43,
+      "protein_length": 31,
+      "total_peptides_tested": 23,
+      "strong_binders": 4,
+      "moderate_binders": 28,
       "predictions": [
         {
-          "peptide": "CVCDGGVSV",
-          "allele": "HLA-B*07:02",
-          "binding_score": 0.8541707712822539,
-          "binding_affinity_nm": 72.91461435887302,
-          "rank_percent": 14.582922871774606,
-          "start_position": 24
-        },
-        {
-          "peptide": "CVCDGGVSV",
-          "allele": "HLA-A*24:02",
-          "binding_score": 0.8337971518385794,
-          "binding_affinity_nm": 83.1014240807103,
-          "rank_percent": 16.62028481614206,
-          "start_position": 24
-        },
-        {
-          "peptide": "SLCPWRRAL",
-          "allele": "HLA-A*24:02",
-          "binding_score": 0.8325349264613285,
-          "binding_affinity_nm": 83.73253676933572,
-          "rank_percent": 16.746507353867145,
-          "start_position": 8
-        },
-        {
-          "peptide": "CVCDGGVSV",
-          "allele": "HLA-A*01:01",
-          "binding_score": 0.8245372202056817,
-          "binding_affinity_nm": 87.73138989715918,
-          "rank_percent": 17.546277979431835,
-          "start_position": 24
-        },
-        {
-          "peptide": "SLCPWRRAL",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.8220623317657318,
-          "binding_affinity_nm": 88.96883411713408,
-          "rank_percent": 17.793766823426814,
-          "start_position": 8
-        },
-        {
-          "peptide": "SLCPWRRAL",
-          "allele": "HLA-A*03:01",
-          "binding_score": 0.8032315379138639,
-          "binding_affinity_nm": 98.38423104306804,
-          "rank_percent": 19.676846208613608,
-          "start_position": 8
-        },
-        {
-          "peptide": "SLCPWRRAL",
+          "peptide": "RLILSRTYI",
           "allele": "HLA-B*08:01",
-          "binding_score": 0.7973067130157947,
-          "binding_affinity_nm": 101.34664349210266,
-          "rank_percent": 20.26932869842053,
-          "start_position": 8
+          "binding_score": 0.8778461300023661,
+          "binding_affinity_nm": 61.076934998816945,
+          "rank_percent": 12.215386999763389,
+          "start_position": 12
         },
         {
-          "peptide": "SLCPWRRAL",
-          "allele": "HLA-A*01:01",
-          "binding_score": 0.7908905826560668,
-          "binding_affinity_nm": 104.5547086719666,
-          "rank_percent": 20.91094173439332,
-          "start_position": 8
-        },
-        {
-          "peptide": "CVCDGGVSV",
-          "allele": "HLA-B*40:01",
-          "binding_score": 0.7772255114352455,
-          "binding_affinity_nm": 111.38724428237722,
-          "rank_percent": 22.277448856475445,
-          "start_position": 24
-        },
-        {
-          "peptide": "CVCDGGVSV",
+          "peptide": "RLILSRTYI",
           "allele": "HLA-B*15:01",
-          "binding_score": 0.7418190715652705,
-          "binding_affinity_nm": 129.09046421736474,
-          "rank_percent": 25.81809284347295,
-          "start_position": 24
+          "binding_score": 0.8681455016685942,
+          "binding_affinity_nm": 65.92724916570292,
+          "rank_percent": 13.185449833140584,
+          "start_position": 12
         },
         {
-          "peptide": "SLCPWRRAL",
-          "allele": "HLA-B*07:02",
-          "binding_score": 0.7152161373653539,
-          "binding_affinity_nm": 142.39193131732304,
-          "rank_percent": 28.478386263464607,
-          "start_position": 8
-        },
-        {
-          "peptide": "CVCDGGVSV",
+          "peptide": "RLILSRTYI",
           "allele": "HLA-A*02:01",
-          "binding_score": 0.6871790284420073,
-          "binding_affinity_nm": 156.41048577899636,
-          "rank_percent": 31.28209715579927,
-          "start_position": 24
+          "binding_score": 0.826684083990479,
+          "binding_affinity_nm": 86.6579580047605,
+          "rank_percent": 17.331591600952102,
+          "start_position": 12
         },
         {
-          "peptide": "SLCPWRRAL",
+          "peptide": "RLILSRTYI",
+          "allele": "HLA-A*24:02",
+          "binding_score": 0.8172790387315247,
+          "binding_affinity_nm": 91.36048063423763,
+          "rank_percent": 18.272096126847526,
+          "start_position": 12
+        },
+        {
+          "peptide": "RLILSRTYI",
           "allele": "HLA-B*40:01",
-          "binding_score": 0.6596081127686672,
-          "binding_affinity_nm": 170.19594361566644,
-          "rank_percent": 34.039188723133286,
-          "start_position": 8
+          "binding_score": 0.7986907914366672,
+          "binding_affinity_nm": 100.6546042816664,
+          "rank_percent": 20.13092085633328,
+          "start_position": 12
         },
         {
-          "peptide": "PVLGGGIRD",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.6535686855588371,
-          "binding_affinity_nm": 173.21565722058148,
-          "rank_percent": 34.64313144411629,
-          "start_position": 48
-        },
-        {
-          "peptide": "SLCPWRRAL",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.615855706373162,
-          "binding_affinity_nm": 192.072146813419,
-          "rank_percent": 38.4144293626838,
-          "start_position": 8
-        },
-        {
-          "peptide": "SLCPRRAPA",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.6117971350389585,
-          "binding_affinity_nm": 194.10143248052074,
-          "rank_percent": 38.82028649610415,
-          "start_position": 37
-        },
-        {
-          "peptide": "TAPVLGGGI",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.6067488004113006,
-          "binding_affinity_nm": 196.62559979434968,
-          "rank_percent": 39.325119958869934,
-          "start_position": 46
-        },
-        {
-          "peptide": "GVSVSRRQS",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.5745957340973267,
-          "binding_affinity_nm": 212.70213295133667,
-          "rank_percent": 42.54042659026733,
-          "start_position": 29
-        },
-        {
-          "peptide": "RRAPATAPV",
+          "peptide": "RLILSRTYI",
           "allele": "HLA-B*07:02",
-          "binding_score": 0.5730624774445554,
-          "binding_affinity_nm": 213.4687612777223,
-          "rank_percent": 42.69375225554446,
-          "start_position": 41
+          "binding_score": 0.688854636292721,
+          "binding_affinity_nm": 155.5726818536395,
+          "rank_percent": 31.114536370727897,
+          "start_position": 12
         },
         {
-          "peptide": "RRAPATAPV",
+          "peptide": "RLILSRTYI",
+          "allele": "HLA-A*03:01",
+          "binding_score": 0.6733938227915872,
+          "binding_affinity_nm": 163.30308860420638,
+          "rank_percent": 32.66061772084128,
+          "start_position": 12
+        },
+        {
+          "peptide": "ELRLILSRT",
           "allele": "HLA-A*02:01",
-          "binding_score": 0.5700134610794838,
-          "binding_affinity_nm": 214.9932694602581,
-          "rank_percent": 42.99865389205162,
-          "start_position": 41
+          "binding_score": 0.6672992157752484,
+          "binding_affinity_nm": 166.3503921123758,
+          "rank_percent": 33.27007842247516,
+          "start_position": 10
+        },
+        {
+          "peptide": "VGYHSELRL",
+          "allele": "HLA-A*02:01",
+          "binding_score": 0.607375675254737,
+          "binding_affinity_nm": 196.3121623726315,
+          "rank_percent": 39.2624324745263,
+          "start_position": 5
+        },
+        {
+          "peptide": "TYIDATGSY",
+          "allele": "HLA-A*03:01",
+          "binding_score": 0.588653429860847,
+          "binding_affinity_nm": 205.6732850695765,
+          "rank_percent": 41.1346570139153,
+          "start_position": 18
+        },
+        {
+          "peptide": "ELRLILSRT",
+          "allele": "HLA-B*07:02",
+          "binding_score": 0.5838558970635339,
+          "binding_affinity_nm": 208.07205146823304,
+          "rank_percent": 41.61441029364661,
+          "start_position": 10
+        },
+        {
+          "peptide": "GYHSELRLI",
+          "allele": "HLA-B*07:02",
+          "binding_score": 0.5792596376844223,
+          "binding_affinity_nm": 210.37018115778883,
+          "rank_percent": 42.07403623155776,
+          "start_position": 6
+        },
+        {
+          "peptide": "YIDATGSYN",
+          "allele": "HLA-A*24:02",
+          "binding_score": 0.5782575417620501,
+          "binding_affinity_nm": 210.87122911897492,
+          "rank_percent": 42.17424582379499,
+          "start_position": 19
+        },
+        {
+          "peptide": "GYHSELRLI",
+          "allele": "HLA-A*01:01",
+          "binding_score": 0.5740556949130922,
+          "binding_affinity_nm": 212.97215254345392,
+          "rank_percent": 42.594430508690785,
+          "start_position": 6
+        },
+        {
+          "peptide": "GYHSELRLI",
+          "allele": "HLA-B*40:01",
+          "binding_score": 0.5735233458548454,
+          "binding_affinity_nm": 213.23832707257728,
+          "rank_percent": 42.64766541451546,
+          "start_position": 6
+        },
+        {
+          "peptide": "LRLILSRTY",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.5723818076268219,
+          "binding_affinity_nm": 213.80909618658904,
+          "rank_percent": 42.76181923731781,
+          "start_position": 11
+        },
+        {
+          "peptide": "GYHSELRLI",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.5697668776641016,
+          "binding_affinity_nm": 215.1165611679492,
+          "rank_percent": 43.02331223358984,
+          "start_position": 6
+        },
+        {
+          "peptide": "DVGYHSELR",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.5631610159621347,
+          "binding_affinity_nm": 218.41949201893263,
+          "rank_percent": 43.68389840378653,
+          "start_position": 4
+        },
+        {
+          "peptide": "RLILSRTYI",
+          "allele": "HLA-A*01:01",
+          "binding_score": 0.5627748810283741,
+          "binding_affinity_nm": 218.61255948581294,
+          "rank_percent": 43.72251189716258,
+          "start_position": 12
+        },
+        {
+          "peptide": "RDVGYHSEL",
+          "allele": "HLA-B*07:02",
+          "binding_score": 0.5617821485417875,
+          "binding_affinity_nm": 219.10892572910623,
+          "rank_percent": 43.821785145821245,
+          "start_position": 3
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "protein_length": 63,
-      "total_peptides_tested": 55,
-      "strong_binders": 8,
-      "moderate_binders": 73,
+      "protein_length": 36,
+      "total_peptides_tested": 28,
+      "strong_binders": 4,
+      "moderate_binders": 29,
       "predictions": [
         {
-          "peptide": "LILRRDTHY",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.9552366247292674,
-          "binding_affinity_nm": 22.381687635366298,
-          "rank_percent": 4.47633752707326,
-          "start_position": 6
-        },
-        {
-          "peptide": "SLEYLCLDY",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.9426208474666877,
-          "binding_affinity_nm": 28.689576266656136,
-          "rank_percent": 5.737915253331227,
-          "start_position": 46
-        },
-        {
-          "peptide": "SLEYLCLDY",
-          "allele": "HLA-A*01:01",
-          "binding_score": 0.8863794652081973,
-          "binding_affinity_nm": 56.810267395901334,
-          "rank_percent": 11.362053479180268,
-          "start_position": 46
-        },
-        {
-          "peptide": "SLEYLCLDY",
-          "allele": "HLA-B*40:01",
-          "binding_score": 0.8822129616485863,
-          "binding_affinity_nm": 58.89351917570684,
-          "rank_percent": 11.778703835141368,
-          "start_position": 46
-        },
-        {
-          "peptide": "ILRRDTHYL",
-          "allele": "HLA-B*08:01",
-          "binding_score": 0.8664998228089725,
-          "binding_affinity_nm": 66.75008859551373,
-          "rank_percent": 13.350017719102746,
-          "start_position": 7
-        },
-        {
-          "peptide": "YLSVKSFTY",
+          "peptide": "SLQVQVCNL",
           "allele": "HLA-B*07:02",
-          "binding_score": 0.8550258481854343,
-          "binding_affinity_nm": 72.48707590728287,
-          "rank_percent": 14.497415181456574,
-          "start_position": 14
+          "binding_score": 0.8489878687307761,
+          "binding_affinity_nm": 75.50606563461193,
+          "rank_percent": 15.101213126922385,
+          "start_position": 13
         },
         {
-          "peptide": "LILRRDTHY",
+          "peptide": "SLQVQVCNL",
           "allele": "HLA-A*03:01",
-          "binding_score": 0.8247317852813456,
-          "binding_affinity_nm": 87.6341073593272,
-          "rank_percent": 17.52682147186544,
-          "start_position": 6
+          "binding_score": 0.8410104237694689,
+          "binding_affinity_nm": 79.49478811526556,
+          "rank_percent": 15.89895762305311,
+          "start_position": 13
         },
         {
-          "peptide": "ILRRDTHYL",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.8170867457898106,
-          "binding_affinity_nm": 91.45662710509473,
-          "rank_percent": 18.291325421018946,
-          "start_position": 7
+          "peptide": "SLQVQVCNL",
+          "allele": "HLA-A*02:01",
+          "binding_score": 0.824275541284418,
+          "binding_affinity_nm": 87.86222935779098,
+          "rank_percent": 17.572445871558195,
+          "start_position": 13
         },
         {
-          "peptide": "YLSVKSFTY",
+          "peptide": "SLQVQVCNL",
           "allele": "HLA-A*24:02",
-          "binding_score": 0.7784804945193451,
-          "binding_affinity_nm": 110.75975274032746,
-          "rank_percent": 22.151950548065493,
-          "start_position": 14
+          "binding_score": 0.8211508020029777,
+          "binding_affinity_nm": 89.42459899851113,
+          "rank_percent": 17.884919799702224,
+          "start_position": 13
         },
         {
-          "peptide": "SLEYLCLDY",
-          "allele": "HLA-A*24:02",
-          "binding_score": 0.7581006104542902,
-          "binding_affinity_nm": 120.94969477285488,
-          "rank_percent": 24.189938954570977,
-          "start_position": 46
+          "peptide": "SLQVQVCNL",
+          "allele": "HLA-A*01:01",
+          "binding_score": 0.7037295665947034,
+          "binding_affinity_nm": 148.13521670264828,
+          "rank_percent": 29.627043340529656,
+          "start_position": 13
         },
         {
-          "peptide": "ILRRDTHYL",
-          "allele": "HLA-A*24:02",
-          "binding_score": 0.7476541453883967,
-          "binding_affinity_nm": 126.17292730580165,
-          "rank_percent": 25.23458546116033,
-          "start_position": 7
-        },
-        {
-          "peptide": "ILRRDTHYL",
+          "peptide": "SLQVQVCNL",
           "allele": "HLA-B*40:01",
-          "binding_score": 0.7407029048260925,
-          "binding_affinity_nm": 129.64854758695375,
-          "rank_percent": 25.929709517390755,
-          "start_position": 7
+          "binding_score": 0.6539444404812639,
+          "binding_affinity_nm": 173.02777975936806,
+          "rank_percent": 34.60555595187361,
+          "start_position": 13
         },
         {
-          "peptide": "ILRRDTHYL",
-          "allele": "HLA-B*07:02",
-          "binding_score": 0.7353904022196629,
-          "binding_affinity_nm": 132.30479889016854,
-          "rank_percent": 26.46095977803371,
-          "start_position": 7
-        },
-        {
-          "peptide": "YLSVKSFTY",
+          "peptide": "LVSQDRQGG",
           "allele": "HLA-A*02:01",
-          "binding_score": 0.7328502237926968,
-          "binding_affinity_nm": 133.5748881036516,
-          "rank_percent": 26.714977620730316,
-          "start_position": 14
+          "binding_score": 0.636012917754204,
+          "binding_affinity_nm": 181.993541122898,
+          "rank_percent": 36.3987082245796,
+          "start_position": 4
         },
         {
-          "peptide": "GVRDVGRYV",
-          "allele": "HLA-B*07:02",
-          "binding_score": 0.6952617566778891,
-          "binding_affinity_nm": 152.36912166105543,
-          "rank_percent": 30.473824332211088,
-          "start_position": 26
-        },
-        {
-          "peptide": "LILRRDTHY",
+          "peptide": "SLQVQVCNL",
           "allele": "HLA-B*08:01",
-          "binding_score": 0.6942571342936472,
-          "binding_affinity_nm": 152.8714328531764,
-          "rank_percent": 30.57428657063528,
+          "binding_score": 0.6190793579857765,
+          "binding_affinity_nm": 190.46032100711173,
+          "rank_percent": 38.092064201422346,
+          "start_position": 13
+        },
+        {
+          "peptide": "ITANSHVHY",
+          "allele": "HLA-A*02:01",
+          "binding_score": 0.5992367040643811,
+          "binding_affinity_nm": 200.38164796780944,
+          "rank_percent": 40.07632959356189,
+          "start_position": 27
+        },
+        {
+          "peptide": "ITANSHVHY",
+          "allele": "HLA-B*40:01",
+          "binding_score": 0.5746321585592967,
+          "binding_affinity_nm": 212.68392072035164,
+          "rank_percent": 42.536784144070324,
+          "start_position": 27
+        },
+        {
+          "peptide": "NLWDQGHIT",
+          "allele": "HLA-A*02:01",
+          "binding_score": 0.5684470057233788,
+          "binding_affinity_nm": 215.7764971383106,
+          "rank_percent": 43.15529942766212,
+          "start_position": 20
+        },
+        {
+          "peptide": "QGGSLQVQV",
+          "allele": "HLA-A*01:01",
+          "binding_score": 0.5621966731539887,
+          "binding_affinity_nm": 218.90166342300566,
+          "rank_percent": 43.780332684601134,
+          "start_position": 10
+        },
+        {
+          "peptide": "SLQVQVCNL",
+          "allele": "HLA-B*15:01",
+          "binding_score": 0.5591332514194528,
+          "binding_affinity_nm": 220.4333742902736,
+          "rank_percent": 44.08667485805472,
+          "start_position": 13
+        },
+        {
+          "peptide": "QVCNLWDQG",
+          "allele": "HLA-A*03:01",
+          "binding_score": 0.5578673898517453,
+          "binding_affinity_nm": 221.06630507412734,
+          "rank_percent": 44.21326101482547,
+          "start_position": 17
+        },
+        {
+          "peptide": "QGGSLQVQV",
+          "allele": "HLA-B*40:01",
+          "binding_score": 0.5481843307910278,
+          "binding_affinity_nm": 225.9078346044861,
+          "rank_percent": 45.18156692089722,
+          "start_position": 10
+        },
+        {
+          "peptide": "CNLWDQGHI",
+          "allele": "HLA-A*03:01",
+          "binding_score": 0.5446205958079824,
+          "binding_affinity_nm": 227.6897020960088,
+          "rank_percent": 45.53794041920176,
+          "start_position": 19
+        },
+        {
+          "peptide": "QGGSLQVQV",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.5444972125947807,
+          "binding_affinity_nm": 227.75139370260968,
+          "rank_percent": 45.55027874052193,
+          "start_position": 10
+        },
+        {
+          "peptide": "SQDRQGGSL",
+          "allele": "HLA-A*02:01",
+          "binding_score": 0.5415715707518003,
+          "binding_affinity_nm": 229.21421462409987,
+          "rank_percent": 45.84284292481997,
           "start_position": 6
         },
         {
-          "peptide": "SLEYLCLDY",
-          "allele": "HLA-B*07:02",
-          "binding_score": 0.69165344665824,
-          "binding_affinity_nm": 154.17327667088,
-          "rank_percent": 30.834655334176,
-          "start_position": 46
-        },
-        {
-          "peptide": "AMGVRDVGR",
+          "peptide": "GHITANSHV",
           "allele": "HLA-A*02:01",
-          "binding_score": 0.6864730531362837,
-          "binding_affinity_nm": 156.76347343185816,
-          "rank_percent": 31.352694686371628,
-          "start_position": 24
+          "binding_score": 0.5396430366327059,
+          "binding_affinity_nm": 230.17848168364708,
+          "rank_percent": 46.035696336729416,
+          "start_position": 25
         },
         {
-          "peptide": "GVRDVGRYV",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.6853648077575711,
-          "binding_affinity_nm": 157.31759612121442,
-          "rank_percent": 31.463519224242887,
-          "start_position": 26
-        },
-        {
-          "peptide": "SLEYLCLDY",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.6791808782527391,
-          "binding_affinity_nm": 160.40956087363045,
-          "rank_percent": 32.08191217472609,
-          "start_position": 46
+          "peptide": "GHITANSHV",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.5368435130909432,
+          "binding_affinity_nm": 231.57824345452838,
+          "rank_percent": 46.315648690905675,
+          "start_position": 25
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "protein_length": 55,
-      "total_peptides_tested": 47,
-      "strong_binders": 5,
-      "moderate_binders": 75,
+      "protein_length": 25,
+      "total_peptides_tested": 17,
+      "strong_binders": 9,
+      "moderate_binders": 34,
       "predictions": [
         {
-          "peptide": "VLLRWRGCV",
-          "allele": "HLA-B*07:02",
-          "binding_score": 0.8799583242910262,
-          "binding_affinity_nm": 60.02083785448692,
-          "rank_percent": 12.004167570897383,
-          "start_position": 8
-        },
-        {
-          "peptide": "HLETQITGL",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.8224719321880123,
-          "binding_affinity_nm": 88.76403390599386,
-          "rank_percent": 17.75280678119877,
-          "start_position": 42
-        },
-        {
-          "peptide": "VLLRWRGCV",
-          "allele": "HLA-A*24:02",
-          "binding_score": 0.8137807892790672,
-          "binding_affinity_nm": 93.10960536046642,
-          "rank_percent": 18.621921072093283,
-          "start_position": 8
-        },
-        {
-          "peptide": "VLLRWRGCV",
-          "allele": "HLA-A*01:01",
-          "binding_score": 0.8125524324748399,
-          "binding_affinity_nm": 93.72378376258006,
-          "rank_percent": 18.74475675251601,
-          "start_position": 8
-        },
-        {
-          "peptide": "VLLRWRGCV",
+          "peptide": "FITMLKKTV",
           "allele": "HLA-A*02:01",
-          "binding_score": 0.8061533224533048,
-          "binding_affinity_nm": 96.92333877334758,
-          "rank_percent": 19.384667754669515,
-          "start_position": 8
-        },
-        {
-          "peptide": "HLETQITGL",
-          "allele": "HLA-B*07:02",
-          "binding_score": 0.7504035952160668,
-          "binding_affinity_nm": 124.7982023919666,
-          "rank_percent": 24.959640478393318,
-          "start_position": 42
-        },
-        {
-          "peptide": "GIQNRLSPL",
-          "allele": "HLA-B*07:02",
-          "binding_score": 0.7255375520376475,
-          "binding_affinity_nm": 137.23122398117627,
-          "rank_percent": 27.446244796235252,
-          "start_position": 20
-        },
-        {
-          "peptide": "GIQNRLSPL",
-          "allele": "HLA-A*03:01",
-          "binding_score": 0.7252812546860133,
-          "binding_affinity_nm": 137.35937265699332,
-          "rank_percent": 27.471874531398665,
-          "start_position": 20
-        },
-        {
-          "peptide": "GIQNRLSPL",
-          "allele": "HLA-B*40:01",
-          "binding_score": 0.7118694894641686,
-          "binding_affinity_nm": 144.0652552679157,
-          "rank_percent": 28.813051053583138,
-          "start_position": 20
-        },
-        {
-          "peptide": "HLETQITGL",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.7021500689760597,
-          "binding_affinity_nm": 148.92496551197016,
-          "rank_percent": 29.78499310239403,
-          "start_position": 42
-        },
-        {
-          "peptide": "HLETQITGL",
-          "allele": "HLA-B*40:01",
-          "binding_score": 0.6817277007541579,
-          "binding_affinity_nm": 159.13614962292104,
-          "rank_percent": 31.82722992458421,
-          "start_position": 42
-        },
-        {
-          "peptide": "HLETQITGL",
-          "allele": "HLA-B*08:01",
-          "binding_score": 0.6727905613707836,
-          "binding_affinity_nm": 163.6047193146082,
-          "rank_percent": 32.72094386292164,
-          "start_position": 42
-        },
-        {
-          "peptide": "GIQNRLSPL",
-          "allele": "HLA-A*24:02",
-          "binding_score": 0.663061667371024,
-          "binding_affinity_nm": 168.469166314488,
-          "rank_percent": 33.6938332628976,
-          "start_position": 20
-        },
-        {
-          "peptide": "YVILSDHLE",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.6447812195540147,
-          "binding_affinity_nm": 177.60939022299266,
-          "rank_percent": 35.52187804459853,
-          "start_position": 36
-        },
-        {
-          "peptide": "PLGADRKLT",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.6361645339086301,
-          "binding_affinity_nm": 181.91773304568494,
-          "rank_percent": 36.383546609136985,
-          "start_position": 27
-        },
-        {
-          "peptide": "VLLRWRGCV",
-          "allele": "HLA-B*08:01",
-          "binding_score": 0.6250760314539696,
-          "binding_affinity_nm": 187.4619842730152,
-          "rank_percent": 37.49239685460304,
-          "start_position": 8
-        },
-        {
-          "peptide": "GIQNRLSPL",
-          "allele": "HLA-A*01:01",
-          "binding_score": 0.6225957830988178,
-          "binding_affinity_nm": 188.7021084505911,
-          "rank_percent": 37.74042169011822,
-          "start_position": 20
-        },
-        {
-          "peptide": "LLRWRGCVA",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.6137629827812858,
-          "binding_affinity_nm": 193.1185086093571,
-          "rank_percent": 38.62370172187142,
+          "binding_score": 0.943858649111259,
+          "binding_affinity_nm": 28.070675444370472,
+          "rank_percent": 5.614135088874095,
           "start_position": 9
         },
         {
-          "peptide": "VLLRWRGCV",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.6096158748937843,
-          "binding_affinity_nm": 195.19206255310783,
-          "rank_percent": 39.03841251062157,
-          "start_position": 8
+          "peptide": "MLKKTVSLL",
+          "allele": "HLA-A*02:01",
+          "binding_score": 0.9168068187185562,
+          "binding_affinity_nm": 41.59659064072191,
+          "rank_percent": 8.319318128144381,
+          "start_position": 12
         },
         {
-          "peptide": "KLTYVILSD",
+          "peptide": "VLPKCYGIF",
           "allele": "HLA-B*15:01",
-          "binding_score": 0.6067927729488165,
-          "binding_affinity_nm": 196.60361352559175,
-          "rank_percent": 39.32072270511835,
-          "start_position": 33
+          "binding_score": 0.9109264588925037,
+          "binding_affinity_nm": 44.53677055374816,
+          "rank_percent": 8.907354110749633,
+          "start_position": 1
+        },
+        {
+          "peptide": "MLKKTVSLL",
+          "allele": "HLA-A*01:01",
+          "binding_score": 0.9026545184596247,
+          "binding_affinity_nm": 48.67274077018763,
+          "rank_percent": 9.734548154037526,
+          "start_position": 12
+        },
+        {
+          "peptide": "VLPKCYGIF",
+          "allele": "HLA-A*03:01",
+          "binding_score": 0.8408969641380801,
+          "binding_affinity_nm": 79.55151793095993,
+          "rank_percent": 15.910303586191986,
+          "start_position": 1
+        },
+        {
+          "peptide": "MLKKTVSLL",
+          "allele": "HLA-A*03:01",
+          "binding_score": 0.8333181900847715,
+          "binding_affinity_nm": 83.34090495761426,
+          "rank_percent": 16.668180991522853,
+          "start_position": 12
+        },
+        {
+          "peptide": "MLKKTVSLL",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.8303604048657842,
+          "binding_affinity_nm": 84.81979756710788,
+          "rank_percent": 16.963959513421578,
+          "start_position": 12
+        },
+        {
+          "peptide": "VLPKCYGIF",
+          "allele": "HLA-B*07:02",
+          "binding_score": 0.8222495044832177,
+          "binding_affinity_nm": 88.87524775839117,
+          "rank_percent": 17.775049551678237,
+          "start_position": 1
+        },
+        {
+          "peptide": "MLKKTVSLL",
+          "allele": "HLA-A*24:02",
+          "binding_score": 0.812649057481476,
+          "binding_affinity_nm": 93.67547125926201,
+          "rank_percent": 18.735094251852402,
+          "start_position": 12
+        },
+        {
+          "peptide": "TMLKKTVSL",
+          "allele": "HLA-A*01:01",
+          "binding_score": 0.7967465504218811,
+          "binding_affinity_nm": 101.62672478905944,
+          "rank_percent": 20.325344957811886,
+          "start_position": 11
+        },
+        {
+          "peptide": "MLKKTVSLL",
+          "allele": "HLA-B*40:01",
+          "binding_score": 0.7831544549585727,
+          "binding_affinity_nm": 108.42277252071364,
+          "rank_percent": 21.684554504142728,
+          "start_position": 12
+        },
+        {
+          "peptide": "FITMLKKTV",
+          "allele": "HLA-B*15:01",
+          "binding_score": 0.7716625772208383,
+          "binding_affinity_nm": 114.16871138958085,
+          "rank_percent": 22.83374227791617,
+          "start_position": 9
+        },
+        {
+          "peptide": "TMLKKTVSL",
+          "allele": "HLA-B*07:02",
+          "binding_score": 0.7624505442716385,
+          "binding_affinity_nm": 118.77472786418075,
+          "rank_percent": 23.75494557283615,
+          "start_position": 11
+        },
+        {
+          "peptide": "TMLKKTVSL",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.7551192679359604,
+          "binding_affinity_nm": 122.4403660320198,
+          "rank_percent": 24.48807320640396,
+          "start_position": 11
+        },
+        {
+          "peptide": "TMLKKTVSL",
+          "allele": "HLA-B*40:01",
+          "binding_score": 0.7520376216661946,
+          "binding_affinity_nm": 123.98118916690271,
+          "rank_percent": 24.79623783338054,
+          "start_position": 11
+        },
+        {
+          "peptide": "VLPKCYGIF",
+          "allele": "HLA-B*40:01",
+          "binding_score": 0.7346315698123085,
+          "binding_affinity_nm": 132.68421509384575,
+          "rank_percent": 26.53684301876915,
+          "start_position": 1
+        },
+        {
+          "peptide": "VLPKCYGIF",
+          "allele": "HLA-A*02:01",
+          "binding_score": 0.7139100097189793,
+          "binding_affinity_nm": 143.04499514051034,
+          "rank_percent": 28.608999028102065,
+          "start_position": 1
+        },
+        {
+          "peptide": "LPKCYGIFI",
+          "allele": "HLA-A*02:01",
+          "binding_score": 0.7090083382537831,
+          "binding_affinity_nm": 145.49583087310847,
+          "rank_percent": 29.099166174621693,
+          "start_position": 2
+        },
+        {
+          "peptide": "FITMLKKTV",
+          "allele": "HLA-A*03:01",
+          "binding_score": 0.7081886726439481,
+          "binding_affinity_nm": 145.90566367802595,
+          "rank_percent": 29.181132735605186,
+          "start_position": 9
+        },
+        {
+          "peptide": "FITMLKKTV",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.6959476646650946,
+          "binding_affinity_nm": 152.02616766745268,
+          "rank_percent": 30.405233533490538,
+          "start_position": 9
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "protein_length": 60,
-      "total_peptides_tested": 52,
-      "strong_binders": 17,
-      "moderate_binders": 88,
+      "protein_length": 25,
+      "total_peptides_tested": 17,
+      "strong_binders": 0,
+      "moderate_binders": 13,
       "predictions": [
         {
-          "peptide": "VLFLRLNLI",
-          "allele": "HLA-A*03:01",
-          "binding_score": 0.9282896786938848,
-          "binding_affinity_nm": 35.8551606530576,
-          "rank_percent": 7.171032130611521,
-          "start_position": 50
-        },
-        {
-          "peptide": "LLRTGHYGF",
+          "peptide": "RKFGTLAGL",
           "allele": "HLA-A*02:01",
-          "binding_score": 0.9189154462964497,
-          "binding_affinity_nm": 40.54227685177514,
-          "rank_percent": 8.108455370355028,
-          "start_position": 33
+          "binding_score": 0.6789046953106592,
+          "binding_affinity_nm": 160.54765234467038,
+          "rank_percent": 32.109530468934075,
+          "start_position": 7
         },
         {
-          "peptide": "NLCVLFLRL",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.9117036587186103,
-          "binding_affinity_nm": 44.14817064069487,
-          "rank_percent": 8.829634128138974,
-          "start_position": 47
-        },
-        {
-          "peptide": "NLCVLFLRL",
+          "peptide": "TLAGLHSGR",
           "allele": "HLA-A*02:01",
-          "binding_score": 0.8718190094156915,
-          "binding_affinity_nm": 64.09049529215427,
-          "rank_percent": 12.818099058430853,
-          "start_position": 47
+          "binding_score": 0.6009044137532841,
+          "binding_affinity_nm": 199.54779312335796,
+          "rank_percent": 39.90955862467159,
+          "start_position": 11
         },
         {
-          "peptide": "RLNLCVLFL",
-          "allele": "HLA-A*03:01",
-          "binding_score": 0.869278700488057,
-          "binding_affinity_nm": 65.3606497559715,
-          "rank_percent": 13.0721299511943,
-          "start_position": 45
-        },
-        {
-          "peptide": "VLFLRLNLI",
-          "allele": "HLA-A*24:02",
-          "binding_score": 0.851825831301624,
-          "binding_affinity_nm": 74.08708434918798,
-          "rank_percent": 14.817416869837597,
-          "start_position": 50
-        },
-        {
-          "peptide": "NLCVLFLRL",
-          "allele": "HLA-A*01:01",
-          "binding_score": 0.8499867590768782,
-          "binding_affinity_nm": 75.00662046156093,
-          "rank_percent": 15.001324092312185,
-          "start_position": 47
-        },
-        {
-          "peptide": "RLNLCVLFL",
-          "allele": "HLA-A*01:01",
-          "binding_score": 0.846543553717492,
-          "binding_affinity_nm": 76.72822314125399,
-          "rank_percent": 15.345644628250799,
-          "start_position": 45
-        },
-        {
-          "peptide": "VLFLRLNLI",
-          "allele": "HLA-B*08:01",
-          "binding_score": 0.8374877598777023,
-          "binding_affinity_nm": 81.25612006114885,
-          "rank_percent": 16.25122401222977,
-          "start_position": 50
-        },
-        {
-          "peptide": "RLNLCVLFL",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.836909071868199,
-          "binding_affinity_nm": 81.54546406590052,
-          "rank_percent": 16.309092813180104,
-          "start_position": 45
-        },
-        {
-          "peptide": "RLNLCVLFL",
+          "peptide": "TNVRRPRKF",
           "allele": "HLA-A*02:01",
-          "binding_score": 0.8314189174139209,
-          "binding_affinity_nm": 84.29054129303954,
-          "rank_percent": 16.858108258607906,
-          "start_position": 45
+          "binding_score": 0.5531774635634206,
+          "binding_affinity_nm": 223.4112682182897,
+          "rank_percent": 44.682253643657944,
+          "start_position": 1
         },
         {
-          "peptide": "LLRTGHYGF",
-          "allele": "HLA-A*03:01",
-          "binding_score": 0.8288576893290422,
-          "binding_affinity_nm": 85.57115533547888,
-          "rank_percent": 17.114231067095776,
-          "start_position": 33
-        },
-        {
-          "peptide": "CVLFLRLNL",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.823427990510152,
-          "binding_affinity_nm": 88.28600474492399,
-          "rank_percent": 17.657200948984798,
-          "start_position": 49
-        },
-        {
-          "peptide": "LLRTGHYGF",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.8180182075916202,
-          "binding_affinity_nm": 90.99089620418988,
-          "rank_percent": 18.198179240837973,
-          "start_position": 33
-        },
-        {
-          "peptide": "NLIQGPLRV",
-          "allele": "HLA-B*08:01",
-          "binding_score": 0.8175400647027873,
-          "binding_affinity_nm": 91.22996764860636,
-          "rank_percent": 18.24599352972127,
-          "start_position": 3
-        },
-        {
-          "peptide": "VLFLRLNLI",
-          "allele": "HLA-A*02:01",
-          "binding_score": 0.8153898888598925,
-          "binding_affinity_nm": 92.30505557005375,
-          "rank_percent": 18.461011114010752,
-          "start_position": 50
-        },
-        {
-          "peptide": "NLIQGPLRV",
-          "allele": "HLA-B*15:01",
-          "binding_score": 0.8112476352552065,
-          "binding_affinity_nm": 94.37618237239676,
-          "rank_percent": 18.87523647447935,
-          "start_position": 3
-        },
-        {
-          "peptide": "PMMSFIGPI",
-          "allele": "HLA-A*24:02",
-          "binding_score": 0.7990810799833605,
-          "binding_affinity_nm": 100.45946000831974,
-          "rank_percent": 20.091892001663947,
-          "start_position": 23
-        },
-        {
-          "peptide": "NLCVLFLRL",
+          "peptide": "TLAGLHSGR",
           "allele": "HLA-B*07:02",
-          "binding_score": 0.7774514116571067,
-          "binding_affinity_nm": 111.27429417144663,
-          "rank_percent": 22.254858834289326,
-          "start_position": 47
+          "binding_score": 0.5524154420307372,
+          "binding_affinity_nm": 223.7922789846314,
+          "rank_percent": 44.75845579692628,
+          "start_position": 11
         },
         {
-          "peptide": "LLRTGHYGF",
+          "peptide": "TLAGLHSGR",
+          "allele": "HLA-B*15:01",
+          "binding_score": 0.5447949211547066,
+          "binding_affinity_nm": 227.6025394226467,
+          "rank_percent": 45.52050788452934,
+          "start_position": 11
+        },
+        {
+          "peptide": "RKFGTLAGL",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.5424116075282099,
+          "binding_affinity_nm": 228.79419623589504,
+          "rank_percent": 45.758839247179004,
+          "start_position": 7
+        },
+        {
+          "peptide": "AGLHSGREY",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.5324438758184604,
+          "binding_affinity_nm": 233.7780620907698,
+          "rank_percent": 46.75561241815396,
+          "start_position": 13
+        },
+        {
+          "peptide": "RKFGTLAGL",
+          "allele": "HLA-B*40:01",
+          "binding_score": 0.5292240193772093,
+          "binding_affinity_nm": 235.38799031139536,
+          "rank_percent": 47.077598062279066,
+          "start_position": 7
+        },
+        {
+          "peptide": "TNVRRPRKF",
           "allele": "HLA-A*01:01",
-          "binding_score": 0.7738704947441921,
-          "binding_affinity_nm": 113.06475262790394,
-          "rank_percent": 22.61295052558079,
-          "start_position": 33
+          "binding_score": 0.5214624401846976,
+          "binding_affinity_nm": 239.2687799076512,
+          "rank_percent": 47.85375598153024,
+          "start_position": 1
+        },
+        {
+          "peptide": "GLHSGREYG",
+          "allele": "HLA-A*01:01",
+          "binding_score": 0.5193796820827588,
+          "binding_affinity_nm": 240.31015895862063,
+          "rank_percent": 48.062031791724124,
+          "start_position": 14
+        },
+        {
+          "peptide": "TNVRRPRKF",
+          "allele": "HLA-B*08:01",
+          "binding_score": 0.5104265504566272,
+          "binding_affinity_nm": 244.78672477168638,
+          "rank_percent": 48.95734495433728,
+          "start_position": 1
+        },
+        {
+          "peptide": "GLHSGREYG",
+          "allele": "HLA-A*24:02",
+          "binding_score": 0.5024692116513503,
+          "binding_affinity_nm": 248.76539417432485,
+          "rank_percent": 49.75307883486497,
+          "start_position": 14
+        },
+        {
+          "peptide": "AGLHSGREY",
+          "allele": "HLA-A*01:01",
+          "binding_score": 0.5023966246008028,
+          "binding_affinity_nm": 248.8016876995986,
+          "rank_percent": 49.76033753991972,
+          "start_position": 13
         }
       ]
     }
@@ -722,517 +666,517 @@
   "mhc_class_ii_binding": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "protein_length": 61,
-      "total_peptides_tested": 47,
+      "protein_length": 31,
+      "total_peptides_tested": 17,
       "strong_binders": 0,
-      "moderate_binders": 83,
+      "moderate_binders": 59,
       "predictions": [
         {
-          "peptide": "CGGLGSLCPWRRALT",
+          "peptide": "LRLILSRTYIDATGS",
+          "allele": "HLA-DRB1*04:01",
+          "binding_score": 0.6886346429837734,
+          "binding_affinity_nm": 311.3653570162266,
+          "rank_percent": 31.13653570162266,
+          "start_position": 11
+        },
+        {
+          "peptide": "VGYHSELRLILSRTY",
+          "allele": "HLA-DRB1*11:01",
+          "binding_score": 0.6796086565892686,
+          "binding_affinity_nm": 320.3913434107314,
+          "rank_percent": 32.03913434107314,
+          "start_position": 5
+        },
+        {
+          "peptide": "DVGYHSELRLILSRT",
+          "allele": "HLA-DRB1*07:01",
+          "binding_score": 0.670528423931593,
+          "binding_affinity_nm": 329.47157606840705,
+          "rank_percent": 32.947157606840705,
+          "start_position": 4
+        },
+        {
+          "peptide": "ARDVGYHSELRLILS",
+          "allele": "HLA-DRB1*11:01",
+          "binding_score": 0.6687379257209494,
+          "binding_affinity_nm": 331.26207427905064,
+          "rank_percent": 33.126207427905065,
+          "start_position": 2
+        },
+        {
+          "peptide": "LRLILSRTYIDATGS",
           "allele": "HLA-DRB1*13:02",
-          "binding_score": 0.6606769936675818,
-          "binding_affinity_nm": 339.3230063324182,
-          "rank_percent": 33.932300633241816,
-          "start_position": 3
+          "binding_score": 0.6588057185202634,
+          "binding_affinity_nm": 341.1942814797366,
+          "rank_percent": 34.119428147973665,
+          "start_position": 11
         },
         {
-          "peptide": "LGSLCPWRRALTRSQ",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.6585561941282626,
-          "binding_affinity_nm": 341.44380587173737,
-          "rank_percent": 34.14438058717374,
-          "start_position": 6
-        },
-        {
-          "peptide": "CGGLGSLCPWRRALT",
+          "peptide": "LRLILSRTYIDATGS",
           "allele": "HLA-DRB1*11:01",
-          "binding_score": 0.6504667535172167,
-          "binding_affinity_nm": 349.5332464827833,
-          "rank_percent": 34.953324648278326,
-          "start_position": 3
+          "binding_score": 0.6544589234071736,
+          "binding_affinity_nm": 345.5410765928264,
+          "rank_percent": 34.55410765928264,
+          "start_position": 11
         },
         {
-          "peptide": "RRAPATAPVLGGGIR",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.6415828450913256,
-          "binding_affinity_nm": 358.41715490867443,
-          "rank_percent": 35.84171549086744,
-          "start_position": 41
-        },
-        {
-          "peptide": "CPRRAPATAPVLGGG",
-          "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.6343087977795842,
-          "binding_affinity_nm": 365.69120222041585,
-          "rank_percent": 36.56912022204158,
-          "start_position": 39
-        },
-        {
-          "peptide": "LGSLCPWRRALTRSQ",
-          "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.6222936070439484,
-          "binding_affinity_nm": 377.70639295605156,
-          "rank_percent": 37.77063929560516,
-          "start_position": 6
-        },
-        {
-          "peptide": "CGGLGSLCPWRRALT",
+          "peptide": "LRLILSRTYIDATGS",
           "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.6194618275728503,
-          "binding_affinity_nm": 380.53817242714973,
-          "rank_percent": 38.05381724271497,
-          "start_position": 3
+          "binding_score": 0.6370864933453407,
+          "binding_affinity_nm": 362.9135066546593,
+          "rank_percent": 36.29135066546593,
+          "start_position": 11
         },
         {
-          "peptide": "RRAPATAPVLGGGIR",
-          "allele": "HLA-DRB1*11:01",
-          "binding_score": 0.5893976796919997,
-          "binding_affinity_nm": 410.60232030800023,
-          "rank_percent": 41.06023203080002,
-          "start_position": 41
+          "peptide": "DVGYHSELRLILSRT",
+          "allele": "HLA-DRB1*04:01",
+          "binding_score": 0.6336330043319631,
+          "binding_affinity_nm": 366.36699566803685,
+          "rank_percent": 36.636699566803685,
+          "start_position": 4
         },
         {
-          "peptide": "LGSLCPWRRALTRSQ",
+          "peptide": "LRLILSRTYIDATGS",
           "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.5556872889168905,
-          "binding_affinity_nm": 444.31271108310955,
-          "rank_percent": 44.43127110831095,
-          "start_position": 6
+          "binding_score": 0.6211438091687932,
+          "binding_affinity_nm": 378.8561908312068,
+          "rank_percent": 37.88561908312068,
+          "start_position": 11
         },
         {
-          "peptide": "WRRALTRSQIRACVC",
-          "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.5530081268530703,
-          "binding_affinity_nm": 446.99187314692966,
-          "rank_percent": 44.69918731469297,
-          "start_position": 12
-        },
-        {
-          "peptide": "WRRALTRSQIRACVC",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.5426473880077409,
-          "binding_affinity_nm": 457.3526119922591,
-          "rank_percent": 45.73526119922591,
-          "start_position": 12
-        },
-        {
-          "peptide": "LGSLCPWRRALTRSQ",
-          "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.5328204699308203,
-          "binding_affinity_nm": 467.1795300691797,
-          "rank_percent": 46.717953006917966,
-          "start_position": 6
-        },
-        {
-          "peptide": "VSRRQSLCPRRAPAT",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.5245115752074363,
-          "binding_affinity_nm": 475.4884247925637,
-          "rank_percent": 47.54884247925637,
-          "start_position": 32
-        },
-        {
-          "peptide": "LCPWRRALTRSQIRA",
+          "peptide": "ARDVGYHSELRLILS",
           "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.5231172398558545,
-          "binding_affinity_nm": 476.88276014414555,
-          "rank_percent": 47.688276014414555,
-          "start_position": 9
+          "binding_score": 0.620888103052232,
+          "binding_affinity_nm": 379.11189694776806,
+          "rank_percent": 37.9111896947768,
+          "start_position": 2
         },
         {
-          "peptide": "TRSQIRACVCDGGVS",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.5192905928760281,
-          "binding_affinity_nm": 480.7094071239719,
-          "rank_percent": 48.07094071239719,
-          "start_position": 17
+          "peptide": "VGYHSELRLILSRTY",
+          "allele": "HLA-DRB1*13:02",
+          "binding_score": 0.615827090800432,
+          "binding_affinity_nm": 384.17290919956804,
+          "rank_percent": 38.417290919956805,
+          "start_position": 5
+        },
+        {
+          "peptide": "HSELRLILSRTYIDA",
+          "allele": "HLA-DRB1*07:01",
+          "binding_score": 0.6151586781826636,
+          "binding_affinity_nm": 384.84132181733645,
+          "rank_percent": 38.48413218173364,
+          "start_position": 8
+        },
+        {
+          "peptide": "VGYHSELRLILSRTY",
+          "allele": "HLA-DRB1*03:01",
+          "binding_score": 0.6073573438226165,
+          "binding_affinity_nm": 392.64265617738346,
+          "rank_percent": 39.264265617738346,
+          "start_position": 5
+        },
+        {
+          "peptide": "LRLILSRTYIDATGS",
+          "allele": "HLA-DRB1*03:01",
+          "binding_score": 0.6046772683751425,
+          "binding_affinity_nm": 395.3227316248575,
+          "rank_percent": 39.53227316248575,
+          "start_position": 11
+        },
+        {
+          "peptide": "DVGYHSELRLILSRT",
+          "allele": "HLA-DRB1*03:01",
+          "binding_score": 0.5972686450723695,
+          "binding_affinity_nm": 402.73135492763043,
+          "rank_percent": 40.273135492763046,
+          "start_position": 4
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "protein_length": 63,
-      "total_peptides_tested": 49,
-      "strong_binders": 13,
-      "moderate_binders": 107,
+      "protein_length": 36,
+      "total_peptides_tested": 22,
+      "strong_binders": 0,
+      "moderate_binders": 37,
       "predictions": [
         {
-          "peptide": "NSSINSLEYLCLDYP",
+          "peptide": "SLQVQVCNLWDQGHI",
           "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.9463501148884517,
-          "binding_affinity_nm": 53.649885111548336,
-          "rank_percent": 5.364988511154833,
-          "start_position": 41
+          "binding_score": 0.6546201439723501,
+          "binding_affinity_nm": 345.37985602764985,
+          "rank_percent": 34.537985602764984,
+          "start_position": 13
         },
         {
-          "peptide": "NSSINSLEYLCLDYP",
+          "peptide": "QGGSLQVQVCNLWDQ",
           "allele": "HLA-DRB1*11:01",
-          "binding_score": 0.9324868130435342,
-          "binding_affinity_nm": 67.5131869564658,
-          "rank_percent": 6.75131869564658,
-          "start_position": 41
+          "binding_score": 0.6443382425448556,
+          "binding_affinity_nm": 355.66175745514437,
+          "rank_percent": 35.56617574551444,
+          "start_position": 10
         },
         {
-          "peptide": "NSSINSLEYLCLDYP",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.891638954854571,
-          "binding_affinity_nm": 108.36104514542899,
-          "rank_percent": 10.8361045145429,
-          "start_position": 41
+          "peptide": "VCNLWDQGHITANSH",
+          "allele": "HLA-DRB1*03:01",
+          "binding_score": 0.6250729641009906,
+          "binding_affinity_nm": 374.92703589900947,
+          "rank_percent": 37.49270358990094,
+          "start_position": 18
         },
         {
-          "peptide": "NSSINSLEYLCLDYP",
+          "peptide": "SLQVQVCNLWDQGHI",
           "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.8164149803836747,
-          "binding_affinity_nm": 183.58501961632533,
-          "rank_percent": 18.358501961632534,
-          "start_position": 41
+          "binding_score": 0.5890480536244294,
+          "binding_affinity_nm": 410.9519463755706,
+          "rank_percent": 41.095194637557064,
+          "start_position": 13
         },
         {
-          "peptide": "YLSVKSFTYNAMGVR",
+          "peptide": "VCNLWDQGHITANSH",
           "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.7967489711597984,
-          "binding_affinity_nm": 203.25102884020163,
-          "rank_percent": 20.32510288402016,
-          "start_position": 14
+          "binding_score": 0.5845955066975363,
+          "binding_affinity_nm": 415.40449330246366,
+          "rank_percent": 41.54044933024637,
+          "start_position": 18
         },
         {
-          "peptide": "DTHYLSVKSFTYNAM",
+          "peptide": "VCNLWDQGHITANSH",
+          "allele": "HLA-DRB1*07:01",
+          "binding_score": 0.5684572429274622,
+          "binding_affinity_nm": 431.54275707253777,
+          "rank_percent": 43.154275707253774,
+          "start_position": 18
+        },
+        {
+          "peptide": "SLQVQVCNLWDQGHI",
+          "allele": "HLA-DRB1*13:02",
+          "binding_score": 0.5641504888682869,
+          "binding_affinity_nm": 435.8495111317131,
+          "rank_percent": 43.584951113171314,
+          "start_position": 13
+        },
+        {
+          "peptide": "QVQVCNLWDQGHITA",
+          "allele": "HLA-DRB1*07:01",
+          "binding_score": 0.5158116285815775,
+          "binding_affinity_nm": 484.18837141842255,
+          "rank_percent": 48.41883714184225,
+          "start_position": 15
+        },
+        {
+          "peptide": "LWDQGHITANSHVHY",
+          "allele": "HLA-DRB1*13:02",
+          "binding_score": 0.5111981274820061,
+          "binding_affinity_nm": 488.8018725179939,
+          "rank_percent": 48.88018725179939,
+          "start_position": 21
+        },
+        {
+          "peptide": "GSLQVQVCNLWDQGH",
+          "allele": "HLA-DRB1*01:01",
+          "binding_score": 0.5102765201929593,
+          "binding_affinity_nm": 489.7234798070407,
+          "rank_percent": 48.972347980704065,
+          "start_position": 12
+        },
+        {
+          "peptide": "QGGSLQVQVCNLWDQ",
+          "allele": "HLA-DRB1*07:01",
+          "binding_score": 0.5093849960894135,
+          "binding_affinity_nm": 490.61500391058655,
+          "rank_percent": 49.06150039105866,
+          "start_position": 10
+        },
+        {
+          "peptide": "VQVCNLWDQGHITAN",
           "allele": "HLA-DRB1*11:01",
-          "binding_score": 0.7865896508080488,
-          "binding_affinity_nm": 213.41034919195124,
-          "rank_percent": 21.341034919195124,
-          "start_position": 11
-        },
-        {
-          "peptide": "SVKSFTYNAMGVRDV",
-          "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.7739300898108551,
-          "binding_affinity_nm": 226.0699101891449,
-          "rank_percent": 22.606991018914492,
+          "binding_score": 0.5083955714832848,
+          "binding_affinity_nm": 491.60442851671513,
+          "rank_percent": 49.16044285167152,
           "start_position": 16
         },
         {
-          "peptide": "SVKSFTYNAMGVRDV",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.7730447244542912,
-          "binding_affinity_nm": 226.95527554570882,
-          "rank_percent": 22.695527554570884,
-          "start_position": 16
-        },
-        {
-          "peptide": "YLSVKSFTYNAMGVR",
+          "peptide": "QGGSLQVQVCNLWDQ",
           "allele": "HLA-DRB1*13:02",
-          "binding_score": 0.7564992399472568,
-          "binding_affinity_nm": 243.50076005274323,
-          "rank_percent": 24.350076005274325,
-          "start_position": 14
+          "binding_score": 0.49650975612000003,
+          "binding_affinity_nm": 503.49024388,
+          "rank_percent": 50.349024388,
+          "start_position": 10
         },
         {
-          "peptide": "DTHYLSVKSFTYNAM",
-          "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.7472497144346293,
-          "binding_affinity_nm": 252.75028556537072,
-          "rank_percent": 25.275028556537073,
-          "start_position": 11
-        },
-        {
-          "peptide": "NSSINSLEYLCLDYP",
+          "peptide": "LWDQGHITANSHVHY",
           "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.7240725091937344,
-          "binding_affinity_nm": 275.92749080626555,
-          "rank_percent": 27.592749080626554,
-          "start_position": 41
+          "binding_score": 0.496033656549286,
+          "binding_affinity_nm": 503.966343450714,
+          "rank_percent": 50.3966343450714,
+          "start_position": 21
         },
         {
-          "peptide": "SLEYLCLDYPVAPNR",
-          "allele": "HLA-DRB1*11:01",
-          "binding_score": 0.7221324552004564,
-          "binding_affinity_nm": 277.86754479954357,
-          "rank_percent": 27.786754479954357,
-          "start_position": 46
-        },
-        {
-          "peptide": "SFTYNAMGVRDVGRY",
-          "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.7194596747733237,
-          "binding_affinity_nm": 280.54032522667626,
-          "rank_percent": 28.054032522667626,
-          "start_position": 19
-        },
-        {
-          "peptide": "NSSINSLEYLCLDYP",
-          "allele": "HLA-DRB1*13:02",
-          "binding_score": 0.6827300497496531,
-          "binding_affinity_nm": 317.2699502503469,
-          "rank_percent": 31.72699502503469,
-          "start_position": 41
-        },
-        {
-          "peptide": "SLEYLCLDYPVAPNR",
-          "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.6825771454422759,
-          "binding_affinity_nm": 317.4228545577241,
-          "rank_percent": 31.74228545577241,
-          "start_position": 46
+          "peptide": "DRQGGSLQVQVCNLW",
+          "allele": "HLA-DRB1*07:01",
+          "binding_score": 0.4934914554961186,
+          "binding_affinity_nm": 506.5085445038814,
+          "rank_percent": 50.65085445038814,
+          "start_position": 8
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "protein_length": 55,
-      "total_peptides_tested": 41,
-      "strong_binders": 3,
-      "moderate_binders": 92,
+      "protein_length": 25,
+      "total_peptides_tested": 11,
+      "strong_binders": 1,
+      "moderate_binders": 47,
       "predictions": [
         {
-          "peptide": "LGADRKLTYVILSDH",
-          "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.7964258306223009,
-          "binding_affinity_nm": 203.57416937769912,
-          "rank_percent": 20.357416937769912,
-          "start_position": 28
-        },
-        {
-          "peptide": "LGADRKLTYVILSDH",
+          "peptide": "TMLKKTVSLLAASWK",
           "allele": "HLA-DRB1*11:01",
-          "binding_score": 0.790080561697739,
-          "binding_affinity_nm": 209.919438302261,
-          "rank_percent": 20.991943830226102,
-          "start_position": 28
+          "binding_score": 0.7118798605032144,
+          "binding_affinity_nm": 288.1201394967856,
+          "rank_percent": 28.812013949678562,
+          "start_position": 11
         },
         {
-          "peptide": "LGADRKLTYVILSDH",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.7758135016660966,
-          "binding_affinity_nm": 224.18649833390336,
-          "rank_percent": 22.418649833390337,
-          "start_position": 28
+          "peptide": "TMLKKTVSLLAASWK",
+          "allele": "HLA-DRB1*13:02",
+          "binding_score": 0.6621069769971167,
+          "binding_affinity_nm": 337.89302300288324,
+          "rank_percent": 33.78930230028833,
+          "start_position": 11
         },
         {
-          "peptide": "FNFDPRDVLLRWRGC",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.6851234272835544,
-          "binding_affinity_nm": 314.87657271644565,
-          "rank_percent": 31.487657271644565,
+          "peptide": "PKCYGIFITMLKKTV",
+          "allele": "HLA-DRB1*13:02",
+          "binding_score": 0.6489599916901514,
+          "binding_affinity_nm": 351.0400083098486,
+          "rank_percent": 35.10400083098486,
+          "start_position": 3
+        },
+        {
+          "peptide": "VLPKCYGIFITMLKK",
+          "allele": "HLA-DRB1*03:01",
+          "binding_score": 0.6483916436819793,
+          "binding_affinity_nm": 351.6083563180207,
+          "rank_percent": 35.160835631802065,
           "start_position": 1
         },
         {
-          "peptide": "QNRLSPLGADRKLTY",
+          "peptide": "ITMLKKTVSLLAASW",
           "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.6586732668068086,
-          "binding_affinity_nm": 341.3267331931914,
-          "rank_percent": 34.13267331931914,
-          "start_position": 22
+          "binding_score": 0.6417444411733084,
+          "binding_affinity_nm": 358.2555588266916,
+          "rank_percent": 35.82555588266916,
+          "start_position": 10
         },
         {
-          "peptide": "ADRKLTYVILSDHLE",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.658123310352144,
-          "binding_affinity_nm": 341.876689647856,
-          "rank_percent": 34.1876689647856,
-          "start_position": 30
-        },
-        {
-          "peptide": "ADRKLTYVILSDHLE",
+          "peptide": "TMLKKTVSLLAASWK",
           "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.6249205698980552,
-          "binding_affinity_nm": 375.07943010194475,
-          "rank_percent": 37.50794301019448,
-          "start_position": 30
+          "binding_score": 0.6257392630607689,
+          "binding_affinity_nm": 374.2607369392311,
+          "rank_percent": 37.426073693923115,
+          "start_position": 11
         },
         {
-          "peptide": "LGADRKLTYVILSDH",
+          "peptide": "FITMLKKTVSLLAAS",
           "allele": "HLA-DRB1*13:02",
-          "binding_score": 0.6133103203256919,
-          "binding_affinity_nm": 386.68967967430814,
-          "rank_percent": 38.66896796743081,
-          "start_position": 28
+          "binding_score": 0.6240093898400593,
+          "binding_affinity_nm": 375.99061015994073,
+          "rank_percent": 37.599061015994074,
+          "start_position": 9
         },
         {
-          "peptide": "DHLETQITGLNLRRL",
+          "peptide": "FITMLKKTVSLLAAS",
           "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.6081059150757863,
-          "binding_affinity_nm": 391.89408492421376,
-          "rank_percent": 39.18940849242137,
-          "start_position": 41
+          "binding_score": 0.6192310642529684,
+          "binding_affinity_nm": 380.7689357470316,
+          "rank_percent": 38.07689357470316,
+          "start_position": 9
         },
         {
-          "peptide": "DHLETQITGLNLRRL",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.6065172085944537,
-          "binding_affinity_nm": 393.4827914055463,
-          "rank_percent": 39.34827914055463,
-          "start_position": 41
-        },
-        {
-          "peptide": "RDVLLRWRGCVAHSG",
-          "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.6064201286587831,
-          "binding_affinity_nm": 393.57987134121686,
-          "rank_percent": 39.357987134121686,
-          "start_position": 6
-        },
-        {
-          "peptide": "QNRLSPLGADRKLTY",
+          "peptide": "FITMLKKTVSLLAAS",
           "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.6022738441564917,
-          "binding_affinity_nm": 397.72615584350837,
-          "rank_percent": 39.77261558435083,
-          "start_position": 22
+          "binding_score": 0.616369164236494,
+          "binding_affinity_nm": 383.63083576350596,
+          "rank_percent": 38.3630835763506,
+          "start_position": 9
         },
         {
-          "peptide": "PLGADRKLTYVILSD",
+          "peptide": "YGIFITMLKKTVSLL",
           "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.5973555201299654,
-          "binding_affinity_nm": 402.6444798700346,
-          "rank_percent": 40.26444798700346,
-          "start_position": 27
+          "binding_score": 0.6162055675263698,
+          "binding_affinity_nm": 383.7944324736302,
+          "rank_percent": 38.37944324736302,
+          "start_position": 6
         },
         {
-          "peptide": "RDVLLRWRGCVAHSG",
+          "peptide": "VLPKCYGIFITMLKK",
           "allele": "HLA-DRB1*13:02",
-          "binding_score": 0.5910039075761234,
-          "binding_affinity_nm": 408.9960924238766,
-          "rank_percent": 40.899609242387655,
-          "start_position": 6
+          "binding_score": 0.6104511043161351,
+          "binding_affinity_nm": 389.5488956838649,
+          "rank_percent": 38.954889568386484,
+          "start_position": 1
         },
         {
-          "peptide": "RDVLLRWRGCVAHSG",
+          "peptide": "LPKCYGIFITMLKKT",
+          "allele": "HLA-DRB1*13:02",
+          "binding_score": 0.605802574846849,
+          "binding_affinity_nm": 394.197425153151,
+          "rank_percent": 39.41974251531511,
+          "start_position": 2
+        },
+        {
+          "peptide": "ITMLKKTVSLLAASW",
           "allele": "HLA-DRB1*11:01",
-          "binding_score": 0.5880397188325285,
-          "binding_affinity_nm": 411.9602811674715,
-          "rank_percent": 41.19602811674715,
-          "start_position": 6
+          "binding_score": 0.6006871033279344,
+          "binding_affinity_nm": 399.3128966720656,
+          "rank_percent": 39.931289667206556,
+          "start_position": 10
+        },
+        {
+          "peptide": "TMLKKTVSLLAASWK",
+          "allele": "HLA-DRB1*03:01",
+          "binding_score": 0.592585236406153,
+          "binding_affinity_nm": 407.414763593847,
+          "rank_percent": 40.7414763593847,
+          "start_position": 11
+        },
+        {
+          "peptide": "VLPKCYGIFITMLKK",
+          "allele": "HLA-DRB1*04:01",
+          "binding_score": 0.5734764410035423,
+          "binding_affinity_nm": 426.52355899645767,
+          "rank_percent": 42.65235589964577,
+          "start_position": 1
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "protein_length": 60,
-      "total_peptides_tested": 46,
-      "strong_binders": 11,
-      "moderate_binders": 140,
+      "protein_length": 25,
+      "total_peptides_tested": 11,
+      "strong_binders": 0,
+      "moderate_binders": 25,
       "predictions": [
         {
-          "peptide": "FWNRLNLCVLFLRLN",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.8105143872144727,
-          "binding_affinity_nm": 189.48561278552734,
-          "rank_percent": 18.948561278552734,
-          "start_position": 42
-        },
-        {
-          "peptide": "FWNRLNLCVLFLRLN",
-          "allele": "HLA-DRB1*13:02",
-          "binding_score": 0.7750083981374157,
-          "binding_affinity_nm": 224.99160186258428,
-          "rank_percent": 22.499160186258425,
-          "start_position": 42
-        },
-        {
-          "peptide": "NRLNLCVLFLRLNLI",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.7664125513902841,
-          "binding_affinity_nm": 233.58744860971592,
-          "rank_percent": 23.35874486097159,
-          "start_position": 44
-        },
-        {
-          "peptide": "APMMSFIGPISLLRT",
-          "allele": "HLA-DRB1*13:02",
-          "binding_score": 0.7564991380311962,
-          "binding_affinity_nm": 243.50086196880383,
-          "rank_percent": 24.350086196880383,
-          "start_position": 22
-        },
-        {
-          "peptide": "GFFWNRLNLCVLFLR",
+          "peptide": "RRPRKFGTLAGLHSG",
           "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.7558276876409491,
-          "binding_affinity_nm": 244.1723123590509,
-          "rank_percent": 24.417231235905092,
-          "start_position": 40
+          "binding_score": 0.6460197273890697,
+          "binding_affinity_nm": 353.98027261093034,
+          "rank_percent": 35.398027261093034,
+          "start_position": 4
         },
         {
-          "peptide": "NRLNLCVLFLRLNLI",
-          "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.7549202404586861,
-          "binding_affinity_nm": 245.07975954131388,
-          "rank_percent": 24.50797595413139,
-          "start_position": 44
-        },
-        {
-          "peptide": "KCRAPMMSFIGPISL",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.7528358461068881,
-          "binding_affinity_nm": 247.16415389311186,
-          "rank_percent": 24.716415389311187,
-          "start_position": 19
-        },
-        {
-          "peptide": "MSFIGPISLLRTGHY",
-          "allele": "HLA-DRB1*07:01",
-          "binding_score": 0.7363751115018806,
-          "binding_affinity_nm": 263.6248884981194,
-          "rank_percent": 26.36248884981194,
-          "start_position": 25
-        },
-        {
-          "peptide": "KCRAPMMSFIGPISL",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.7246842131796458,
-          "binding_affinity_nm": 275.31578682035416,
-          "rank_percent": 27.531578682035416,
-          "start_position": 19
-        },
-        {
-          "peptide": "NRLNLCVLFLRLNLI",
-          "allele": "HLA-DRB1*04:01",
-          "binding_score": 0.7140976331352379,
-          "binding_affinity_nm": 285.9023668647621,
-          "rank_percent": 28.59023668647621,
-          "start_position": 44
-        },
-        {
-          "peptide": "MSFIGPISLLRTGHY",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.7059093315285384,
-          "binding_affinity_nm": 294.0906684714616,
-          "rank_percent": 29.40906684714616,
-          "start_position": 25
-        },
-        {
-          "peptide": "KCRAPMMSFIGPISL",
+          "peptide": "PRKFGTLAGLHSGRE",
           "allele": "HLA-DRB1*03:01",
-          "binding_score": 0.6946268127393721,
-          "binding_affinity_nm": 305.3731872606279,
-          "rank_percent": 30.53731872606279,
-          "start_position": 19
+          "binding_score": 0.6344949597359705,
+          "binding_affinity_nm": 365.5050402640295,
+          "rank_percent": 36.550504026402955,
+          "start_position": 6
         },
         {
-          "peptide": "APMMSFIGPISLLRT",
-          "allele": "HLA-DRB1*01:01",
-          "binding_score": 0.6905818336547627,
-          "binding_affinity_nm": 309.41816634523735,
-          "rank_percent": 30.941816634523732,
-          "start_position": 22
+          "peptide": "RRPRKFGTLAGLHSG",
+          "allele": "HLA-DRB1*04:01",
+          "binding_score": 0.6284741830126925,
+          "binding_affinity_nm": 371.52581698730745,
+          "rank_percent": 37.15258169873075,
+          "start_position": 4
         },
         {
-          "peptide": "MSFIGPISLLRTGHY",
+          "peptide": "PRKFGTLAGLHSGRE",
           "allele": "HLA-DRB1*13:02",
-          "binding_score": 0.6893929870321855,
-          "binding_affinity_nm": 310.60701296781446,
-          "rank_percent": 31.060701296781446,
-          "start_position": 25
+          "binding_score": 0.5912462230372829,
+          "binding_affinity_nm": 408.7537769627171,
+          "rank_percent": 40.875377696271705,
+          "start_position": 6
         },
         {
-          "peptide": "KCRAPMMSFIGPISL",
+          "peptide": "RRPRKFGTLAGLHSG",
+          "allele": "HLA-DRB1*01:01",
+          "binding_score": 0.5825337369598587,
+          "binding_affinity_nm": 417.4662630401413,
+          "rank_percent": 41.746626304014136,
+          "start_position": 4
+        },
+        {
+          "peptide": "PRKFGTLAGLHSGRE",
+          "allele": "HLA-DRB1*01:01",
+          "binding_score": 0.5190990862304334,
+          "binding_affinity_nm": 480.90091376956656,
+          "rank_percent": 48.09009137695666,
+          "start_position": 6
+        },
+        {
+          "peptide": "GTLAGLHSGREYGRS",
           "allele": "HLA-DRB1*11:01",
-          "binding_score": 0.6763162916320956,
-          "binding_affinity_nm": 323.6837083679044,
-          "rank_percent": 32.36837083679044,
-          "start_position": 19
+          "binding_score": 0.5046391589560011,
+          "binding_affinity_nm": 495.3608410439989,
+          "rank_percent": 49.53608410439989,
+          "start_position": 10
+        },
+        {
+          "peptide": "TNVRRPRKFGTLAGL",
+          "allele": "HLA-DRB1*03:01",
+          "binding_score": 0.5035647642252646,
+          "binding_affinity_nm": 496.43523577473536,
+          "rank_percent": 49.64352357747354,
+          "start_position": 1
+        },
+        {
+          "peptide": "GTLAGLHSGREYGRS",
+          "allele": "HLA-DRB1*01:01",
+          "binding_score": 0.4806343740876091,
+          "binding_affinity_nm": 519.3656259123909,
+          "rank_percent": 51.93656259123909,
+          "start_position": 10
+        },
+        {
+          "peptide": "PRKFGTLAGLHSGRE",
+          "allele": "HLA-DRB1*07:01",
+          "binding_score": 0.4722908026275436,
+          "binding_affinity_nm": 527.7091973724564,
+          "rank_percent": 52.770919737245634,
+          "start_position": 6
+        },
+        {
+          "peptide": "VRRPRKFGTLAGLHS",
+          "allele": "HLA-DRB1*11:01",
+          "binding_score": 0.4598398525938613,
+          "binding_affinity_nm": 540.1601474061387,
+          "rank_percent": 54.01601474061387,
+          "start_position": 3
+        },
+        {
+          "peptide": "FGTLAGLHSGREYGR",
+          "allele": "HLA-DRB1*07:01",
+          "binding_score": 0.4517577252547731,
+          "binding_affinity_nm": 548.242274745227,
+          "rank_percent": 54.824227474522694,
+          "start_position": 9
+        },
+        {
+          "peptide": "PRKFGTLAGLHSGRE",
+          "allele": "HLA-DRB1*11:01",
+          "binding_score": 0.44774894548471744,
+          "binding_affinity_nm": 552.2510545152826,
+          "rank_percent": 55.22510545152826,
+          "start_position": 6
+        },
+        {
+          "peptide": "TNVRRPRKFGTLAGL",
+          "allele": "HLA-DRB1*04:01",
+          "binding_score": 0.44731965784316297,
+          "binding_affinity_nm": 552.680342156837,
+          "rank_percent": 55.268034215683706,
+          "start_position": 1
+        },
+        {
+          "peptide": "VRRPRKFGTLAGLHS",
+          "allele": "HLA-DRB1*13:02",
+          "binding_score": 0.446573463511738,
+          "binding_affinity_nm": 553.4265364882621,
+          "rank_percent": 55.3426536488262,
+          "start_position": 3
         }
       ]
     }
@@ -1246,18 +1190,9 @@
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "total_predicted": 1,
+      "total_predicted": 0,
       "high_confidence": 0,
-      "predictions": [
-        {
-          "peptide": "RRDTHY",
-          "start_position": 9,
-          "length": 6,
-          "antigenicity_score": 0.6261742571990125,
-          "surface_accessibility": 0.9699574345276537,
-          "hydrophilicity": 0.8333333333333334
-        }
-      ]
+      "predictions": []
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
@@ -1275,436 +1210,448 @@
   "immunogenicity_scores": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "high_immunogenicity_peptides": 0,
-      "moderate_immunogenicity_peptides": 7,
+      "high_immunogenicity_peptides": 1,
+      "moderate_immunogenicity_peptides": 11,
       "top_immunogenic_peptides": [
         {
-          "peptide": "SLCPWRRAL",
-          "immunogenicity_score": 0.7895898626763839,
-          "start_position": 8,
+          "peptide": "RLILSRTYI",
+          "immunogenicity_score": 0.8190016003455936,
+          "start_position": 12,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.9287975903487868,
-            "HLA-A*01:01": 0.5564844042096668,
-            "HLA-A*24:02": 0.5315235403759393,
-            "HLA-A*03:01": 0.844785051905936,
-            "HLA-B*07:02": 0.8774687920485904
+            "HLA-A*02:01": 0.8086232108789211,
+            "HLA-A*01:01": 0.909752401574621,
+            "HLA-A*24:02": 0.6791538077834394,
+            "HLA-A*03:01": 0.8295692033474344,
+            "HLA-B*07:02": 0.5441959020512597
           }
         },
         {
-          "peptide": "ALTRSQIRA",
-          "immunogenicity_score": 0.6759513303969682,
-          "start_position": 15,
+          "peptide": "ILSRTYIDA",
+          "immunogenicity_score": 0.6919416160185243,
+          "start_position": 14,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.5281254118682864,
-            "HLA-A*01:01": 0.44303917870480236,
-            "HLA-A*24:02": 0.4988956765382658,
-            "HLA-A*03:01": 0.5253493403970191,
-            "HLA-B*07:02": 0.5098130311278832
+            "HLA-A*02:01": 0.6780121924722396,
+            "HLA-A*01:01": 0.5501859984287305,
+            "HLA-A*24:02": 0.46922223093043924,
+            "HLA-A*03:01": 0.5095881158617313,
+            "HLA-B*07:02": 0.450089850332828
           }
         },
         {
-          "peptide": "GLGSLCPWR",
-          "immunogenicity_score": 0.6064096655470743,
-          "start_position": 5,
+          "peptide": "RDVGYHSEL",
+          "immunogenicity_score": 0.6460447684932535,
+          "start_position": 3,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.631876259980547,
-            "HLA-A*01:01": 0.45288272992498463,
-            "HLA-A*24:02": 0.3604451413068004,
-            "HLA-A*03:01": 0.17931662027161238,
-            "HLA-B*07:02": 0.4521573475068771
+            "HLA-A*02:01": 0.5035107081294337,
+            "HLA-A*01:01": 0.4033046070582823,
+            "HLA-A*24:02": 0.3813870809752552,
+            "HLA-A*03:01": 0.36611006972979754,
+            "HLA-B*07:02": 0.41461890663880285
           }
         },
         {
-          "peptide": "TRSQIRACV",
-          "immunogenicity_score": 0.6028530611172732,
-          "start_position": 17,
+          "peptide": "ELRLILSRT",
+          "immunogenicity_score": 0.6397406085533066,
+          "start_position": 10,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.36676225187592004,
-            "HLA-A*01:01": 0.4812617097157849,
-            "HLA-A*24:02": 0.3935561816129567,
-            "HLA-A*03:01": 0.3747013473249636,
-            "HLA-B*07:02": 0.3882643269628885
+            "HLA-A*02:01": 0.5362441542019043,
+            "HLA-A*01:01": 0.33001668928306693,
+            "HLA-A*24:02": 0.5063438172912654,
+            "HLA-A*03:01": 0.4081828891296869,
+            "HLA-B*07:02": 0.3001988598431511
           }
         },
         {
-          "peptide": "QIRACVCDG",
-          "immunogenicity_score": 0.5947717770455158,
-          "start_position": 20,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.46605114800698466,
-            "HLA-A*01:01": 0.4195130059882789,
-            "HLA-A*24:02": 0.18192991967937588,
-            "HLA-A*03:01": 0.41054445520009863,
-            "HLA-B*07:02": 0.20947287056339678
-          }
-        },
-        {
-          "peptide": "RRALTRSQI",
-          "immunogenicity_score": 0.5631043591949361,
+          "peptide": "LILSRTYID",
+          "immunogenicity_score": 0.6304621998520982,
           "start_position": 13,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.45290528538156416,
-            "HLA-A*01:01": 0.31950955036343287,
-            "HLA-A*24:02": 0.2111986262228825,
-            "HLA-A*03:01": 0.2562386927639877,
-            "HLA-B*07:02": 0.18797037145194573
+            "HLA-A*02:01": 0.4843146352311106,
+            "HLA-A*01:01": 0.31749279373068884,
+            "HLA-A*24:02": 0.42852620385157447,
+            "HLA-A*03:01": 0.42501818878530595,
+            "HLA-B*07:02": 0.27492581958289086
           }
         },
         {
-          "peptide": "RGCGGLGSL",
-          "immunogenicity_score": 0.5350632570926684,
-          "start_position": 1,
+          "peptide": "GYHSELRLI",
+          "immunogenicity_score": 0.6282608404705692,
+          "start_position": 6,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.26465385444159206,
-            "HLA-A*01:01": 0.3786695995300208,
-            "HLA-A*24:02": 0.3798146347739304,
-            "HLA-A*03:01": 0.15382544147745644,
-            "HLA-B*07:02": 0.39189667799900885
+            "HLA-A*02:01": 0.5856350532219157,
+            "HLA-A*01:01": 0.2942283613040753,
+            "HLA-A*24:02": 0.29717697692487116,
+            "HLA-A*03:01": 0.5414955856648562,
+            "HLA-B*07:02": 0.509488140230455
+          }
+        },
+        {
+          "peptide": "YIDATGSYN",
+          "immunogenicity_score": 0.6196312829073669,
+          "start_position": 19,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.3631603015677859,
+            "HLA-A*01:01": 0.33030822447768304,
+            "HLA-A*24:02": 0.2600518352632265,
+            "HLA-A*03:01": 0.5745377518500272,
+            "HLA-B*07:02": 0.51812922682946
+          }
+        },
+        {
+          "peptide": "YHSELRLIL",
+          "immunogenicity_score": 0.6111803824622877,
+          "start_position": 7,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.5922450621524098,
+            "HLA-A*01:01": 0.4170115290481594,
+            "HLA-A*24:02": 0.5981201742413087,
+            "HLA-A*03:01": 0.22907872103021926,
+            "HLA-B*07:02": 0.4112513175547927
+          }
+        },
+        {
+          "peptide": "LRLILSRTY",
+          "immunogenicity_score": 0.6109073374011269,
+          "start_position": 11,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.5613200781200809,
+            "HLA-A*01:01": 0.4262028043400299,
+            "HLA-A*24:02": 0.31645821886215164,
+            "HLA-A*03:01": 0.6074399215227644,
+            "HLA-B*07:02": 0.3229144232881231
+          }
+        },
+        {
+          "peptide": "TYIDATGSY",
+          "immunogenicity_score": 0.6090788239522861,
+          "start_position": 18,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.35977979196974597,
+            "HLA-A*01:01": 0.5625368957328251,
+            "HLA-A*24:02": 0.369361350489347,
+            "HLA-A*03:01": 0.5258221735238484,
+            "HLA-B*07:02": 0.25836087868921076
           }
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "high_immunogenicity_peptides": 1,
-      "moderate_immunogenicity_peptides": 7,
+      "high_immunogenicity_peptides": 0,
+      "moderate_immunogenicity_peptides": 11,
       "top_immunogenic_peptides": [
         {
-          "peptide": "ILRRDTHYL",
-          "immunogenicity_score": 0.8229803927732358,
-          "start_position": 7,
+          "peptide": "SLQVQVCNL",
+          "immunogenicity_score": 0.764776267309508,
+          "start_position": 13,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.8162046531779124,
-            "HLA-A*01:01": 0.6675633733284199,
-            "HLA-A*24:02": 0.6990171708950912,
-            "HLA-A*03:01": 0.7018560321718523,
-            "HLA-B*07:02": 0.6487440887450233
+            "HLA-A*02:01": 0.8547651423314038,
+            "HLA-A*01:01": 0.5834016406993762,
+            "HLA-A*24:02": 0.6073869525793669,
+            "HLA-A*03:01": 0.5387839644886205,
+            "HLA-B*07:02": 0.8588505981616017
           }
         },
         {
-          "peptide": "LILRRDTHY",
-          "immunogenicity_score": 0.7843749721926854,
+          "peptide": "QVQVCNLWD",
+          "immunogenicity_score": 0.6296063160048078,
+          "start_position": 15,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.601194408724443,
+            "HLA-A*01:01": 0.20491147257758321,
+            "HLA-A*24:02": 0.4842409554292221,
+            "HLA-A*03:01": 0.4930021590760683,
+            "HLA-B*07:02": 0.35161204324696366
+          }
+        },
+        {
+          "peptide": "NLWDQGHIT",
+          "immunogenicity_score": 0.6237486400345981,
+          "start_position": 20,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.3980810244706645,
+            "HLA-A*01:01": 0.27773621472319765,
+            "HLA-A*24:02": 0.3472254766882976,
+            "HLA-A*03:01": 0.5476641728584296,
+            "HLA-B*07:02": 0.31754787145639507
+          }
+        },
+        {
+          "peptide": "SQDRQGGSL",
+          "immunogenicity_score": 0.6193868546499446,
           "start_position": 6,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.7413138904727424,
-            "HLA-A*01:01": 0.5394981187848299,
-            "HLA-A*24:02": 0.6683955993662851,
-            "HLA-A*03:01": 0.5858858119798727,
-            "HLA-B*07:02": 0.7420383712841625
+            "HLA-A*02:01": 0.4117461666869964,
+            "HLA-A*01:01": 0.3908236652996213,
+            "HLA-A*24:02": 0.5063221966669675,
+            "HLA-A*03:01": 0.5084452984852244,
+            "HLA-B*07:02": 0.13736669287347936
           }
         },
         {
-          "peptide": "YLSVKSFTY",
-          "immunogenicity_score": 0.776274497413797,
-          "start_position": 14,
+          "peptide": "QGGSLQVQV",
+          "immunogenicity_score": 0.6183055625675836,
+          "start_position": 10,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.7683753153170609,
-            "HLA-A*01:01": 0.5341267006297892,
-            "HLA-A*24:02": 0.5400367475178731,
-            "HLA-A*03:01": 0.865255940215816,
-            "HLA-B*07:02": 0.796650917591748
+            "HLA-A*02:01": 0.5002683944541197,
+            "HLA-A*01:01": 0.5262911983992132,
+            "HLA-A*24:02": 0.3296335895857927,
+            "HLA-A*03:01": 0.4862709642271433,
+            "HLA-B*07:02": 0.4345536471672075
           }
         },
         {
-          "peptide": "QLILRRDTH",
-          "immunogenicity_score": 0.6321936119132623,
-          "start_position": 5,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.5374157853332338,
-            "HLA-A*01:01": 0.44798945440969146,
-            "HLA-A*24:02": 0.23134532627636595,
-            "HLA-A*03:01": 0.24990831012940434,
-            "HLA-B*07:02": 0.5544327706096079
-          }
-        },
-        {
-          "peptide": "RRDTHYLSV",
-          "immunogenicity_score": 0.6311471092047507,
-          "start_position": 9,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.6510808084134085,
-            "HLA-A*01:01": 0.45068271043046726,
-            "HLA-A*24:02": 0.48678397074615753,
-            "HLA-A*03:01": 0.42121634259539537,
-            "HLA-B*07:02": 0.29777706155763617
-          }
-        },
-        {
-          "peptide": "SVKSFTYNA",
-          "immunogenicity_score": 0.6202351934583503,
-          "start_position": 16,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.3212673770335827,
-            "HLA-A*01:01": 0.5392185705461395,
-            "HLA-A*24:02": 0.34868867408567794,
-            "HLA-A*03:01": 0.19834919845405735,
-            "HLA-B*07:02": 0.5382291454874514
-          }
-        },
-        {
-          "peptide": "THYLSVKSF",
-          "immunogenicity_score": 0.5686112608584131,
-          "start_position": 12,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.3690081106849509,
-            "HLA-A*01:01": 0.5148311226775493,
-            "HLA-A*24:02": 0.2842842504269314,
-            "HLA-A*03:01": 0.2063172778901124,
-            "HLA-B*07:02": 0.35285314270115464
-          }
-        },
-        {
-          "peptide": "SFTYNAMGV",
-          "immunogenicity_score": 0.5662970567566714,
+          "peptide": "CNLWDQGHI",
+          "immunogenicity_score": 0.6142310455479489,
           "start_position": 19,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.38769124590972576,
-            "HLA-A*01:01": 0.37768440083636257,
-            "HLA-A*24:02": 0.2419516892157364,
-            "HLA-A*03:01": 0.504788466272311,
-            "HLA-B*07:02": 0.26397642448356834
+            "HLA-A*02:01": 0.4357114241792066,
+            "HLA-A*01:01": 0.43599354445442556,
+            "HLA-A*24:02": 0.2925448840526185,
+            "HLA-A*03:01": 0.4289032752775906,
+            "HLA-B*07:02": 0.47718206577450584
+          }
+        },
+        {
+          "peptide": "LLVSQDRQG",
+          "immunogenicity_score": 0.6107507984972009,
+          "start_position": 3,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.5314987779011292,
+            "HLA-A*01:01": 0.3599176092112406,
+            "HLA-A*24:02": 0.18191473154618462,
+            "HLA-A*03:01": 0.31371991089492707,
+            "HLA-B*07:02": 0.5113817167231614
+          }
+        },
+        {
+          "peptide": "QVCNLWDQG",
+          "immunogenicity_score": 0.6050133559089538,
+          "start_position": 17,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.3917121788612903,
+            "HLA-A*01:01": 0.33619129867473174,
+            "HLA-A*24:02": 0.4338944932714538,
+            "HLA-A*03:01": 0.3228984586018476,
+            "HLA-B*07:02": 0.24837967694331758
+          }
+        },
+        {
+          "peptide": "ELLVSQDRQ",
+          "immunogenicity_score": 0.6047669034711881,
+          "start_position": 2,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.6120978316052497,
+            "HLA-A*01:01": 0.16880011188087585,
+            "HLA-A*24:02": 0.5002568214008534,
+            "HLA-A*03:01": 0.2743700764187033,
+            "HLA-B*07:02": 0.2839946323229558
+          }
+        },
+        {
+          "peptide": "LVSQDRQGG",
+          "immunogenicity_score": 0.5453713321881871,
+          "start_position": 4,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.3288071372564936,
+            "HLA-A*01:01": 0.3171888673357977,
+            "HLA-A*24:02": 0.43152488106404463,
+            "HLA-A*03:01": 0.44182184980758854,
+            "HLA-B*07:02": 0.1602377227287679
           }
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "high_immunogenicity_peptides": 1,
-      "moderate_immunogenicity_peptides": 8,
+      "high_immunogenicity_peptides": 2,
+      "moderate_immunogenicity_peptides": 6,
       "top_immunogenic_peptides": [
         {
-          "peptide": "VLLRWRGCV",
-          "immunogenicity_score": 0.8364704749449882,
-          "start_position": 8,
+          "peptide": "MLKKTVSLL",
+          "immunogenicity_score": 0.8393662648545192,
+          "start_position": 12,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.9280644277841104,
-            "HLA-A*01:01": 0.8606409484030243,
-            "HLA-A*24:02": 0.7559897041480879,
-            "HLA-A*03:01": 0.6769897729953709,
-            "HLA-B*07:02": 0.7137264678415609
+            "HLA-A*02:01": 0.8942486795145188,
+            "HLA-A*01:01": 0.7858702109326914,
+            "HLA-A*24:02": 0.7428067940626795,
+            "HLA-A*03:01": 0.6127572277255031,
+            "HLA-B*07:02": 0.7103328568489435
           }
         },
         {
-          "peptide": "GIQNRLSPL",
-          "immunogenicity_score": 0.7297264606753362,
-          "start_position": 20,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.8923577266479044,
-            "HLA-A*01:01": 0.47057882359123526,
-            "HLA-A*24:02": 0.6075399905254418,
-            "HLA-A*03:01": 0.6450043015226786,
-            "HLA-B*07:02": 0.6051019687133046
-          }
-        },
-        {
-          "peptide": "CVAHSGIQN",
-          "immunogenicity_score": 0.6506716497504668,
-          "start_position": 15,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.6273512291023121,
-            "HLA-A*01:01": 0.36183614512662887,
-            "HLA-A*24:02": 0.5083825445546016,
-            "HLA-A*03:01": 0.4003526733671817,
-            "HLA-B*07:02": 0.3605357999432518
-          }
-        },
-        {
-          "peptide": "AHSGIQNRL",
-          "immunogenicity_score": 0.6109556833319866,
-          "start_position": 17,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.33605053100754056,
-            "HLA-A*01:01": 0.32844393953870965,
-            "HLA-A*24:02": 0.5218825648926652,
-            "HLA-A*03:01": 0.17400409131042488,
-            "HLA-B*07:02": 0.41808074963228953
-          }
-        },
-        {
-          "peptide": "RGCVAHSGI",
-          "immunogenicity_score": 0.6011405069925845,
-          "start_position": 13,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.43890950288481195,
-            "HLA-A*01:01": 0.2388727136338276,
-            "HLA-A*24:02": 0.43139482525897754,
-            "HLA-A*03:01": 0.3498521355749341,
-            "HLA-B*07:02": 0.2935842870280875
-          }
-        },
-        {
-          "peptide": "DVLLRWRGC",
-          "immunogenicity_score": 0.5992994435445158,
-          "start_position": 7,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.42548249347647554,
-            "HLA-A*01:01": 0.40927208464544035,
-            "HLA-A*24:02": 0.2790472029351722,
-            "HLA-A*03:01": 0.3490398231666524,
-            "HLA-B*07:02": 0.32684443351083564
-          }
-        },
-        {
-          "peptide": "LLRWRGCVA",
-          "immunogenicity_score": 0.5922450798601191,
+          "peptide": "FITMLKKTV",
+          "immunogenicity_score": 0.801779590583568,
           "start_position": 9,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.6875991093047731,
-            "HLA-A*01:01": 0.32950206420111594,
-            "HLA-A*24:02": 0.4032093334470908,
-            "HLA-A*03:01": 0.23370714057386582,
-            "HLA-B*07:02": 0.421507471319306
+            "HLA-A*02:01": 0.7507119584494474,
+            "HLA-A*01:01": 0.5593794206519279,
+            "HLA-A*24:02": 0.8866375739747974,
+            "HLA-A*03:01": 0.6776205093914921,
+            "HLA-B*07:02": 0.8163666221191188
           }
         },
         {
-          "peptide": "NFDPRDVLL",
-          "immunogenicity_score": 0.5793737193767712,
-          "start_position": 2,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.39876559929163685,
-            "HLA-A*01:01": 0.5525486019098556,
-            "HLA-A*24:02": 0.25910967747836733,
-            "HLA-A*03:01": 0.2658869054509985,
-            "HLA-B*07:02": 0.25901302700230194
-          }
-        },
-        {
-          "peptide": "FNFDPRDVL",
-          "immunogenicity_score": 0.5743014245515315,
+          "peptide": "VLPKCYGIF",
+          "immunogenicity_score": 0.7624046306319703,
           "start_position": 1,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.6009167603235038,
-            "HLA-A*01:01": 0.4301500819572134,
-            "HLA-A*24:02": 0.28757525206969975,
-            "HLA-A*03:01": 0.2133618338906785,
-            "HLA-B*07:02": 0.20568288766829848
+            "HLA-A*02:01": 0.7860795034845518,
+            "HLA-A*01:01": 0.544803678182026,
+            "HLA-A*24:02": 0.5883966574338872,
+            "HLA-A*03:01": 0.8146660988952263,
+            "HLA-B*07:02": 0.7663255353797214
+          }
+        },
+        {
+          "peptide": "TMLKKTVSL",
+          "immunogenicity_score": 0.7328184286895474,
+          "start_position": 11,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.9081644301781737,
+            "HLA-A*01:01": 0.502571189029925,
+            "HLA-A*24:02": 0.6005858728997617,
+            "HLA-A*03:01": 0.5538137745194736,
+            "HLA-B*07:02": 0.5188875032636462
+          }
+        },
+        {
+          "peptide": "TVSLLAASW",
+          "immunogenicity_score": 0.642496496057055,
+          "start_position": 16,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.4640723825663725,
+            "HLA-A*01:01": 0.6296602152213822,
+            "HLA-A*24:02": 0.23931256308030066,
+            "HLA-A*03:01": 0.5247543030791126,
+            "HLA-B*07:02": 0.23433524810913808
+          }
+        },
+        {
+          "peptide": "LPKCYGIFI",
+          "immunogenicity_score": 0.6155526374477515,
+          "start_position": 2,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.6359196046102906,
+            "HLA-A*01:01": 0.301271277302132,
+            "HLA-A*24:02": 0.4597744707384219,
+            "HLA-A*03:01": 0.4543180632636762,
+            "HLA-B*07:02": 0.3846973479256042
+          }
+        },
+        {
+          "peptide": "GIFITMLKK",
+          "immunogenicity_score": 0.6085550086914981,
+          "start_position": 7,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.43956675353707675,
+            "HLA-A*01:01": 0.41363842950680374,
+            "HLA-A*24:02": 0.575972012565431,
+            "HLA-A*03:01": 0.4220613926381058,
+            "HLA-B*07:02": 0.32103489144955893
+          }
+        },
+        {
+          "peptide": "CYGIFITML",
+          "immunogenicity_score": 0.6045328405750634,
+          "start_position": 5,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.437347172652539,
+            "HLA-A*01:01": 0.41537885194880336,
+            "HLA-A*24:02": 0.24568391154331332,
+            "HLA-A*03:01": 0.5052131005207365,
+            "HLA-B*07:02": 0.3411323097382417
           }
         }
       ]
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "high_immunogenicity_peptides": 1,
-      "moderate_immunogenicity_peptides": 9,
+      "high_immunogenicity_peptides": 0,
+      "moderate_immunogenicity_peptides": 7,
       "top_immunogenic_peptides": [
         {
-          "peptide": "NLIQGPLRV",
-          "immunogenicity_score": 0.8311628951743897,
-          "start_position": 3,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.7722590864642618,
-            "HLA-A*01:01": 0.6574875176155223,
-            "HLA-A*24:02": 0.7540085649680133,
-            "HLA-A*03:01": 0.882943481517886,
-            "HLA-B*07:02": 0.6540559915672273
-          }
-        },
-        {
-          "peptide": "GPLRVGKVF",
-          "immunogenicity_score": 0.6599382238674836,
-          "start_position": 7,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.5464612385730175,
-            "HLA-A*01:01": 0.5449579526312802,
-            "HLA-A*24:02": 0.5611978719897809,
-            "HLA-A*03:01": 0.38494716656760053,
-            "HLA-B*07:02": 0.44353784836717475
-          }
-        },
-        {
-          "peptide": "CRAPMMSFI",
-          "immunogenicity_score": 0.6573059111688995,
-          "start_position": 20,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.5359011302805761,
-            "HLA-A*01:01": 0.325123573732519,
-            "HLA-A*24:02": 0.5800325032858147,
-            "HLA-A*03:01": 0.5113534933329047,
-            "HLA-B*07:02": 0.3177679239457017
-          }
-        },
-        {
-          "peptide": "KCRAPMMSF",
-          "immunogenicity_score": 0.6393180073379696,
-          "start_position": 19,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.6249108129834771,
-            "HLA-A*01:01": 0.2596398199496686,
-            "HLA-A*24:02": 0.5304318452033583,
-            "HLA-A*03:01": 0.23240983320692016,
-            "HLA-B*07:02": 0.4993089360146335
-          }
-        },
-        {
-          "peptide": "PLRVGKVFT",
-          "immunogenicity_score": 0.6297454666024549,
-          "start_position": 8,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.5315476173871411,
-            "HLA-A*01:01": 0.3882203916942587,
-            "HLA-A*24:02": 0.467215811649828,
-            "HLA-A*03:01": 0.2552730811942857,
-            "HLA-B*07:02": 0.5354460456071393
-          }
-        },
-        {
-          "peptide": "IENLIQGPL",
-          "immunogenicity_score": 0.6188222402192923,
-          "start_position": 1,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.3951633035174865,
-            "HLA-A*01:01": 0.19732338804641567,
-            "HLA-A*24:02": 0.5562354184546732,
-            "HLA-A*03:01": 0.5632494936686596,
-            "HLA-B*07:02": 0.4673540184198514
-          }
-        },
-        {
-          "peptide": "LIQGPLRVG",
-          "immunogenicity_score": 0.6164534368180551,
-          "start_position": 4,
-          "mhc_binding_scores": {
-            "HLA-A*02:01": 0.42740596638262474,
-            "HLA-A*01:01": 0.19309454242093116,
-            "HLA-A*24:02": 0.3898946568934696,
-            "HLA-A*03:01": 0.46826156339641395,
-            "HLA-B*07:02": 0.5355292081416632
-          }
-        },
-        {
-          "peptide": "KVFTKSKCR",
-          "immunogenicity_score": 0.5879997448540766,
+          "peptide": "AGLHSGREY",
+          "immunogenicity_score": 0.6589641158795618,
           "start_position": 13,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.5523574403968027,
-            "HLA-A*01:01": 0.37551650194378683,
-            "HLA-A*24:02": 0.2396562336099069,
-            "HLA-A*03:01": 0.39325412745120913,
-            "HLA-B*07:02": 0.3164734769084992
+            "HLA-A*02:01": 0.30451000451274945,
+            "HLA-A*01:01": 0.46483808835584234,
+            "HLA-A*24:02": 0.527992708936037,
+            "HLA-A*03:01": 0.5022203504623753,
+            "HLA-B*07:02": 0.5177471906265422
           }
         },
         {
-          "peptide": "RVGKVFTKS",
-          "immunogenicity_score": 0.5639481265356657,
-          "start_position": 10,
+          "peptide": "TLAGLHSGR",
+          "immunogenicity_score": 0.6193152336632205,
+          "start_position": 11,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.4631972765857461,
-            "HLA-A*01:01": 0.5287865530684995,
-            "HLA-A*24:02": 0.255854027388134,
-            "HLA-A*03:01": 0.2667559828443715,
-            "HLA-B*07:02": 0.2974084320177569
+            "HLA-A*02:01": 0.3056996272013125,
+            "HLA-A*01:01": 0.31447195093155045,
+            "HLA-A*24:02": 0.49137050181482295,
+            "HLA-A*03:01": 0.5441658184357954,
+            "HLA-B*07:02": 0.4428646951546989
           }
         },
         {
-          "peptide": "QGPLRVGKV",
-          "immunogenicity_score": 0.5530814900778982,
-          "start_position": 6,
+          "peptide": "NVRRPRKFG",
+          "immunogenicity_score": 0.6007894119798889,
+          "start_position": 2,
           "mhc_binding_scores": {
-            "HLA-A*02:01": 0.2847994649030502,
-            "HLA-A*01:01": 0.4590925711333376,
-            "HLA-A*24:02": 0.2790686365535811,
-            "HLA-A*03:01": 0.5150196994387886,
-            "HLA-B*07:02": 0.17418546257254605
+            "HLA-A*02:01": 0.6230546954498544,
+            "HLA-A*01:01": 0.4480725094351352,
+            "HLA-A*24:02": 0.41357147254625815,
+            "HLA-A*03:01": 0.2551252291116215,
+            "HLA-B*07:02": 0.2974593192538658
+          }
+        },
+        {
+          "peptide": "GLHSGREYG",
+          "immunogenicity_score": 0.5795020484311614,
+          "start_position": 14,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.3903109932097528,
+            "HLA-A*01:01": 0.44538092436699067,
+            "HLA-A*24:02": 0.26798157271172657,
+            "HLA-A*03:01": 0.2837093820055069,
+            "HLA-B*07:02": 0.2096189754777552
+          }
+        },
+        {
+          "peptide": "TNVRRPRKF",
+          "immunogenicity_score": 0.5779225406606692,
+          "start_position": 1,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.34450774203083084,
+            "HLA-A*01:01": 0.3957209253044433,
+            "HLA-A*24:02": 0.16051049931813,
+            "HLA-A*03:01": 0.25288152242068895,
+            "HLA-B*07:02": 0.48324296128264227
+          }
+        },
+        {
+          "peptide": "RKFGTLAGL",
+          "immunogenicity_score": 0.5538581604828362,
+          "start_position": 7,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.3190084514175545,
+            "HLA-A*01:01": 0.32004480877409336,
+            "HLA-A*24:02": 0.3146428639115437,
+            "HLA-A*03:01": 0.5403017509827616,
+            "HLA-B*07:02": 0.2027693135641818
+          }
+        },
+        {
+          "peptide": "RRPRKFGTL",
+          "immunogenicity_score": 0.5067299601899564,
+          "start_position": 4,
+          "mhc_binding_scores": {
+            "HLA-A*02:01": 0.3215854832113772,
+            "HLA-A*01:01": 0.1665759034137103,
+            "HLA-A*24:02": 0.2332410238572555,
+            "HLA-A*03:01": 0.32609446584310975,
+            "HLA-B*07:02": 0.22957209840318635
           }
         }
       ]
@@ -1714,38 +1661,38 @@
   "population_coverage": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "world_population_coverage": 0.9436387924056179,
-      "european_coverage": 0.9255187109442552,
-      "asian_coverage": 0.8790318843991658,
-      "african_coverage": 0.8441572348041773,
+      "world_population_coverage": 0.7673268496526626,
+      "european_coverage": 0.893737207832316,
+      "asian_coverage": 0.7416992362236561,
+      "african_coverage": 0.6916218179767684,
       "alleles_with_binders": 14,
       "total_alleles_tested": 24
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "world_population_coverage": 0.9401739816260617,
-      "european_coverage": 0.8819368535287487,
-      "asian_coverage": 0.778115136021764,
-      "african_coverage": 0.8319534005499704,
+      "world_population_coverage": 0.8570403092159774,
+      "european_coverage": 0.9304183899477895,
+      "asian_coverage": 0.8586377349220128,
+      "african_coverage": 0.8118420296399631,
       "alleles_with_binders": 14,
       "total_alleles_tested": 24
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "world_population_coverage": 0.8071832453191351,
-      "european_coverage": 0.8586785351289585,
-      "asian_coverage": 0.8220109676193708,
-      "african_coverage": 0.7033483117444352,
+      "world_population_coverage": 0.8298273560792946,
+      "european_coverage": 0.911721653855884,
+      "asian_coverage": 0.8885151029089404,
+      "african_coverage": 0.8151510718754674,
       "alleles_with_binders": 14,
       "total_alleles_tested": 24
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "world_population_coverage": 0.8217089339398189,
-      "european_coverage": 0.9314997375453858,
-      "asian_coverage": 0.8754885994938298,
-      "african_coverage": 0.8116529614648335,
-      "alleles_with_binders": 14,
+      "world_population_coverage": 0.8769245866395441,
+      "european_coverage": 0.941389839309642,
+      "asian_coverage": 0.8150054297974654,
+      "african_coverage": 0.7248901680207052,
+      "alleles_with_binders": 13,
       "total_alleles_tested": 24
     }
   ],
@@ -1755,16 +1702,16 @@
       "vaccine_potential": "Moderate",
       "recommended_epitopes": {
         "mhc_class_i": [
-          "CVCDGGVSV",
-          "CVCDGGVSV",
-          "SLCPWRRAL",
-          "CVCDGGVSV",
-          "SLCPWRRAL"
+          "RLILSRTYI",
+          "RLILSRTYI",
+          "RLILSRTYI",
+          "RLILSRTYI",
+          "RLILSRTYI"
         ],
         "mhc_class_ii": [
-          "CGGLGSLCPWRRALT",
-          "LGSLCPWRRALTRSQ",
-          "CGGLGSLCPWRRALT"
+          "LRLILSRTYIDATGS",
+          "VGYHSELRLILSRTY",
+          "DVGYHSELRLILSRT"
         ],
         "b_cell": []
       },
@@ -1772,12 +1719,12 @@
         {
           "start": 1,
           "end": 50,
-          "epitope_density": 0.20410540193755417
+          "epitope_density": 0.13533978254701087
         },
         {
           "start": 51,
           "end": 100,
-          "epitope_density": 0.2818082792534653
+          "epitope_density": 0.06143553527240918
         }
       ],
       "adjuvant_recommendations": [
@@ -1791,31 +1738,29 @@
       "vaccine_potential": "Moderate",
       "recommended_epitopes": {
         "mhc_class_i": [
-          "LILRRDTHY",
-          "SLEYLCLDY",
-          "SLEYLCLDY",
-          "SLEYLCLDY",
-          "ILRRDTHYL"
+          "SLQVQVCNL",
+          "SLQVQVCNL",
+          "SLQVQVCNL",
+          "SLQVQVCNL",
+          "SLQVQVCNL"
         ],
         "mhc_class_ii": [
-          "NSSINSLEYLCLDYP",
-          "NSSINSLEYLCLDYP",
-          "NSSINSLEYLCLDYP"
+          "SLQVQVCNLWDQGHI",
+          "QGGSLQVQVCNLWDQ",
+          "VCNLWDQGHITANSH"
         ],
-        "b_cell": [
-          "RRDTHY"
-        ]
+        "b_cell": []
       },
       "immunodominant_regions": [
         {
           "start": 1,
           "end": 50,
-          "epitope_density": 0.24799365641739182
+          "epitope_density": 0.3612364050565421
         },
         {
           "start": 51,
           "end": 100,
-          "epitope_density": 0.1847348446817122
+          "epitope_density": 0.11484866370577924
         }
       ],
       "adjuvant_recommendations": [
@@ -1829,16 +1774,16 @@
       "vaccine_potential": "Moderate",
       "recommended_epitopes": {
         "mhc_class_i": [
-          "VLLRWRGCV",
-          "HLETQITGL",
-          "VLLRWRGCV",
-          "VLLRWRGCV",
-          "VLLRWRGCV"
+          "FITMLKKTV",
+          "MLKKTVSLL",
+          "VLPKCYGIF",
+          "MLKKTVSLL",
+          "VLPKCYGIF"
         ],
         "mhc_class_ii": [
-          "LGADRKLTYVILSDH",
-          "LGADRKLTYVILSDH",
-          "LGADRKLTYVILSDH"
+          "TMLKKTVSLLAASWK",
+          "TMLKKTVSLLAASWK",
+          "PKCYGIFITMLKKTV"
         ],
         "b_cell": []
       },
@@ -1846,12 +1791,12 @@
         {
           "start": 1,
           "end": 50,
-          "epitope_density": 0.35984920673357423
+          "epitope_density": 0.16062228573513881
         },
         {
           "start": 51,
           "end": 100,
-          "epitope_density": 0.09252593946710143
+          "epitope_density": 0.1581774123809288
         }
       ],
       "adjuvant_recommendations": [
@@ -1865,16 +1810,16 @@
       "vaccine_potential": "Moderate",
       "recommended_epitopes": {
         "mhc_class_i": [
-          "VLFLRLNLI",
-          "LLRTGHYGF",
-          "NLCVLFLRL",
-          "NLCVLFLRL",
-          "RLNLCVLFL"
+          "RKFGTLAGL",
+          "TLAGLHSGR",
+          "TNVRRPRKF",
+          "TLAGLHSGR",
+          "TLAGLHSGR"
         ],
         "mhc_class_ii": [
-          "FWNRLNLCVLFLRLN",
-          "FWNRLNLCVLFLRLN",
-          "NRLNLCVLFLRLNLI"
+          "RRPRKFGTLAGLHSG",
+          "PRKFGTLAGLHSGRE",
+          "RRPRKFGTLAGLHSG"
         ],
         "b_cell": []
       },
@@ -1882,12 +1827,12 @@
         {
           "start": 1,
           "end": 50,
-          "epitope_density": 0.19213161863701467
+          "epitope_density": 0.2929178980335008
         },
         {
           "start": 51,
           "end": 100,
-          "epitope_density": 0.19336184847294846
+          "epitope_density": 0.23039131408434665
         }
       ],
       "adjuvant_recommendations": [
@@ -1902,9 +1847,9 @@
     "operation": "epitope_prediction_immunogenicity_analysis",
     "proteins_analyzed": 4,
     "hla_alleles_tested": 24,
-    "average_mhc_i_epitopes_per_protein": 78.75,
-    "average_mhc_ii_epitopes_per_protein": 112.25,
-    "average_b_cell_epitopes_per_protein": 0.25,
+    "average_mhc_i_epitopes_per_protein": 30.25,
+    "average_mhc_ii_epitopes_per_protein": 42.25,
+    "average_b_cell_epitopes_per_protein": 0.0,
     "analysis_complete": true
   }
 }

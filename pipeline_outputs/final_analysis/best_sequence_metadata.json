@@ -1,0 +1,68 @@
+{
+  "sequence_info": {
+    "id": "OPT_Spike_mRNA_structure_optimized_riboswitch_like_optimized_var_1_1",
+    "sequence": "CAAGAGCAAGGATTAGTGGAAGGACCTAACGTAAATGGACCCCATGTAGGTAGCGGATATATAATTCACTTCTTTCCCTTTGTTTCTTACCGATTCCCTGGGAGTCAACCCATCGGACGTTACTCAATTCGGCGGTTCGGTCCCGCTGCAACCAAACCTTAAAGGAATATATTCAGCTGCTGAGGTTAACTCCGAAGCTACAAGACAAGGTAACCAATGGAGAGCTACCGCCTATATGTAATGTAATATATCCTTGCGGGACTATAATGACCGACCCTATGAGTACGGCTGTTGCCGGTGGAAGGCTGGGTGAGCTTATCGAAACGATAGCTTAAGCGTAAAGTAGACCACTAGACCTGTGTCATAGCACGCAAGCATACACGTGCTGGTATGTTTAGTGCCTCTACAACTTCTGGGCCGTAACGATGACTTATAGTGACGTAGACGACCGCAGAGACGAGATTGAAGTGCGACAATGCGTTAACGCAGAACCGCCCGACAGGCGCCTGTGCTACGGCTTACTATTGAACGTCAGAACTCATACATATCTTGTCGTTGAAGCGGTTACACGCTGCCGTTGCCCGCTTATTTCCTTAGTCAATCATTATTCTGCTGATAATCCAAAGGGGCGTATACGATTGGAAAGAGGTTATGCATGATTAAGGTCCCAAGACTTCGTTCAAGCCAACTATGTCCGCGGTATCAGTCGACCAGCATCCCTCGAAGTTAGCGAGATGTTCACTGG",
+    "length": 745,
+    "overall_score": 0.8121953161515305,
+    "source_tool": "benchling"
+  },
+  "metadata": {
+    "basic_properties": {
+      "length": 745,
+      "molecular_weight": 243708.0,
+      "gc_content": 47.78523489932886,
+      "at_content": 52.21476510067114,
+      "purine_content": 51.14093959731544,
+      "pyrimidine_content": 48.85906040268456
+    },
+    "composition": {
+      "A_count": 201,
+      "T_count": 188,
+      "G_count": 180,
+      "C_count": 176,
+      "A_percent": 26.97986577181208,
+      "T_percent": 25.23489932885906,
+      "G_percent": 24.161073825503358,
+      "C_percent": 23.624161073825505
+    },
+    "quality_scores": {
+      "stability_score": 0.75,
+      "structure_score": 0.75,
+      "optimization_score": 0.8,
+      "expression_score": 0.9984765807576524,
+      "overall_score": 0.8121953161515305
+    },
+    "codon_analysis": {
+      "total_codons": 248,
+      "unique_codons": 64,
+      "rare_codon_count": 23,
+      "codon_adaptation_index": 0.907258064516129,
+      "most_frequent_codons": {
+        "AAG": 8,
+        "GTA": 7,
+        "TAA": 7,
+        "GGA": 6,
+        "TTA": 6,
+        "CCC": 6,
+        "ATA": 6,
+        "TAC": 6,
+        "ACG": 6,
+        "CAT": 5
+      }
+    },
+    "structural_features": {
+      "high_gc_regions": 3,
+      "potential_hairpins": 3,
+      "complexity_score": 1.0,
+      "repetitive_elements": 85
+    },
+    "optimization_metrics": {
+      "gc_skew": 0.011235955056179775,
+      "dinucleotide_bias": 0.014799398774424781,
+      "melting_temperature": 83.58939597315437,
+      "secondary_structure_likelihood": 1.0
+    }
+  },
+  "analysis_timestamp": "2025-09-21T12:35:58.236801",
+  "pipeline_version": "1.0"
+}

@@ -4,9 +4,9 @@ RBS Calculator Analysis Report
 Optimization Summary:
   Sequences analyzed: 4
   RBS variants generated: 60
-  Average translation rate: -384.04
-  Maximum translation rate: -214.26
-  Average improvement factor: 0.33x
+  Average translation rate: -370.43
+  Maximum translation rate: -167.15
+  Average improvement factor: 1.00x
   High efficiency variants: 0
   Optimization success rate: 0.0%
 
@@ -14,27 +14,27 @@ Translation Results by Construct:
 -----------------------------------
 Construct: Spike_mRNA_structure_optimized_hairpin_stabilized_optimized
   Natural rate: 0.000
-  Optimized rate: -290.871
+  Optimized rate: -297.391
   Improvement: 1.00x
-  Variants generated: 56
+  Variants generated: 60
 
 Construct: Spike_mRNA_structure_optimized_riboswitch_like_optimized
-  Natural rate: 135.012
-  Optimized rate: -226.511
-  Improvement: -1.68x
-  Variants generated: 57
+  Natural rate: 0.000
+  Optimized rate: -255.507
+  Improvement: 1.00x
+  Variants generated: 59
 
 Construct: Spike_mRNA_structure_optimized_pseudoknot_optimized
   Natural rate: 0.000
-  Optimized rate: -248.754
+  Optimized rate: -167.149
   Improvement: 1.00x
   Variants generated: 57
 
 Construct: Spike_mRNA_structure_optimized_kissing_loop_optimized
   Natural rate: 0.000
-  Optimized rate: -214.259
+  Optimized rate: -243.150
   Improvement: 1.00x
-  Variants generated: 56
+  Variants generated: 57
 
 RBS Library Summary:
 --------------------

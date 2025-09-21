@@ -13,7 +13,7 @@ diamond,avg_evalue,1e-10,float64
 diamond,significant_hits,0,int
 interproscan,domains_identified,10,int
 interproscan,proteins_with_domains,2,int
-interproscan,avg_confidence,0.9126005756608127,float64
+interproscan,avg_confidence,0.9108632145425227,float64
 interproscan,go_terms_assigned,0,int
 rfam,rna_families_found,3,int
 rfam,structures_predicted,3,int

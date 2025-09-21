@@ -1,4 +1,4 @@
 category,metric,value,type
 overall_success_rate,value,0.9111111111111111,float64
-data_integrity_score,value,0.8708668585536042,float64
+data_integrity_score,value,0.8702877381808408,float64
 optimization_quality,value,0.8933333333333334,float64

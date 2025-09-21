@@ -4,13 +4,13 @@ KineFold RNA Kinetic Folding Analysis Report
 Folding Analysis Summary:
   Sequences analyzed: 12
   Total pathways simulated: 12
-  Average energy range: 1.57 kcal/mol
-  Average folding depth: 1.12 kcal/mol
+  Average energy range: 0.97 kcal/mol
+  Average folding depth: 0.58 kcal/mol
   Stable intermediates found: 0
 
 Folding Kinetics Summary:
 -------------------------
-  Average folding rate: 8.60e+05 s^-1
+  Average folding rate: 9.10e+05 s^-1
   Fast folders: 0
   Slow folders: 0
 
