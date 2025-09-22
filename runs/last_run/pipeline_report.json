@@ -1,0 +1,71 @@
+{
+  "pipeline_metadata": {
+    "timestamp": "2025-09-22 14:09:13",
+    "base_directory": "/Users/anik/Code/DNA_Sequencing",
+    "python_version": "3.13.5 (main, Jun 11 2025, 15:36:57) [Clang 17.0.0 (clang-1700.0.13.3)]",
+    "tools_used": [
+      "biopython",
+      "crispr",
+      "mrnaid",
+      "rbscalc",
+      "viennarna",
+      "dnachisel",
+      "constrained_opt",
+      "copasi",
+      "iedb",
+      "compliance"
+    ]
+  },
+  "results": {
+    "biopython": {
+      "input": "/Users/anik/Code/DNA_Sequencing/sequence_5.fasta",
+      "output": "output.jsonl",
+      "status": "completed"
+    },
+    "crispr": {
+      "input": "output.jsonl",
+      "output": "crispr_guides.jsonl",
+      "status": "completed"
+    },
+    "mrnaid": {
+      "input": "crispr_guides.jsonl",
+      "output": "optimized_mrna.jsonl",
+      "status": "completed"
+    },
+    "rbscalc": {
+      "input": "optimized_mrna.jsonl",
+      "output": "rbs_output.jsonl",
+      "status": "completed"
+    },
+    "viennarna": {
+      "input": "rbs_output.jsonl",
+      "output": "viennarna_output.jsonl",
+      "status": "completed"
+    },
+    "dnachisel": {
+      "input": "viennarna_output.jsonl",
+      "output": "dnachisel_output.jsonl",
+      "status": "completed"
+    },
+    "constrained_opt": {
+      "input": "optimized_mrna.jsonl",
+      "output": "optimized_mrna_constrained.jsonl",
+      "status": "completed"
+    },
+    "copasi": {
+      "input": "dnachisel_output.jsonl",
+      "output": "copasi_output.jsonl",
+      "status": "completed"
+    },
+    "iedb": {
+      "input": "copasi_output.jsonl",
+      "output": "iedb_output.jsonl",
+      "status": "completed"
+    },
+    "compliance": {
+      "input": "optimized_mrna.jsonl",
+      "output": "compliance_report.json",
+      "status": "completed"
+    }
+  }
+}

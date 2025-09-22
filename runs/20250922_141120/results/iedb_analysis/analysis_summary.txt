@@ -2,7 +2,7 @@
 IEDB ANALYSIS SUMMARY REPORT
 SARS-CoV-2 Spike Protein Epitope Predictions
 ================================================================================
-Analysis Date: 2025-09-22 14:47:39
+Analysis Date: 2025-09-22 14:08:54
 Input File: assets/SarsCov2SpikemRNA.fasta
 Output Directory: results/iedb_analysis
 

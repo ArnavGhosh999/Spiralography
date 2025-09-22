@@ -10489,7 +10489,7 @@
     ]
   },
   "analysis_metadata": {
-    "timestamp": "2025-09-22 14:47:39",
+    "timestamp": "2025-09-22 14:08:54",
     "input_file": "assets/SarsCov2SpikemRNA.fasta",
     "output_dir": "results/iedb_analysis"
   },

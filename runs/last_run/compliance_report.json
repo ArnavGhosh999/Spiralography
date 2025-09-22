@@ -1,0 +1,78 @@
+{
+  "checks": {
+    "mrnaid": {
+      "evaluated": true,
+      "passed": false,
+      "details": {
+        "cai": 0.9173,
+        "gc_percent": 27.43,
+        "thresholds": {
+          "cai_min": 0.7,
+          "gc_range": [
+            40,
+            60
+          ]
+        },
+        "notes": "Other criteria (UTR MFE, Kozak, uORFs, motifs) not evaluated here."
+      }
+    },
+    "epitope_mhci": {
+      "evaluated": true,
+      "passed": true,
+      "details": {
+        "num_predictions": 1000,
+        "strong_binders": 220,
+        "unique_alleles": 5,
+        "peptides_with_>=3_alleles": 20,
+        "thresholds": {
+          "mhc_i_percentile_max": 2.0,
+          "min_alleles_per_epitope": 3
+        },
+        "notes": "Population coverage, proteasomal/TAP, conservation, toxicity not evaluated here."
+      }
+    },
+    "interproscan_domains": {
+      "evaluated": false,
+      "passed": false,
+      "details": {
+        "reason": "InterProScan CLI not integrated in this environment."
+      }
+    },
+    "rfam_rnacentral": {
+      "evaluated": false,
+      "passed": false,
+      "details": {
+        "reason": "Rfam/RNAcentral scans not integrated."
+      }
+    },
+    "crispor_offtarget": {
+      "evaluated": false,
+      "passed": false,
+      "details": {
+        "reason": "CRISPOR/CFD and genome-wide off-target scan not integrated."
+      }
+    },
+    "siRNA_offtarget": {
+      "evaluated": false,
+      "passed": false,
+      "details": {
+        "reason": "siSPOTR or equivalent not integrated."
+      }
+    }
+  },
+  "summary": {
+    "passed_checks": [
+      "epitope_mhci"
+    ],
+    "failed_checks": [
+      "mrnaid"
+    ],
+    "not_evaluated": [
+      "interproscan_domains",
+      "rfam_rnacentral",
+      "crispor_offtarget",
+      "siRNA_offtarget"
+    ],
+    "overall_pass": false
+  }
+}
