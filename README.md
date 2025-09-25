@@ -1,4 +1,4 @@
-# 🧬 Spiralography
+<h1 align="center">🧬 Spiralography</h1>
 
 <div align="center">
 
@@ -110,7 +110,7 @@ Installation requires Python 3.8+ with substantial computational resources. GPU 
 
 </div>
 
-### Installation & Setup
+- ### Installation & Setup
 
 ```bash
 # Clone repository and navigate
@@ -128,7 +128,7 @@ pip install -r requirements.txt
 python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}')"
 ```
 
-### Execution Methods
+- ### Execution Methods
 
 <div align="justify">
 
@@ -171,7 +171,7 @@ The pipeline employs sophisticated parameter management across AI models, simula
 
 </div>
 
-### AI Model Configuration
+- ### AI Model Configuration
 
 <div align="justify">
 
@@ -190,7 +190,7 @@ device_map = "auto"       # Automatic GPU/CPU allocation
 pad_token_id = tokenizer.eos_token_id  # Consistent sequence handling
 ```
 
-### Molecular Simulation Parameters
+- ### Molecular Simulation Parameters
 
 <div align="justify">
 
@@ -211,7 +211,7 @@ simulation_params = {
 }
 ```
 
-### Biochemical Network Parameters
+- ### Biochemical Network Parameters
 
 <div align="justify">
 
@@ -228,7 +228,7 @@ TIME_STEPS = 1000              # Temporal resolution
 temperature = 310.15           # Kelvin (37°C physiological)
 ```
 
-### Sequence Analysis Parameters
+- ### Sequence Analysis Parameters
 
 <div align="justify">
 
@@ -249,7 +249,7 @@ scoring_weights = {
 }
 ```
 
-### Input Processing Parameters
+- ### Input Processing Parameters
 
 <div align="justify">
 
@@ -271,13 +271,13 @@ inputs = tokenizer.encode(
 
 <div align="justify">
 
-Spiralography generates comprehensive results across multiple formats optimized for different analysis requirements. The system produces both raw computational data and publication-ready visualizations, ensuring compatibility with downstream analysis workflows and research publication standards.
+- Spiralography generates comprehensive results across multiple formats optimized for different analysis requirements. The system produces both raw computational data and publication-ready visualizations, ensuring compatibility with downstream analysis workflows and research publication standards.
 
-**Primary Output Formats** include optimized sequences in standard FASTA format with detailed headers containing metadata and quality scores. JSON files provide structured data with comprehensive scoring information, optimization histories, and cross-references between analysis stages. High-resolution PNG/SVG visualizations are generated at 300 DPI resolution with professional color schemes and clear annotations suitable for publication.
+- **Primary Output Formats** include optimized sequences in standard FASTA format with detailed headers containing metadata and quality scores. JSON files provide structured data with comprehensive scoring information, optimization histories, and cross-references between analysis stages. High-resolution PNG/SVG visualizations are generated at 300 DPI resolution with professional color schemes and clear annotations suitable for publication.
 
-**Specialized Formats** vary by tool: BLAST tabular format for alignment results with e-values and bit scores; SBML format for biochemical network models compatible with systems biology tools; XYZ trajectory files for molecular dynamics analysis; GFF3 format for genomic annotations; TSV files for statistical analysis and data import.
+- **Specialized Formats** vary by tool: BLAST tabular format for alignment results with e-values and bit scores; SBML format for biochemical network models compatible with systems biology tools; XYZ trajectory files for molecular dynamics analysis; GFF3 format for genomic annotations; TSV files for statistical analysis and data import.
 
-**Analysis Reports** combine quantitative metrics with qualitative assessments. Best sequence analysis includes comprehensive scoring across multiple dimensions: GC content analysis (optimal range 45-55%), secondary structure likelihood, codon usage optimization, translation efficiency predictions, and immunogenicity assessments. Quality control reports highlight potential issues such as repetitive sequences, restriction enzyme sites, and structural instabilities.
+- **Analysis Reports** combine quantitative metrics with qualitative assessments. Best sequence analysis includes comprehensive scoring across multiple dimensions: GC content analysis (optimal range 45-55%), secondary structure likelihood, codon usage optimization, translation efficiency predictions, and immunogenicity assessments. Quality control reports highlight potential issues such as repetitive sequences, restriction enzyme sites, and structural instabilities.
 
 </div>
 
@@ -285,11 +285,11 @@ Spiralography generates comprehensive results across multiple formats optimized 
 
 <div align="justify">
 
-The system excels across diverse research domains requiring sophisticated sequence analysis and optimization. **Viral Research** applications include vaccine development through epitope prediction and immunogenicity optimization, therapeutic design for antiviral compounds, and evolutionary analysis of viral sequence variants. **Protein Engineering** capabilities encompass expression optimization through codon usage analysis, structural stability prediction via molecular dynamics, and functional domain identification through comprehensive database searches.
+- The system excels across diverse research domains requiring sophisticated sequence analysis and optimization. **Viral Research** applications include vaccine development through epitope prediction and immunogenicity optimization, therapeutic design for antiviral compounds, and evolutionary analysis of viral sequence variants. **Protein Engineering** capabilities encompass expression optimization through codon usage analysis, structural stability prediction via molecular dynamics, and functional domain identification through comprehensive database searches.
 
-**Synthetic Biology** applications leverage the pipeline's design capabilities for synthetic gene construction, metabolic pathway optimization, and regulatory element design. **Pharmaceutical Development** benefits from epitope mapping for vaccine targets, immunogenicity assessment for therapeutic proteins, and molecular dynamics analysis for drug-target interactions.
+- **Synthetic Biology** applications leverage the pipeline's design capabilities for synthetic gene construction, metabolic pathway optimization, and regulatory element design. **Pharmaceutical Development** benefits from epitope mapping for vaccine targets, immunogenicity assessment for therapeutic proteins, and molecular dynamics analysis for drug-target interactions.
 
-**Diagnostic Development** utilizes CRISPR guide design capabilities for genome editing applications, PCR primer optimization for diagnostic assays, and biomarker identification through comparative genomics analysis. The flexible architecture accommodates both targeted studies focusing on specific sequences and large-scale genomic surveys requiring high-throughput analysis.
+- **Diagnostic Development** utilizes CRISPR guide design capabilities for genome editing applications, PCR primer optimization for diagnostic assays, and biomarker identification through comparative genomics analysis. The flexible architecture accommodates both targeted studies focusing on specific sequences and large-scale genomic surveys requiring high-throughput analysis.
 
 </div>
 
