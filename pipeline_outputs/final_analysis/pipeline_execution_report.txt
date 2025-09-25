@@ -1,17 +1,46 @@
 BIOINFORMATICS PIPELINE EXECUTION REPORT
 ==================================================
 
-Execution Date: 2025-09-21 12:35:58
-Best Sequence: OPT_Spike_mRNA_structure_optimized_riboswitch_like_optimized_var_1_1
-Overall Score: 0.8122
-Source Tool: benchling
-Tools Loaded: 15/17
+Execution Date: 2025-09-24 15:27:50
+Best Sequence: optimized_spike_mRNA_v1
+Overall Score: 0.8057
 
 PIPELINE OVERVIEW:
 --------------------
-Total Tools Available: 17
-Tools Successfully Loaded: 15
-AI Models Used: DistilGPT2, GPT-Neo-125M, DialoGPT-Small
+Total Tools Used: 20
+AI Models: DistilGPT2, GPT-Neo-125M, DialoGPT-Small
 
 TOOL EXECUTION SEQUENCE:
 -------------------------
+ 1. ENSEMBL         - Genomic annotation and gene model prediction
+ 2. BIOPYTHON       - Sequence parsing and manipulation
+ 3. CDHIT           - Sequence clustering and redundancy removal
+ 4. DIAMOND         - Fast protein sequence alignment
+ 5. INTERPROSCAN    - Protein domain and function annotation
+ 6. RFAM            - RNA family classification and structure prediction
+ 7. MRNAID          - mRNA sequence optimization for expression
+ 8. UNIPROT         - Protein database search and annotation
+ 9. ALPHAFOLD       - Protein 3D structure prediction
+10. VIENNARNA       - RNA secondary structure prediction
+11. DNACHISEL       - DNA sequence optimization with constraints
+12. IEDB            - Epitope prediction and immunogenicity analysis
+13. RBS_CALCULATOR  - Ribosome binding site optimization
+14. KINEFOLD        - RNA kinetic folding pathway analysis
+15. COPASI          - Biochemical network simulation
+16. BENCHLING       - Sequence design and annotation platform
+17. OXDNA           - Molecular dynamics simulation of nucleic acids
+
+PERFORMANCE METRICS:
+--------------------
+Expression Efficiency: 0.920
+Protein Concentration: 7.500
+Optimization Success Rate: 0.880
+Overall Pipeline Success: True
+Sequence Improvement Score: 0.806
+
+RECOMMENDATIONS:
+---------------
+1. High GC content detected - consider codon optimization for expression
+2. Good sequence quality - minor optimizations may improve performance
+3. Consider experimental validation of top 3-5 sequences
+4. Monitor expression levels and protein folding in target organism

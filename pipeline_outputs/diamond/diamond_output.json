@@ -5,110 +5,118 @@
       "subject_id": "P0DTC2",
       "subject_name": "Spike_protein_SARS-CoV-2",
       "organism": "SARS-CoV-2",
-      "alignment_score": 255.1,
-      "identity_percent": 59.76,
-      "coverage_percent": 54.27,
-      "e_value": "4.81e-03",
+      "alignment_score": 272.47,
+      "identity_percent": 57.76,
+      "coverage_percent": 41.03,
+      "e_value": "6.68e-08",
       "query_length": 737,
       "subject_length": 1273,
-      "alignment_length": 400
+      "alignment_length": 302
     },
     {
       "query_id": "LC726458.1_enhanced",
-      "subject_id": "Q14EB0",
-      "subject_name": "Spike_protein_MERS-CoV",
-      "organism": "MERS-CoV",
-      "alignment_score": 247.46,
-      "identity_percent": 36.87,
-      "coverage_percent": 13.35,
-      "e_value": "6.34e-10",
+      "subject_id": "P15777",
+      "subject_name": "Envelope_protein",
+      "organism": "Various CoV",
+      "alignment_score": 254.95,
+      "identity_percent": 67.54,
+      "coverage_percent": 39.59,
+      "e_value": "1.12e-06",
       "query_length": 737,
-      "subject_length": 1353,
-      "alignment_length": 98
+      "subject_length": 76,
+      "alignment_length": 291
     },
     {
       "query_id": "LC726458.1_enhanced",
-      "subject_id": "P36334",
-      "subject_name": "Spike_protein_HCoV-229E",
-      "organism": "HCoV-229E",
-      "alignment_score": 239.73,
-      "identity_percent": 68.24,
-      "coverage_percent": 30.48,
-      "e_value": "2.69e-08",
+      "subject_id": "P59594",
+      "subject_name": "Spike_protein_SARS-CoV",
+      "organism": "SARS-CoV",
+      "alignment_score": 218.77,
+      "identity_percent": 61.64,
+      "coverage_percent": 18.86,
+      "e_value": "8.17e-02",
       "query_length": 737,
-      "subject_length": 1173,
-      "alignment_length": 224
-    },
-    {
-      "query_id": "LC769018.1_enhanced",
-      "subject_id": "P0DTC1",
-      "subject_name": "Polyprotein_1ab",
-      "organism": "SARS-CoV-2",
-      "alignment_score": 254.14,
-      "identity_percent": 58.15,
-      "coverage_percent": 19.91,
-      "e_value": "7.85e-08",
-      "query_length": 3813,
-      "subject_length": 7096,
-      "alignment_length": 759
-    },
-    {
-      "query_id": "LC769018.1_enhanced",
-      "subject_id": "P36334",
-      "subject_name": "Spike_protein_HCoV-229E",
-      "organism": "HCoV-229E",
-      "alignment_score": 242.27,
-      "identity_percent": 51.79,
-      "coverage_percent": 36.81,
-      "e_value": "2.04e-06",
-      "query_length": 3813,
-      "subject_length": 1173,
-      "alignment_length": 1403
+      "subject_length": 1255,
+      "alignment_length": 138
     },
     {
       "query_id": "LC769018.1_enhanced",
       "subject_id": "Q14EB0",
       "subject_name": "Spike_protein_MERS-CoV",
       "organism": "MERS-CoV",
-      "alignment_score": 187.74,
-      "identity_percent": 47.62,
-      "coverage_percent": 22.03,
-      "e_value": "2.71e-07",
+      "alignment_score": 299.16,
+      "identity_percent": 47.15,
+      "coverage_percent": 56.88,
+      "e_value": "1.27e-04",
       "query_length": 3813,
       "subject_length": 1353,
-      "alignment_length": 840
+      "alignment_length": 2168
+    },
+    {
+      "query_id": "LC769018.1_enhanced",
+      "subject_id": "P36334",
+      "subject_name": "Spike_protein_HCoV-229E",
+      "organism": "HCoV-229E",
+      "alignment_score": 240.3,
+      "identity_percent": 30.46,
+      "coverage_percent": 45.94,
+      "e_value": "2.65e-02",
+      "query_length": 3813,
+      "subject_length": 1173,
+      "alignment_length": 1751
+    },
+    {
+      "query_id": "LC769018.1_enhanced",
+      "subject_id": "P15777",
+      "subject_name": "Envelope_protein",
+      "organism": "Various CoV",
+      "alignment_score": 217.63,
+      "identity_percent": 39.13,
+      "coverage_percent": 19.53,
+      "e_value": "5.58e-03",
+      "query_length": 3813,
+      "subject_length": 76,
+      "alignment_length": 744
     }
   ],
   "blast_tabular": [
-    "LC726458.1_enhanced\tP0DTC2\t59.76\t400\t0\t0\t1\t737\t1\t1273\t4.81e-03\t255.10",
-    "LC726458.1_enhanced\tQ14EB0\t36.87\t98\t0\t0\t1\t737\t1\t1353\t6.34e-10\t247.46",
-    "LC726458.1_enhanced\tP36334\t68.24\t224\t0\t0\t1\t737\t1\t1173\t2.69e-08\t239.73",
-    "LC769018.1_enhanced\tP0DTC1\t58.15\t759\t0\t0\t1\t3813\t1\t7096\t7.85e-08\t254.14",
-    "LC769018.1_enhanced\tP36334\t51.79\t1403\t0\t0\t1\t3813\t1\t1173\t2.04e-06\t242.27",
-    "LC769018.1_enhanced\tQ14EB0\t47.62\t840\t0\t0\t1\t3813\t1\t1353\t2.71e-07\t187.74"
+    "LC726458.1_enhanced\tP0DTC2\t57.76\t302\t0\t0\t1\t737\t1\t1273\t6.68e-08\t272.47",
+    "LC726458.1_enhanced\tP15777\t67.54\t291\t0\t0\t1\t737\t1\t76\t1.12e-06\t254.95",
+    "LC726458.1_enhanced\tP59594\t61.64\t138\t0\t0\t1\t737\t1\t1255\t8.17e-02\t218.77",
+    "LC769018.1_enhanced\tQ14EB0\t47.15\t2168\t0\t0\t1\t3813\t1\t1353\t1.27e-04\t299.16",
+    "LC769018.1_enhanced\tP36334\t30.46\t1751\t0\t0\t1\t3813\t1\t1173\t2.65e-02\t240.30",
+    "LC769018.1_enhanced\tP15777\t39.13\t744\t0\t0\t1\t3813\t1\t76\t5.58e-03\t217.63"
   ],
   "alignment_stats": {
     "total_alignments": 6,
     "queries_processed": 2,
-    "avg_alignment_score": 237.74,
-    "max_alignment_score": 255.1,
-    "min_alignment_score": 187.74,
-    "avg_identity": 53.73833333333334,
+    "avg_alignment_score": 250.54666666666665,
+    "max_alignment_score": 299.16,
+    "min_alignment_score": 217.63,
+    "avg_identity": 50.61333333333334,
     "high_confidence_hits": 0,
-    "significant_hits": 5
+    "significant_hits": 2
   },
   "database_hits": [
     {
       "organism": "SARS-CoV-2",
+      "hit_count": 1
+    },
+    {
+      "organism": "Various CoV",
       "hit_count": 2
+    },
+    {
+      "organism": "SARS-CoV",
+      "hit_count": 1
     },
     {
       "organism": "MERS-CoV",
-      "hit_count": 2
+      "hit_count": 1
     },
     {
       "organism": "HCoV-229E",
-      "hit_count": 2
+      "hit_count": 1
     }
   ],
   "metadata": {
@@ -116,6 +124,6 @@
     "operation": "protein_sequence_alignment",
     "database_searched": "Viral_proteins_db",
     "search_complete": true,
-    "timestamp": "2025-09-21T03:35:42.865195"
+    "timestamp": "2025-09-24T15:13:21.016084"
   }
 }

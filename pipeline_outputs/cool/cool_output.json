@@ -4,106 +4,106 @@
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
       "parent_sequence": "Spike_mRNA_structure_optimized",
       "design_type": "hairpin_stabilized",
-      "construct_sequence": "GCGGGGCGCAGCCCCGCUCGCUCCAUCGCUCGGCCAAAACGGUCGAACUAGGUAAGCGUGCGGGAUCCUACGAGGGGAUGAAUAUCAGAGGAAGGGUUACUGAGCAACACUCCGCCAGUUUUGAGUCGAAUUCAUCCCGUUUUCCGUUUUAGCGAGGAGACGUCCGCCGCAUCCAUGC",
-      "target_structure": "(((((((...))))))).................................................................................................................................................................",
-      "predicted_energy": -15.505617977528091,
-      "gc_content": 58.42696629213483,
-      "construct_length": 178,
-      "design_score": 0.9489009386169663,
-      "structural_similarity": 0.8328580802107766
+      "construct_sequence": "CGCCCCGAGUCGGGGCGCUCCCGUAGCCUGAGAACAGCAAGCCUUUCCCAUAAAACUGCCCCAUCCCGCAUGACGGCGAGAUGGGACAGUGGGACCUCACUUAAGACCGAAGGGACGAGUUCCUUACCAAAGCCUACGAUUCAUAGAAAACUAAUGA",
+      "target_structure": "(((((((...)))))))............................................................................................................................................",
+      "predicted_energy": -15.32484076433121,
+      "gc_content": 55.4140127388535,
+      "construct_length": 157,
+      "design_score": 0.9212332715418026,
+      "structural_similarity": 0.8159502976610107
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
       "parent_sequence": "Spike_mRNA_structure_optimized",
       "design_type": "riboswitch_like",
-      "construct_sequence": "CCGCAACGCGGAUCCCCGGAGACGGGUGUCGCAUCUGAUUAAUGAAAGAUCUUGCAUACGAAUGUCAUUUUAUCGAGCUUCGAGUGUGGUUCGCCCCUUCCUUUGGGUUAGGCGGUGCCGUCCAUAUGACGGCUGACUUAGAAACUUGUUUCAUAUAUGGGCCUCUAUCGACUACUGCCGCGGAAAGGCUGUGUUC",
-      "target_structure": "((((...))))...((((....))))..........................................................................................................................................................................",
-      "predicted_energy": -25.153061224489797,
-      "gc_content": 51.53061224489795,
-      "construct_length": 196,
-      "design_score": 0.8263763955259035,
-      "structural_similarity": 0.8780239407223239
+      "construct_sequence": "GGCGGGACGCCUGCCCGGAUAGCCGGCUGGAUUUCAUAUACCAGAAGUGCCUGCAGGUCGCCCCGGCGUUACGAUUGACGCUGAGUUGUACGCGCACGAUCGUGGUAGCAUCAGUUUGCAAAAAACUGCUAGCUGUCAUUCUAUGAUGAAAUCGGAACAUUCCUUACA",
+      "target_structure": "((((...))))...((((....))))..............................................................................................................................................",
+      "predicted_energy": -25.297619047619047,
+      "gc_content": 52.976190476190474,
+      "construct_length": 168,
+      "design_score": 0.8100838046863261,
+      "structural_similarity": 0.9412889729294465
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
       "parent_sequence": "Spike_mRNA_structure_optimized",
       "design_type": "pseudoknot",
-      "construct_sequence": "CCGUCAUGAAACCGGGCCAAGGCCUCAGAUCCUCCAAGGUGGGCCUGAACAAAAGGGCCUGCGGAAUGUCGAGAUUACGCCAAAGCAUGACCGAUUAGGCAGCAAAGCCGGGACUC",
-      "target_structure": "(((...[[[...)))...]]]...............................................................................................",
-      "predicted_energy": -30.93103448275862,
-      "gc_content": 57.758620689655174,
-      "construct_length": 116,
-      "design_score": 0.7535015929054021,
-      "structural_similarity": 0.8516089265965958
+      "construct_sequence": "CGGGAACUGAGGCCGUGGUGAUAACCGCUGGGUCGGCGACCGUCCGUCGACGCCAAGACUUAAUGGUUGGGCUGCAACUUACGAUCGAUGGCCGA",
+      "target_structure": "(((...[[[...)))...]]]..........................................................................",
+      "predicted_energy": -31.326315789473686,
+      "gc_content": 61.05263157894737,
+      "construct_length": 95,
+      "design_score": 0.8943811918323133,
+      "structural_similarity": 0.8166612266010157
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
       "parent_sequence": "Spike_mRNA_structure_optimized",
       "design_type": "kissing_loop",
-      "construct_sequence": "CCGCCACGGGGUGCCUUUGGCUGCCUCCGCACGACUGUUUAGCUUCACUUUAUUUUUGGAUUCCUCUUAGGCGGCGGGAGGCGAGCCCAACGCGAGUAGCGCCAU",
-      "target_structure": "(((...)))...(((...)))....................................................................................",
-      "predicted_energy": -20.8,
-      "gc_content": 60.0,
-      "construct_length": 105,
-      "design_score": 0.7663036459968944,
-      "structural_similarity": 0.8577894166110788
+      "construct_sequence": "CCCUAUGGGUCUGCCGUUGGCCGGAAUUGGUCCCACUCCAGAAGCCUAAGAGAUCUAGGACCGUCCAUAACUCAAAGGCGGAGGCCCCAUGGAACCCCAUUCACGCCCACGGGGUUGUCUUGCGGACAUCACCUCAGUGGAGCUUUGUAUCGCA",
+      "target_structure": "(((...)))...(((...))).....................................................................................................................................",
+      "predicted_energy": -20.623376623376622,
+      "gc_content": 57.7922077922078,
+      "construct_length": 154,
+      "design_score": 0.810853403190769,
+      "structural_similarity": 0.8481975398662429
     }
   ],
   "folding_predictions": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "mfe_structure": "(((((((...))))))).................................................................................................................................................................",
-      "mfe_energy": -15.505617977528091,
-      "ensemble_energy": -17.020673368170428,
-      "centroid_structure": "(((((((...))))))).................................................................................................................................................................",
-      "base_pair_probability": 0.8833015979994792,
-      "structural_diversity": 17.021769920969408,
+      "mfe_structure": "(((((((...)))))))............................................................................................................................................",
+      "mfe_energy": -15.32484076433121,
+      "ensemble_energy": -16.982326549498868,
+      "centroid_structure": "(((((((...)))))))............................................................................................................................................",
+      "base_pair_probability": 0.77834437963736,
+      "structural_diversity": 18.46307878737909,
       "thermodynamic_ensemble": {
-        "partition_function": 436198811265988.44,
-        "ensemble_diversity": 18.318184765364208,
-        "frequency_mfe": 0.4922496267989618
+        "partition_function": 175952432969342.12,
+        "ensemble_diversity": 18.233985688177185,
+        "frequency_mfe": 0.5573190934294475
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "mfe_structure": "((((...))))...((((....))))..........................................................................................................................................................................",
-      "mfe_energy": -25.153061224489797,
-      "ensemble_energy": -25.60404597201427,
-      "centroid_structure": "((((...))))...((((....))))..........................................................................................................................................................................",
-      "base_pair_probability": 0.8515127494824862,
-      "structural_diversity": 22.789745335907003,
+      "mfe_structure": "((((...))))...((((....))))..............................................................................................................................................",
+      "mfe_energy": -25.297619047619047,
+      "ensemble_energy": -24.020928204270596,
+      "centroid_structure": "((((...))))...((((....))))..............................................................................................................................................",
+      "base_pair_probability": 0.8791419724886744,
+      "structural_diversity": 13.624391111784108,
       "thermodynamic_ensemble": {
-        "partition_function": 741889292477250.9,
-        "ensemble_diversity": 21.770077350983534,
-        "frequency_mfe": 0.4216050375035298
+        "partition_function": 757022655452608.8,
+        "ensemble_diversity": 19.328566653732185,
+        "frequency_mfe": 0.38437709151399213
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "mfe_structure": "(((...[[[...)))...]]]...............................................................................................",
-      "mfe_energy": -30.93103448275862,
-      "ensemble_energy": -31.682475168860815,
-      "centroid_structure": "(((...[[[...)))...]]]...............................................................................................",
-      "base_pair_probability": 0.8931415979598043,
-      "structural_diversity": 13.810081059014902,
+      "mfe_structure": "(((...[[[...)))...]]]..........................................................................",
+      "mfe_energy": -31.326315789473686,
+      "ensemble_energy": -30.39584220801238,
+      "centroid_structure": "(((...[[[...)))...]]]..........................................................................",
+      "base_pair_probability": 0.7395253384537848,
+      "structural_diversity": 27.42729427100033,
       "thermodynamic_ensemble": {
-        "partition_function": 770839526389316.0,
-        "ensemble_diversity": 26.743361486926744,
-        "frequency_mfe": 0.5840004520146567
+        "partition_function": 416285841117840.4,
+        "ensemble_diversity": 31.5171834452796,
+        "frequency_mfe": 0.3092728095627076
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "mfe_structure": "(((...)))...(((...)))....................................................................................",
-      "mfe_energy": -20.8,
-      "ensemble_energy": -21.38202188127814,
-      "centroid_structure": "(((...)))...(((...)))....................................................................................",
-      "base_pair_probability": 0.791849982251477,
-      "structural_diversity": 25.78069712644149,
+      "mfe_structure": "(((...)))...(((...))).....................................................................................................................................",
+      "mfe_energy": -20.623376623376622,
+      "ensemble_energy": -21.975587033188397,
+      "centroid_structure": "(((...)))...(((...))).....................................................................................................................................",
+      "base_pair_probability": 0.882590850480363,
+      "structural_diversity": 28.21037056379169,
       "thermodynamic_ensemble": {
-        "partition_function": 367003390993972.75,
-        "ensemble_diversity": 31.49851742690407,
-        "frequency_mfe": 0.38564989829772034
+        "partition_function": 873921055356710.2,
+        "ensemble_diversity": 20.061495699772856,
+        "frequency_mfe": 0.49644003778154544
       }
     }
   ],
@@ -112,7 +112,7 @@
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
       "hard_constraints": [
         "Position 1-10: Must form stem",
-        "Position 168-178: Must form stem",
+        "Position 147-157: Must form stem",
         "GC content: 40-60%"
       ],
       "soft_constraints": [
@@ -120,14 +120,14 @@
         "Avoid poly-A/poly-U stretches > 6 nt",
         "Optimize codon usage in coding regions"
       ],
-      "constraint_satisfaction": 0.9174330288783745,
-      "penalty_score": 0.12027289549683712
+      "constraint_satisfaction": 0.8592140934162612,
+      "penalty_score": 0.0513413849730765
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
       "hard_constraints": [
         "Position 1-10: Must form stem",
-        "Position 186-196: Must form stem",
+        "Position 158-168: Must form stem",
         "GC content: 40-60%"
       ],
       "soft_constraints": [
@@ -135,14 +135,14 @@
         "Avoid poly-A/poly-U stretches > 6 nt",
         "Optimize codon usage in coding regions"
       ],
-      "constraint_satisfaction": 0.8940776477893142,
-      "penalty_score": 0.14671792020268104
+      "constraint_satisfaction": 0.8329525344457991,
+      "penalty_score": 0.1521848821077114
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
       "hard_constraints": [
         "Position 1-10: Must form stem",
-        "Position 106-116: Must form stem",
+        "Position 85-95: Must form stem",
         "GC content: 40-60%"
       ],
       "soft_constraints": [
@@ -150,14 +150,14 @@
         "Avoid poly-A/poly-U stretches > 6 nt",
         "Optimize codon usage in coding regions"
       ],
-      "constraint_satisfaction": 0.8681617359381982,
-      "penalty_score": 0.16451566744150486
+      "constraint_satisfaction": 0.8993917033213381,
+      "penalty_score": 0.07540502896019803
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
       "hard_constraints": [
         "Position 1-10: Must form stem",
-        "Position 95-105: Must form stem",
+        "Position 144-154: Must form stem",
         "GC content: 40-60%"
       ],
       "soft_constraints": [
@@ -165,8 +165,8 @@
         "Avoid poly-A/poly-U stretches > 6 nt",
         "Optimize codon usage in coding regions"
       ],
-      "constraint_satisfaction": 0.8706867712997597,
-      "penalty_score": 0.08882914730875596
+      "constraint_satisfaction": 0.8083731289321324,
+      "penalty_score": 0.05069749973031475
     }
   ],
   "design_objectives": [
@@ -183,11 +183,11 @@
         "expression": 0.2
       },
       "achievement_scores": {
-        "stability": 0.9310425163613292,
-        "function": 0.7639693232465153,
-        "expression": 0.8350726448888757
+        "stability": 0.932148362702327,
+        "function": 0.870074665300519,
+        "expression": 0.7873156307484611
       },
-      "overall_objective_score": 0.859122723790547
+      "overall_objective_score": 0.7734034538241822
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
@@ -202,11 +202,11 @@
         "expression": 0.2
       },
       "achievement_scores": {
-        "stability": 0.8919784988220734,
-        "function": 0.7028925184318457,
-        "expression": 0.8407326554743388
+        "stability": 0.930385399570576,
+        "function": 0.836000535387539,
+        "expression": 0.8119686641164519
       },
-      "overall_objective_score": 0.8662749527559166
+      "overall_objective_score": 0.9017354958918227
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
@@ -221,11 +221,11 @@
         "expression": 0.2
       },
       "achievement_scores": {
-        "stability": 0.8176328507684903,
-        "function": 0.8177774823991372,
-        "expression": 0.8560635494495337
+        "stability": 0.8398350145261874,
+        "function": 0.7177839672535702,
+        "expression": 0.8928976336095535
       },
-      "overall_objective_score": 0.8794552639883539
+      "overall_objective_score": 0.7808742561828617
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
@@ -240,64 +240,64 @@
         "expression": 0.2
       },
       "achievement_scores": {
-        "stability": 0.9442960184465179,
-        "function": 0.8499587599163059,
-        "expression": 0.87027256436722
+        "stability": 0.94882875188096,
+        "function": 0.7890285194489145,
+        "expression": 0.7571166834473493
       },
-      "overall_objective_score": 0.7724906187316479
+      "overall_objective_score": 0.9108173879253607
     }
   ],
   "thermodynamic_analysis": [
     {
       "construct_id": "Spike_mRNA_structure_optimized_hairpin_stabilized_optimized",
-      "melting_temperature": 55.331684743973334,
-      "thermal_stability": 0.8128790569923409,
-      "salt_dependence": 0.14587947462588186,
-      "ph_stability": 0.6791438642338825,
-      "cooperative_folding": 0.8323623075687923,
+      "melting_temperature": 58.30392203073433,
+      "thermal_stability": 0.8083679391210036,
+      "salt_dependence": 0.14599891990511465,
+      "ph_stability": 0.6907586076795084,
+      "cooperative_folding": 0.8605110785789112,
       "folding_kinetics": {
-        "folding_rate": 419553.8081753267,
-        "unfolding_rate": 0.038499658413205955,
-        "equilibrium_constant": 87120847.35916887
+        "folding_rate": 971430.9977610114,
+        "unfolding_rate": 0.01724378918691557,
+        "equilibrium_constant": 944372843.7937264
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
-      "melting_temperature": 72.98186010022323,
-      "thermal_stability": 0.7653265096955669,
-      "salt_dependence": 0.24311497746956182,
-      "ph_stability": 0.6143913579308775,
-      "cooperative_folding": 0.8757158503501165,
+      "melting_temperature": 57.655305752487,
+      "thermal_stability": 0.8704157243113421,
+      "salt_dependence": 0.1437122792761253,
+      "ph_stability": 0.7798852277606538,
+      "cooperative_folding": 0.9478883091676235,
       "folding_kinetics": {
-        "folding_rate": 684188.2798227494,
-        "unfolding_rate": 0.06927122334589951,
-        "equilibrium_constant": 771447901.9743645
+        "folding_rate": 970374.7773262063,
+        "unfolding_rate": 0.08703054331678796,
+        "equilibrium_constant": 690335790.7976487
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_pseudoknot_optimized",
-      "melting_temperature": 63.76812225187227,
-      "thermal_stability": 0.7213277512768133,
-      "salt_dependence": 0.21686929782100833,
-      "ph_stability": 0.7063064946972466,
-      "cooperative_folding": 0.875002636024005,
+      "melting_temperature": 69.32433093506934,
+      "thermal_stability": 0.8426745993071431,
+      "salt_dependence": 0.12965992967954926,
+      "ph_stability": 0.7521736403598255,
+      "cooperative_folding": 0.8961372685477926,
       "folding_kinetics": {
-        "folding_rate": 245372.158095746,
-        "unfolding_rate": 0.052072676672725034,
-        "equilibrium_constant": 414138232.12229276
+        "folding_rate": 800699.5588193048,
+        "unfolding_rate": 0.01653216898161856,
+        "equilibrium_constant": 618033566.626587
       }
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_kissing_loop_optimized",
-      "melting_temperature": 71.50430493615562,
-      "thermal_stability": 0.8464124421085748,
-      "salt_dependence": 0.10132468130743694,
-      "ph_stability": 0.749955616607443,
-      "cooperative_folding": 0.8745928680309203,
+      "melting_temperature": 72.68037462680671,
+      "thermal_stability": 0.8297565979726864,
+      "salt_dependence": 0.1528266947634642,
+      "ph_stability": 0.8393041720060426,
+      "cooperative_folding": 0.9436586574984185,
       "folding_kinetics": {
-        "folding_rate": 834386.0591052584,
-        "unfolding_rate": 0.032670604216357646,
-        "equilibrium_constant": 373595134.4032804
+        "folding_rate": 271951.9512000058,
+        "unfolding_rate": 0.0723291461569786,
+        "equilibrium_constant": 885154947.6164662
       }
     }
   ],
@@ -309,8 +309,8 @@
       "sequence_validation": "PASSED",
       "functional_validation": "PREDICTED_FUNCTIONAL",
       "expression_validation": "HIGH_EXPRESSION",
-      "overall_validation_score": 0.8886544507013808,
-      "recommended_for_synthesis": true
+      "overall_validation_score": 0.8092023916219206,
+      "recommended_for_synthesis": false
     },
     {
       "construct_id": "Spike_mRNA_structure_optimized_riboswitch_like_optimized",
@@ -319,7 +319,7 @@
       "sequence_validation": "PASSED",
       "functional_validation": "PREDICTED_FUNCTIONAL",
       "expression_validation": "HIGH_EXPRESSION",
-      "overall_validation_score": 0.9292632798392226,
+      "overall_validation_score": 0.8748679918057769,
       "recommended_for_synthesis": false
     },
     {
@@ -329,7 +329,7 @@
       "sequence_validation": "PASSED",
       "functional_validation": "PREDICTED_FUNCTIONAL",
       "expression_validation": "HIGH_EXPRESSION",
-      "overall_validation_score": 0.8249729910889368,
+      "overall_validation_score": 0.8101790888052318,
       "recommended_for_synthesis": true
     },
     {
@@ -339,18 +339,18 @@
       "sequence_validation": "PASSED",
       "functional_validation": "PREDICTED_FUNCTIONAL",
       "expression_validation": "HIGH_EXPRESSION",
-      "overall_validation_score": 0.8325629361172255,
+      "overall_validation_score": 0.8693776090367797,
       "recommended_for_synthesis": true
     }
   ],
   "optimization_metrics": {
     "total_constructs_designed": 4,
     "unique_designs_per_sequence": 4,
-    "average_design_score": 0.8237706432612916,
-    "average_structural_similarity": 0.8550700910351937,
-    "validation_pass_rate": 0.75,
-    "average_folding_energy": -23.097428421194127,
-    "design_success_rate": 0.8560351503013315
+    "average_design_score": 0.8591379178128028,
+    "average_structural_similarity": 0.855524509264429,
+    "validation_pass_rate": 0.5,
+    "average_folding_energy": -23.14303805620014,
+    "design_success_rate": 0.9285465529645278
   },
   "metadata": {
     "tool": "COOL",

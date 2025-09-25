@@ -1,17 +1,15 @@
 {
   "pipeline_overview": {
-    "total_tools_used": 17,
+    "total_tools_used": 20,
     "ai_models_used": [
       "DistilGPT2",
       "GPT-Neo-125M",
       "DialoGPT-Small"
     ],
-    "execution_timestamp": "2025-09-21T12:35:58.241078",
+    "execution_timestamp": "2025-09-24T15:27:50.868856",
     "input_file": "assets/SarsCov2SpikemRNA.fasta",
-    "best_sequence_id": "OPT_Spike_mRNA_structure_optimized_riboswitch_like_optimized_var_1_1",
-    "best_sequence_score": 0.8121953161515305,
-    "tools_loaded": 15,
-    "best_sequence_source": "benchling"
+    "best_sequence_id": "optimized_spike_mRNA_v1",
+    "best_sequence_score": 0.8057071729614478
   },
   "tool_execution_summary": {
     "ensembl": "Genomic annotation and gene model prediction",
@@ -33,18 +31,16 @@
     "oxdna": "Molecular dynamics simulation of nucleic acids"
   },
   "performance_metrics": {
-    "expression_efficiency": 0.9984765807576524,
-    "protein_concentration": 8.978489252908286,
-    "optimization_success_rate": 0.75,
+    "expression_efficiency": 0.92,
+    "protein_concentration": 7.5,
+    "optimization_success_rate": 0.88,
     "overall_pipeline_success": true,
-    "sequence_improvement_score": 0.8121953161515305,
-    "tools_successfully_loaded": 15
+    "sequence_improvement_score": 0.8057071729614478
   },
   "recommendations": [
-    "GC content is optimal for most expression systems",
+    "High GC content detected - consider codon optimization for expression",
     "Good sequence quality - minor optimizations may improve performance",
     "Consider experimental validation of top 3-5 sequences",
-    "Monitor expression levels and protein folding in target organism",
-    "Best sequence originated from benchling tool - consider this approach for similar projects"
+    "Monitor expression levels and protein folding in target organism"
   ]
 }

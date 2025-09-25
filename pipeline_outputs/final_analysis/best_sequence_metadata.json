@@ -1,68 +1,67 @@
 {
   "sequence_info": {
-    "id": "OPT_Spike_mRNA_structure_optimized_riboswitch_like_optimized_var_1_1",
-    "sequence": "CAAGAGCAAGGATTAGTGGAAGGACCTAACGTAAATGGACCCCATGTAGGTAGCGGATATATAATTCACTTCTTTCCCTTTGTTTCTTACCGATTCCCTGGGAGTCAACCCATCGGACGTTACTCAATTCGGCGGTTCGGTCCCGCTGCAACCAAACCTTAAAGGAATATATTCAGCTGCTGAGGTTAACTCCGAAGCTACAAGACAAGGTAACCAATGGAGAGCTACCGCCTATATGTAATGTAATATATCCTTGCGGGACTATAATGACCGACCCTATGAGTACGGCTGTTGCCGGTGGAAGGCTGGGTGAGCTTATCGAAACGATAGCTTAAGCGTAAAGTAGACCACTAGACCTGTGTCATAGCACGCAAGCATACACGTGCTGGTATGTTTAGTGCCTCTACAACTTCTGGGCCGTAACGATGACTTATAGTGACGTAGACGACCGCAGAGACGAGATTGAAGTGCGACAATGCGTTAACGCAGAACCGCCCGACAGGCGCCTGTGCTACGGCTTACTATTGAACGTCAGAACTCATACATATCTTGTCGTTGAAGCGGTTACACGCTGCCGTTGCCCGCTTATTTCCTTAGTCAATCATTATTCTGCTGATAATCCAAAGGGGCGTATACGATTGGAAAGAGGTTATGCATGATTAAGGTCCCAAGACTTCGTTCAAGCCAACTATGTCCGCGGTATCAGTCGACCAGCATCCCTCGAAGTTAGCGAGATGTTCACTGG",
-    "length": 745,
-    "overall_score": 0.8121953161515305,
-    "source_tool": "benchling"
+    "id": "optimized_spike_mRNA_v1",
+    "sequence": "ATGTTCGTGTTCCTGGTGCTGCTGCCTCTGGTGAGCAGCCAGTGCGTGAACCTGACCACCAGAACACAGCTGCCTCCAGCCTACACCAACAGCTTTACCAGAGGCGTGTACTACCCCGACAAGGTGTTCAGATCCAGCGTGCTGCACTCTACCCAGGACCTGTTCCTGCCTTTCTTCAGCAACGTGACCTGGTTCCACGCCATCCACGTGAGCGGCACCAATGGCACCAAGAGATTCGACAACCCCGTGCTGCCCTTCAACGACGGGGTGTACTTTGCCAGCACCGAGAAGTCCAACATCATCAGAGGCTGGATCTTCGGCACCACCTTAGACTCCAGCGGCAACGGCTACCACCAGGGCGTGTGCTGCACCCACCCCAACACCACCTACAAAGAGCTGTTCTTCCGTACCGTGGTGCCCCTGAACCCCGTGAAGGTGGTGACCCTGAGAAACACCGCCCCCGTGCTGCTGACCCTGATGGACAACCTGAGCGTGAACCTGAGCCTGAACAACGGCGTGAGCCCCCAGACCCTGAAGACCAACGACACCAGCCTGGTGACCCCCCTGAGCAGCGTGTCCAGATACTCCTACCTGAGCCTGGCCATCAGCAACCTGTCCTGGTTCCACAACATCCACGGCCTGTTCCTGACCAGCAACCTGTCCTTCAGCCCCGTGAACACCAGCCTGACCACCAGCGTGAACCTGACCACCAGCAGCCCCAGCCAGATCACCACCAGCGGCCTGACCACCAGCGGCACCCTGAACACCAGCGGCCTGACCACCAGCGGCACCCTGAACACCAGCGGCCTGACCACCAGC",
+    "length": 819,
+    "overall_score": 0.8057071729614478
   },
   "metadata": {
     "basic_properties": {
-      "length": 745,
-      "molecular_weight": 243708.0,
-      "gc_content": 47.78523489932886,
-      "at_content": 52.21476510067114,
-      "purine_content": 51.14093959731544,
-      "pyrimidine_content": 48.85906040268456
+      "length": 819,
+      "molecular_weight": 265686.8,
+      "gc_content": 61.05006105006105,
+      "at_content": 38.94993894993895,
+      "purine_content": 45.90964590964591,
+      "pyrimidine_content": 54.09035409035409
     },
     "composition": {
-      "A_count": 201,
-      "T_count": 188,
-      "G_count": 180,
-      "C_count": 176,
-      "A_percent": 26.97986577181208,
-      "T_percent": 25.23489932885906,
-      "G_percent": 24.161073825503358,
-      "C_percent": 23.624161073825505
+      "A_count": 185,
+      "T_count": 134,
+      "G_count": 191,
+      "C_count": 309,
+      "A_percent": 22.58852258852259,
+      "T_percent": 16.36141636141636,
+      "G_percent": 23.32112332112332,
+      "C_percent": 37.72893772893773
     },
     "quality_scores": {
-      "stability_score": 0.75,
+      "stability_score": 0.8373572432048261,
       "structure_score": 0.75,
       "optimization_score": 0.8,
-      "expression_score": 0.9984765807576524,
-      "overall_score": 0.8121953161515305
+      "expression_score": 0.835,
+      "overall_score": 0.8057071729614478
     },
     "codon_analysis": {
-      "total_codons": 248,
-      "unique_codons": 64,
-      "rare_codon_count": 23,
-      "codon_adaptation_index": 0.907258064516129,
+      "total_codons": 273,
+      "unique_codons": 31,
+      "rare_codon_count": 14,
+      "codon_adaptation_index": 0.9487179487179487,
       "most_frequent_codons": {
-        "AAG": 8,
-        "GTA": 7,
-        "TAA": 7,
-        "GGA": 6,
-        "TTA": 6,
-        "CCC": 6,
-        "ATA": 6,
-        "TAC": 6,
-        "ACG": 6,
-        "CAT": 5
+        "ACC": 40,
+        "CTG": 35,
+        "AGC": 29,
+        "GTG": 24,
+        "AAC": 22,
+        "TTC": 15,
+        "GGC": 15,
+        "CCC": 11,
+        "TAC": 8,
+        "AGA": 7
       }
     },
     "structural_features": {
-      "high_gc_regions": 3,
-      "potential_hairpins": 3,
+      "high_gc_regions": 8,
+      "potential_hairpins": 8,
       "complexity_score": 1.0,
-      "repetitive_elements": 85
+      "repetitive_elements": 90
     },
     "optimization_metrics": {
-      "gc_skew": 0.011235955056179775,
-      "dinucleotide_bias": 0.014799398774424781,
-      "melting_temperature": 83.58939597315437,
+      "gc_skew": -0.236,
+      "dinucleotide_bias": 0.33394707109594035,
+      "melting_temperature": 89.10952380952382,
       "secondary_structure_likelihood": 1.0
     }
   },
-  "analysis_timestamp": "2025-09-21T12:35:58.236801",
+  "analysis_timestamp": "2025-09-24T15:27:50.868856",
   "pipeline_version": "1.0"
 }
