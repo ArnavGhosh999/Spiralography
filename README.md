@@ -41,16 +41,16 @@ The system leverages three primary AI models for intelligent sequence analysis: 
 
 The pipeline operates through a systematic 20-stage execution sequence where each AI agent acts as an expert bioinformatics tool replacement. The workflow begins with input sequence loading and progresses through increasingly sophisticated analytical stages, with each agent receiving structured input from the previous stage and generating specialized output through AI-guided analysis.
 
-**Stage 1-5: Foundation Analysis**
+- **Stage 1-5: Foundation Analysis**
 The pipeline initiates with **Input Sequence Loading** from FASTA files (typically SARS-CoV-2 spike mRNA sequences), followed by **Ensembl Agent** performing genomic annotation and gene model prediction. **Biopython Agent** handles sequence parsing and manipulation, converting between formats and performing basic sequence operations. **CD-HIT Agent** performs sequence clustering and redundancy removal to identify representative sequences. **DIAMOND Agent** conducts fast protein sequence alignment against viral protein databases, identifying homologous sequences and functional relationships.
 
-**Stage 6-10: Functional Characterization**
+- **Stage 6-10: Functional Characterization**
 **InterProScan Agent** analyzes protein sequences for functional domains and GO term assignments. **Rfam Agent** performs RNA family classification and secondary structure prediction using covariance models. **ViennaRNA Agent** calculates minimum free energy structures and base-pairing probabilities. **MRNAID Agent** optimizes mRNA sequences for enhanced translation efficiency and reduced immunogenicity. **oxDNA Agent** performs molecular dynamics simulations with detailed trajectory analysis including RMSD, radius of gyration, and energy landscapes.
 
-**Stage 11-15: Advanced Optimization**
+- **Stage 11-15: Advanced Optimization**
 **COOL Agent** conducts RNA structure optimization with thermodynamic constraints. **KineFold Agent** analyzes RNA folding kinetics and pathway intermediates. **COPASI Agent** performs biochemical network modeling and metabolic flux analysis. **CRISPOR Agent** designs CRISPR guide RNAs with specificity scoring and off-target analysis. **IEDB Agent** predicts epitopes and evaluates immunogenicity potential across MHC-I, MHC-II, and B-cell epitopes.
 
-**Stage 16-20: Design Integration**
+- **Stage 16-20: Design Integration**
 **RBS Calculator Agent** optimizes ribosome binding sites for translation initiation. **DNA Chisel Agent** performs comprehensive sequence optimization with multiple constraints. **UniProt Agent** provides protein database searches and functional annotation. **AlphaFold Agent** predicts protein 3D structures and evaluates folding confidence. **Benchling Agent** creates final sequence designs with plasmid construction and cloning strategies.
 
 The system maintains persistent pipeline data storage with step tracking (`pipeline_data['step']`), current tool identification (`pipeline_data['current_tool']`), and comprehensive metadata management throughout the execution flow.
